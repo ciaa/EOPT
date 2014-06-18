@@ -1,0 +1,681 @@
+Archive member included because of file (symbol)
+
+/home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+                              ./src/main_m0.o (GPIO_SetDir)
+/home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+                              ./src/main_m0.o (RIT_GetIntStatus)
+/home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+                              ./src/main_m0.o (scu_pinmux)
+/home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+                              /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o) (CGU_GetPCLKFrequency)
+/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc43xx-m0app.o (__main)
+/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(division_32.o)
+                              /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o) (__aeabi_uidiv)
+/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(division_idiv0.o)
+                              /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(division_32.o) (__aeabi_idiv0)
+/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+                              /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o) (__aeabi_dmul)
+/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+                              /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o) (__aeabi_f2d)
+/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(llong.o)
+                              /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o) (__aeabi_lmul)
+
+Allocating common symbols
+Common symbol       size              file
+
+msec                0x4               ./src/main_m0.o
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/cr_startup_lpc43xx-m0app.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc43xx-m0app.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc43xx-m0app.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc43xx-m0app.o
+ .group         0x00000000        0x8 ./src/main_m0.o
+ .group         0x00000000        0x8 ./src/main_m0.o
+ .group         0x00000000        0x8 ./src/main_m0.o
+ .group         0x00000000        0x8 ./src/main_m0.o
+ .group         0x00000000        0x8 ./src/main_m0.o
+ .group         0x00000000        0x8 ./src/main_m0.o
+ .group         0x00000000        0x8 ./src/main_m0.o
+ .group         0x00000000        0x8 ./src/main_m0.o
+ .group         0x00000000        0x8 ./src/main_m0.o
+ .group         0x00000000        0x8 ./src/main_m0.o
+ .group         0x00000000        0x8 ./src/main_m0.o
+ .group         0x00000000        0x8 ./src/main_m0.o
+ .group         0x00000000        0x8 ./src/main_m0.o
+ .text          0x00000000        0x0 ./src/main_m0.o
+ .data          0x00000000        0x0 ./src/main_m0.o
+ .bss           0x00000000        0x0 ./src/main_m0.o
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .text          0x00000000        0x0 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .data          0x00000000        0x0 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .bss           0x00000000        0x0 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .text.GPIO_ClearValue
+                0x00000000       0x14 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .text.GPIO_ReadValue
+                0x00000000       0x14 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .text.FIO_SetDir
+                0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .text.FIO_SetValue
+                0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .text.FIO_ClearValue
+                0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .text.FIO_ReadValue
+                0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .text.FIO_SetMask
+                0x00000000       0x2c /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x00000000       0x26 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x00000000       0x3a /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x00000000       0x10 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x00000000      0x122 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x00000000      0x5b9 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x00000000       0x1f /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x00000000      0x242 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x00000000      0x329 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x00000000       0x6d /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .text          0x00000000        0x0 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .data          0x00000000        0x0 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .bss           0x00000000        0x0 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .text.RIT_Init
+                0x00000000       0x2c /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .text.RIT_DeInit
+                0x00000000       0x2c /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .text.RIT_TimerConfig
+                0x00000000       0x38 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .text.RIT_Cmd  0x00000000       0x40 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .text.RIT_TimerDebugCmd
+                0x00000000       0x40 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00000000      0x826 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00000000       0x26 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00000000       0x3a /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00000000       0x10 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00000000      0x122 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00000000      0x5b9 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00000000       0x1f /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00000000      0x242 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00000000      0x329 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00000000       0x6d /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00000000       0xfe /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .text          0x00000000        0x0 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .data          0x00000000        0x0 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .bss           0x00000000        0x0 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_macro   0x00000000      0x826 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_macro   0x00000000       0x26 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_macro   0x00000000       0x3a /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_macro   0x00000000       0x10 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_macro   0x00000000      0x122 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_macro   0x00000000      0x5b9 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_macro   0x00000000       0x1f /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_macro   0x00000000      0x242 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_macro   0x00000000      0x329 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_macro   0x00000000       0x6d /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_macro   0x00000000      0x118 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .group         0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text          0x00000000        0x0 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .data          0x00000000        0x0 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .bss           0x00000000        0x0 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.pdec_new
+                0x00000000       0x3c /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.ndec_new
+                0x00000000       0x54 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.mdec_new
+                0x00000000       0x4c /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.anadeci_new
+                0x00000000       0x48 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.anadecp_new
+                0x00000000       0x10 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.compute_pll_regs
+                0x00000000      0x450 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.CGU_GetPCLKFrequency
+                0x00000000       0xb0 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.CGU_UpdateClock
+                0x00000000      0x10c /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.CGU_SetXTALOSC
+                0x00000000       0x40 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.CGU_SetDIV
+                0x00000000       0x44 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.CGU_EnableEntity
+                0x00000000      0x138 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.CGU_EntityConnect
+                0x00000000       0x88 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.CGU_SetPLL0
+                0x00000000       0x48 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.CGU_SetPLL0_Audio
+                0x00000000       0x4c /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.CGU_SetPLL1
+                0x00000000       0x80 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.CGU_Init
+                0x00000000       0x3c /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.CGU_GetBaseStatus
+                0x00000000       0xa4 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .rodata.CGU_GetBaseStatus
+                0x00000000       0x4c /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.CGU_ConfigPWR
+                0x00000000      0x17c /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.CGU_FrequencyMonitor
+                0x00000000       0xa8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text.CGU_RealFrequencyCompare
+                0x00000000       0x40 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .data.CGU_ClockSourceFrequency
+                0x00000000       0x44 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .rodata.pfdInMax
+                0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .bss.expectedPLL0AudioFreq
+                0x00000000        0x4 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .rodata.fccoMin
+                0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .rodata.fccoMax
+                0x00000000        0x8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .rodata.CGU_PERIPHERAL_Info
+                0x00000000      0x190 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .bss.expectedPLL0Freq
+                0x00000000        0x4 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .rodata.CGU_Entity_ControlReg_Offset
+                0x00000000       0x5c /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .rodata.CGU_ConnectAlloc_Tbl
+                0x00000000      0x300 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_info    0x00000000     0x1df6 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_abbrev  0x00000000      0x27c /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_loc     0x00000000     0x12bb /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_aranges
+                0x00000000       0xb8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_ranges  0x00000000       0xa8 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000      0x111 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000      0x826 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000       0x10 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000      0x122 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000      0x5b9 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000       0x67 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000      0x118 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000       0x26 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000       0x3a /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000       0x1f /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000      0x242 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000      0x329 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000       0x46 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_line    0x00000000      0x681 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_str     0x00000000     0x7aa4 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .comment       0x00000000       0x71 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .ARM.attributes
+                0x00000000       0x31 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_frame   0x00000000      0x220 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(division_32.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(division_32.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(division_32.o)
+ .text.__aeabi_division_idivmod
+                0x00000000       0x78 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(division_32.o)
+ .ARM.attributes
+                0x00000000       0x21 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(division_32.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(division_idiv0.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(division_idiv0.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(division_idiv0.o)
+ .text.__aeabi_division_idiv0
+                0x00000000        0x2 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(division_idiv0.o)
+ .ARM.attributes
+                0x00000000       0x21 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(division_idiv0.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dmul
+                0x00000000      0x188 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ddiv
+                0x00000000      0x160 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dsub
+                0x00000000      0x1e8 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dadd
+                0x00000000      0x148 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_drsub
+                0x00000000       0x26 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dneg
+                0x00000000       0x10 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2f
+                0x00000000       0x5c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2iz
+                0x00000000       0x48 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2uiz
+                0x00000000       0x38 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2lz
+                0x00000000       0x84 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2ulz
+                0x00000000       0x58 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__bhs_ui2d
+                0x00000000       0x5e /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__bhs_ul2d
+                0x00000000       0xb4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_i2d
+                0x00000000       0x16 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ui2d
+                0x00000000        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_l2d
+                0x00000000       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ul2d
+                0x00000000        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpeq
+                0x00000000       0x38 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmplt
+                0x00000000       0x78 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpgt
+                0x00000000       0x68 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmple
+                0x00000000       0x78 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpge
+                0x00000000       0x70 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpun
+                0x00000000       0x1c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_cdcmple
+                0x00000000       0x2e /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_cdrcmple
+                0x00000000       0x14 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .comment       0x00000000       0x71 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .ARM.attributes
+                0x00000000       0x31 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(double.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fmul
+                0x00000000       0xc8 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fdiv
+                0x00000000       0xe0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fsub
+                0x00000000      0x130 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fadd
+                0x00000000       0xb8 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_frsub
+                0x00000000       0x10 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fneg
+                0x00000000        0x8 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2iz
+                0x00000000       0x38 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2uiz
+                0x00000000       0x26 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2lz
+                0x00000000       0x64 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2ulz
+                0x00000000       0x40 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__bhs_ui2f
+                0x00000000       0x60 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__bhs_ul2f
+                0x00000000       0x84 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_i2f
+                0x00000000       0x16 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_ui2f
+                0x00000000        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_l2f
+                0x00000000       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_ul2f
+                0x00000000        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2d
+                0x00000000       0x3c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpeq
+                0x00000000       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmplt
+                0x00000000       0x42 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpgt
+                0x00000000       0x3c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmple
+                0x00000000       0x40 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpge
+                0x00000000       0x3c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpun
+                0x00000000       0x16 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_cfcmple
+                0x00000000       0x24 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_cfrcmple
+                0x00000000        0xe /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .comment       0x00000000       0x71 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .ARM.attributes
+                0x00000000       0x31 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(float.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(llong.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(llong.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_lmul
+                0x00000000       0x2e /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_llsl
+                0x00000000       0x18 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_llsr
+                0x00000000       0x18 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_lasr
+                0x00000000       0x18 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_lcmp
+                0x00000000       0x14 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_ulcmp
+                0x00000000       0x10 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(llong.o)
+ .ARM.attributes
+                0x00000000       0x21 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a(llong.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RamLoc40         0x10080000         0x0000a000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/cr_startup_lpc43xx-m0app.o
+LOAD ./src/main_m0.o
+LOAD /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a
+LOAD /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_DSPLIB_CM0/lib/libCMSIS_DSPLIB_CM0.a
+START GROUP
+LOAD /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a
+LOAD /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libcr_eabihelpers.a
+END GROUP
+                0x1008a000                __top_RamLoc40 = 0x1008a000
+
+.text           0x10080000      0x288
+ FILL mask 0xff
+                0x10080000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x10080000       0xc0 ./src/cr_startup_lpc43xx-m0app.o
+                0x10080000                g_pfnVectors
+                0x100800c0                . = ALIGN (0x4)
+                0x100800c0                __section_table_start = .
+                0x100800c0                __data_section_table = .
+                0x100800c0        0x4 LONG 0x10080288 LOADADDR (.data)
+                0x100800c4        0x4 LONG 0x10080288 ADDR (.data)
+                0x100800c8        0x4 LONG 0x0 SIZEOF (.data)
+                0x100800cc                __data_section_table_end = .
+                0x100800cc                __bss_section_table = .
+                0x100800cc        0x4 LONG 0x10080288 ADDR (.bss)
+                0x100800d0        0x4 LONG 0x4 SIZEOF (.bss)
+                0x100800d4                __bss_section_table_end = .
+                0x100800d4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x100800d4       0x2e ./src/cr_startup_lpc43xx-m0app.o
+                0x100800d4                M0_NMI_Handler
+                0x100800d6                M0_HardFault_Handler
+                0x100800d8                M0_SVC_Handler
+                0x100800da                M0_PendSV_Handler
+                0x100800dc                M0_SysTick_Handler
+                0x100800de                M0_TIMER0_IRQHandler
+                0x100800de                M0_IntDefaultHandler
+                0x100800de                M0_I2C0_OR_I2C1_IRQHandler
+                0x100800de                M0_EVENTROUTER_IRQHandler
+                0x100800de                M0_ETH_IRQHandler
+                0x100800de                M0_M0SUB_IRQHandler
+                0x100800de                M0_USB0_IRQHandler
+                0x100800de                M0_ADC0_IRQHandler
+                0x100800de                M0_TIMER3_IRQHandler
+                0x100800de                M0_C_CAN0_IRQHandler
+                0x100800de                M0_DMA_IRQHandler
+                0x100800de                M0_USART2_OR_C_CAN1_IRQHandler
+                0x100800de                M0_SSP0_OR_SSP1_IRQHandler
+                0x100800de                M0_LCD_IRQHandler
+                0x100800de                M0_SPIFI_OR_VADC_IRQHandler
+                0x100800de                M0_GINT1_IRQHandler
+                0x100800de                M0_SCT_IRQHandler
+                0x100800de                M0_ADC1_IRQHandler
+                0x100800de                M0_SDIO_IRQHandler
+                0x100800de                M0_SPI_OR_DAC_IRQHandler
+                0x100800de                M0_I2S0_OR_I2S1_OR_QEI_IRQHandler
+                0x100800de                M0_USART0_IRQHandler
+                0x100800de                M0_MCPWM_IRQHandler
+                0x100800de                M0_RTC_IRQHandler
+                0x100800de                M0_SGPIO_IRQHandler
+                0x100800de                M0_USB1_IRQHandler
+                0x100800de                M0_M4CORE_IRQHandler
+                0x100800de                M0_USART3_IRQHandler
+                0x100800e0                data_init
+                0x100800f2                bss_init
+ *(.text*)
+ *fill*         0x10080102        0x2 
+ .text.ResetISR
+                0x10080104       0x4c ./src/cr_startup_lpc43xx-m0app.o
+                0x10080104                ResetISR
+ .text.M0_RIT_OR_WWDT_IRQHandler
+                0x10080150       0x38 ./src/main_m0.o
+                0x10080150                M0_RIT_OR_WWDT_IRQHandler
+ .text.main     0x10080188       0x58 ./src/main_m0.o
+                0x10080188                main
+ .text.check_failed
+                0x100801e0        0x4 ./src/main_m0.o
+                0x100801e0                check_failed
+ .text.GPIO_SetDir
+                0x100801e4       0x2c /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+                0x100801e4                GPIO_SetDir
+ .text.GPIO_SetValue
+                0x10080210       0x14 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+                0x10080210                GPIO_SetValue
+ .text.RIT_GetIntStatus
+                0x10080224       0x30 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+                0x10080224                RIT_GetIntStatus
+ .text.scu_pinmux
+                0x10080254       0x14 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+                0x10080254                scu_pinmux
+ .text.__weak_main
+                0x10080268        0x8 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                0x10080268                __main
+                0x10080268                __weak_main
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.str1.4
+                0x10080270       0x18 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+                0x10080288                . = ALIGN (0x4)
+
+.glue_7         0x10080288        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x10080288        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x10080288        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x10080288        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x10080288        0x0
+ .iplt          0x00000000        0x0 ./src/cr_startup_lpc43xx-m0app.o
+
+.rel.dyn        0x10080288        0x0
+ .rel.iplt      0x00000000        0x0 ./src/cr_startup_lpc43xx-m0app.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x10080288                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x10080288                __exidx_end = .
+                0x10080288                _etext = .
+
+.uninit_RESERVED
+                0x10080288        0x0
+ *(.bss.$RESERVED*)
+                0x10080288                . = ALIGN (0x4)
+                0x10080288                _end_uninit_RESERVED = .
+
+.data           0x10080288        0x0
+ FILL mask 0xff
+                0x10080288                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+                0x10080288                . = ALIGN (0x4)
+                0x10080288                _edata = .
+
+.igot.plt       0x10080288        0x0
+ .igot.plt      0x00000000        0x0 ./src/cr_startup_lpc43xx-m0app.o
+
+.bss            0x10080288        0x4
+                0x10080288                _bss = .
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x10080288        0x4 ./src/main_m0.o
+                0x10080288                msec
+                0x1008028c                . = ALIGN (0x4)
+                0x1008028c                _ebss = .
+                0x1008028c                PROVIDE (end, .)
+
+.noinit         0x1008028c        0x0
+                0x1008028c                _noinit = .
+ *(.noinit*)
+                0x1008028c                . = ALIGN (0x4)
+                0x1008028c                _end_noinit = .
+                0x1008028c                PROVIDE (_pvHeapStart, .)
+                0x1008a000                PROVIDE (_vStackTop, (__top_RamLoc40 - 0x0))
+OUTPUT(CIAA-Demo-M0.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x1444
+ .debug_info    0x00000000      0x248 ./src/cr_startup_lpc43xx-m0app.o
+ .debug_info    0x00000248      0x7ed ./src/main_m0.o
+ .debug_info    0x00000a35      0x496 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_info    0x00000ecb      0x480 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_info    0x0000134b       0xf9 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+
+.debug_abbrev   0x00000000      0x620
+ .debug_abbrev  0x00000000       0xf7 ./src/cr_startup_lpc43xx-m0app.o
+ .debug_abbrev  0x000000f7      0x1e9 ./src/main_m0.o
+ .debug_abbrev  0x000002e0      0x156 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_abbrev  0x00000436      0x151 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_abbrev  0x00000587       0x99 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+
+.debug_loc      0x00000000      0x6ba
+ .debug_loc     0x00000000      0x1bb ./src/cr_startup_lpc43xx-m0app.o
+ .debug_loc     0x000001bb       0x14 ./src/main_m0.o
+ .debug_loc     0x000001cf      0x2c7 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_loc     0x00000496      0x1c1 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_loc     0x00000657       0x63 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+
+.debug_aranges  0x00000000      0x158
+ .debug_aranges
+                0x00000000       0x60 ./src/cr_startup_lpc43xx-m0app.o
+ .debug_aranges
+                0x00000060       0x30 ./src/main_m0.o
+ .debug_aranges
+                0x00000090       0x60 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_aranges
+                0x000000f0       0x48 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_aranges
+                0x00000138       0x20 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+
+.debug_ranges   0x00000000      0x108
+ .debug_ranges  0x00000000       0x50 ./src/cr_startup_lpc43xx-m0app.o
+ .debug_ranges  0x00000050       0x20 ./src/main_m0.o
+ .debug_ranges  0x00000070       0x50 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_ranges  0x000000c0       0x38 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_ranges  0x000000f8       0x10 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+
+.debug_macro    0x00000000     0x2b8b
+ .debug_macro   0x00000000       0x1d ./src/cr_startup_lpc43xx-m0app.o
+ .debug_macro   0x0000001d      0x832 ./src/cr_startup_lpc43xx-m0app.o
+ .debug_macro   0x0000084f       0xb6 ./src/main_m0.o
+ .debug_macro   0x00000905      0x82c ./src/main_m0.o
+ .debug_macro   0x00001131       0x26 ./src/main_m0.o
+ .debug_macro   0x00001157       0x3a ./src/main_m0.o
+ .debug_macro   0x00001191       0x10 ./src/main_m0.o
+ .debug_macro   0x000011a1      0x122 ./src/main_m0.o
+ .debug_macro   0x000012c3      0x5b9 ./src/main_m0.o
+ .debug_macro   0x0000187c       0x1f ./src/main_m0.o
+ .debug_macro   0x0000189b      0x242 ./src/main_m0.o
+ .debug_macro   0x00001add      0x329 ./src/main_m0.o
+ .debug_macro   0x00001e06       0x82 ./src/main_m0.o
+ .debug_macro   0x00001e88       0x6d ./src/main_m0.o
+ .debug_macro   0x00001ef5       0x28 ./src/main_m0.o
+ .debug_macro   0x00001f1d      0x118 ./src/main_m0.o
+ .debug_macro   0x00002035       0x98 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x000020cd      0x826 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x000028f3       0xfe /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x000029f1       0xa2 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00002a93       0x22 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00002ab5       0x4c /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00002b01       0x8a /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+
+.debug_line     0x00000000      0xa57
+ .debug_line    0x00000000       0xbc ./src/cr_startup_lpc43xx-m0app.o
+ .debug_line    0x000000bc      0x293 ./src/main_m0.o
+ .debug_line    0x0000034f      0x284 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_line    0x000005d3      0x2b2 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_line    0x00000885      0x1d2 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+
+.debug_str      0x00000000     0x742b
+ .debug_str     0x00000000     0x24e8 ./src/cr_startup_lpc43xx-m0app.o
+                               0x24fb (size before relaxing)
+ .debug_str     0x000024e8     0x4729 ./src/main_m0.o
+                               0x6be5 (size before relaxing)
+ .debug_str     0x00006c11      0x273 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+                               0x5be1 (size before relaxing)
+ .debug_str     0x00006e84      0x57a /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+                               0x615f (size before relaxing)
+ .debug_str     0x000073fe       0x2d /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+                               0x5f7e (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/cr_startup_lpc43xx-m0app.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/main_m0.o
+ .comment       0x00000000       0x71 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .comment       0x00000000       0x71 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .comment       0x00000000       0x71 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .comment       0x00000000       0x71 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x31 ./src/cr_startup_lpc43xx-m0app.o
+ .ARM.attributes
+                0x00000031       0x31 ./src/main_m0.o
+ .ARM.attributes
+                0x00000062       0x31 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .ARM.attributes
+                0x00000093       0x31 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .ARM.attributes
+                0x000000c4       0x31 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .ARM.attributes
+                0x000000f5       0x31 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000      0x290
+ .debug_frame   0x00000000       0xb0 ./src/cr_startup_lpc43xx-m0app.o
+ .debug_frame   0x000000b0       0x54 ./src/main_m0.o
+ .debug_frame   0x00000104       0xc0 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_frame   0x000001c4       0xac /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_frame   0x00000270       0x20 /home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)

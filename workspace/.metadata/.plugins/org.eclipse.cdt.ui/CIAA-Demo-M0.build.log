@@ -1,0 +1,7 @@
+16:50:23 **** Clean-only build of configuration Debug for project CIAA-Demo-M0 ****
+make clean 
+rm -rf  ./src/cr_startup_lpc43xx-m0app.o ./src/main_m0.o  ./src/cr_startup_lpc43xx-m0app.d ./src/main_m0.d  CIAA-Demo-M0.axf
+ 
+
+16:50:23 Build Finished (took 64ms)
+

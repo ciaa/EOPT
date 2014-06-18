@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CIAA Demo</title>
+<script>
+// Class HTTPManager
+function HttpManager (urlBase) {
+    this.urlBase = urlBase;
+    this.callback=null;
+	this.xmlhttp=getRequestObject(); 
+}
+function getRequestObject() {
+    var options = [
+        function () { return new XMLHttpRequest() },
+        function () { return new ActiveXObject("Microsoft.XMLHTTP") },
+        function () { return new ActiveXObject("Msxml2.XMLHTTP.6.0") }
+    ];
+    for (var i = 0, il = options.length; i < il; i++) {
+        try { return options[i]() } catch(e) {}
+    }
+}
+ HttpManager.prototype.getUrlBase = function() {
+    return this.urlBase;
+};
+HttpManager.prototype.listener = function(self,callbackArg) {
+	try
+	{
+		if (self.xmlhttp.readyState==4 && self.xmlhttp.status==200)
+		{
+			self.fcnCallback(callbackArg,true,self.xmlhttp.responseText);
+		}
+		else
+		{
+			self.fcnCallback(callbackArg,false,"Invalid response");	
+		}
+	}
+	catch(err)
+	{
+		self.fcnCallback(callbackArg,false,err);	
+	}
+};
+HttpManager.prototype.getData = function(url,fcnCallback,callbackArg) {
+	this.fcnCallback=fcnCallback;
+	var self=this;
+	var callbackArgLocal= callbackArg ;
+	this.xmlhttp.onreadystatechange = function(){ self.listener(self,callbackArgLocal);};
+	this.xmlhttp.open("GET",this.urlBase+"/"+url,true);
+	this.xmlhttp.send();
+};
+
+// Class Card
+function Card (id,name) {
+    this.id = id;
+	if(name==null || name=="undefined" || name=="" || name==" ")
+		this.name = null;
+	else
+		this.name = name;
+}
+Card.prototype.getName = function() {
+	return this.name;
+}
+Card.prototype.getId = function() {
+	return this.id;
+}
+
+//	Class DataParser
+function DataParser (data) {
+    this.data = data;
+}
+DataParser.prototype.parse = function() {
+	var cards = [];
+	var rows = this.data.split(";");
+	var arrayLength = rows.length;
+	for (var i = 0; i < arrayLength; i++) {
+		var row = rows[i];
+		var parts = row.split(",");
+		if(parts[0]!=null && parts[0]!="" && parts[0]!=" " && parts[0]!="undefined")
+		{
+			var card = new Card(parts[0],parts[1])
+			console.log("ID:"+card.getId()+" name:"+card.getName());
+			cards.push(card);
+		}	
+	}
+	return cards;
+};
+
+//	Class ScreenManager
+function ScreenManager (data) {
+    this.data = data;
+}
+ScreenManager.prototype.refresh = function(cards) {
+	var tableElement = document.getElementById("table");
+	var strHtml = "<tr><td>ID</td><td>Nombre</td><td></td><td></td></tr>";	
+	var arrayLength = cards.length;
+	for (var i = 0; i < arrayLength; i++) {
+		var card = cards[i];
+		strHtml+="<tr>";
+		//strHtml+="<li>"+card.getId()+" <input id='"+i+"' type='text' value='"+card.getName()+"' ><input type='submit' value='Guardar' onclick=saveCard('"+i+"')></li>";
+			strHtml+="<td>"+card.getId()+"</td>";
+			if(card.getName()==null)
+				strHtml+="<td><input id='"+i+"' type='text' value='Desconocido' disabled ></td>";
+			else	
+				strHtml+="<td><input id='"+i+"' type='text' value='"+card.getName()+"' disabled ></td>";
+				
+			strHtml+="<td><input type='submit' value='Editar' onclick=enableEditor('"+i+"')></td>";	
+			strHtml+="<td><input type='submit' value='Guardar' onclick=saveCard('"+i+"')></td>";
+		strHtml+="</tr>";
+	}
+	tableElement.innerHTML = strHtml;
+}
+ScreenManager.prototype.getNewNameValue = function(cardsIndex) {
+	return document.getElementById(""+cardsIndex).value;
+}
+ScreenManager.prototype.enableEditor = function(id) {
+	return document.getElementById(""+id).disabled=false;
+}
+</script>
+</head>
+
+<body>
+<h1>CIAA Demo</h1>
+<h2>Usuarios que ingresaron al sistema:</h2>
+<table id='table'>	
+</table>
+</body>
+
+<script>
+//Main
+var urlBase = "192.168.0.123"; // Poner la ip de la placa
+var urlPageGetList = "getList"; // Poner "getList"
+var urlSaveCard = "setName"; // Poner "setName"
+var pageRefreshInterval = 3000; // Tiempo de refresco de la pagina en ms
+var editNameTimeout = 60000; // Tiempo en que el campo de texto aparece habilitado y no se refresca la pantalla
+var pageRefreshTimer;
+var screenManager = new ScreenManager();
+var httpm = new HttpManager (urlBase);
+var cards;
+
+var refreshPage = function(){
+	httpm.getData(urlPageGetList,onResponse,"0");
+}
+var resetRefresh = function(interval) {
+	clearInterval(pageRefreshTimer);
+	if(interval==null)
+		pageRefreshTimer = setInterval(refreshPage,pageRefreshInterval);
+	else	
+		pageRefreshTimer = setInterval(refreshPage,interval);
+}
+var saveCard = function(cardsIndex)
+{
+	var card = cards[cardsIndex];	
+	var newName = screenManager.getNewNameValue(cardsIndex);
+	var nameAux = newName.replace(" ","-");
+	console.log("save:"+urlSaveCard+"?uid="+card.getId()+"&name="+nameAux);
+	httpm.getData(urlSaveCard+"?uid="+card.getId()+"&name="+nameAux,onResponse,"1");
+}
+var enableEditor = function(editorId){
+	console.log("editor for id:"+editorId);
+	screenManager.enableEditor(editorId);
+	resetRefresh(editNameTimeout);
+}
+
+var onResponse = function(args,flagOk,msg) {
+	if(flagOk)
+	{
+		if(args=="0") //getList
+		{
+			console.log("Llego:"+msg);
+			var parser = new DataParser(msg);
+			cards = parser.parse();		
+			screenManager.refresh(cards);
+		}
+		else if(args=="1") // setName
+		{
+			if(msg=="OK")
+				alert("Nombre guardado correctamente");
+			else
+				alert("Error guardando nombre");
+			refreshPage();
+			resetRefresh(null);
+		}
+	}	
+};
+
+refreshPage();
+resetRefresh(null);
+
+</script>
+</html>

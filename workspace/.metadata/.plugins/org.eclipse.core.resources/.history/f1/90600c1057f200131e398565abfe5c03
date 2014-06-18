@@ -1,0 +1,44 @@
+/*
+ * ciaaUART.c
+ *
+ *  Created on: Jun 12, 2014
+ *      Author: pablo
+ */
+
+void ciaaUARTInit(void)
+{
+
+}
+
+void UART3_IRQHandler(void)
+{
+	if(UART_GetLineStatus(LPC_USART3)&UART_LINESTAT_RDR)
+	{
+		uartRxBuf[uartRxDataCount] = UART_ReceiveByte(LPC_USART3);
+		uartRxDataCount++;
+	}
+	if(UART_GetLineStatus(LPC_USART3)&UART_LINESTAT_THRE)
+	{
+		UART_SendByte(LPC_USART3, *pTxOut);
+		pTxOut++;
+		if(pTxOut == (uartTxBuf + UART_BUF_SIZE))
+			pTxOut = uartTxBuf;
+	}
+}
+
+void uartSend(void * data, int datalen)
+{
+	int i;
+
+	if(datalen==0) return;
+
+	UART_SendByte(LPC_USART3, ((uint8_t *)data)[0]);
+
+	for(i=1; i<datalen; i++)
+	{
+		*pTxIn = ((uint8_t*)data)[i];
+		pTxIn++;
+		if(pTxIn == (uartTxBuf + UART_BUF_SIZE))
+			pTxIn = uartTxBuf;
+	}
+}

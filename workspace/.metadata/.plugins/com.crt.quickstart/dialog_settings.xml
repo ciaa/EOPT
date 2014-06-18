@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="/home/pablo/Dropbox/Privado/FIUBA/CIAA/CIAA-Demo"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/Examples/NXP/LPC4000/LPC43xx/LPC4350A_Hitex.zip"/>
+			<item value=""/>
+			<item value="/usr/local/lpcxpresso_7.1.1_125/lpcxpresso/Examples/NXP/LPC4000/LPC43xx/NGX_LPC4337-Xplorer.zip"/>
+		</list>
+	</section>
+	<section name="com.crt.quickstart.views.wizards.examples.QSExampleSelectionPage">
+		<item value="/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/Examples/NXP/LPC4000/LPC43xx" key="dirname"/>
+	</section>
+</section>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CIAA Demo</title>
+
+<style>
+	body{ background : #0771E8; }
+	body,h1 {
+		padding : 0;
+		margin : 0;
+	}
+	#topPart {
+		height : 320px;
+		background : #0771E8;
+		padding : 0;
+		margin : 0;	
+	}
+	#bottomPart {
+		height : auto;
+		background : #08BEFF;
+		padding : 0;
+		margin : 0;
+		margin-top:10px;
+		padding-top: 25px;		
+		-webkit-box-shadow: 00px -5px 50px #000000;
+		-moz-box-shadow: 00px -5px 50px #000000;
+		box-shadow: 00px -5px 50px #000000;
+	}
+	/* Contenido en top */
+	#topContent {
+		margin : auto;
+		width : 600px;
+	}
+	#logo{
+		float : left;
+		width : 300px;
+	}
+	section {
+		font-family : verdana;
+		color: white;
+		float : left;
+		width : 300px;
+		margin-top : 80px;
+	}
+	section h1{
+		font-size : 25px;
+	}
+	section p{
+		font-size : 12px;
+	}	
+	/* Tabla */
+	table {
+		font-family : verdana;
+		border: 3px solid #0771E8;
+		width:auto;
+		margin : auto;
+		margin-bottom:20px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-webkit-box-shadow: 3px 3px 3px black;
+		-moz-box-shadow: 3px 3px 3px black;
+		box-shadow: 3px 3px 3px black;
+		background-color:rgb(255, 226, 165);
+	}
+	table tr:first-child {
+		font-weight:bold;
+	}
+	table tr:first-child td{
+		border:0px solid white;
+	}
+	table td, table th {
+		border: 1px solid #0771E8;
+	}
+	table tr:not(:first-child):hover {
+		background-color: rgba(117, 170, 219, 0.3);
+	}
+</style>
+
+<script>
+// Class HTTPManager
+function HttpManager (urlBase) {
+    this.urlBase = urlBase;
+    this.callback=null;
+	this.xmlhttp=getRequestObject(); 
+}
+function getRequestObject() {
+    var options = [
+        function () { return new XMLHttpRequest() },
+        function () { return new ActiveXObject("Microsoft.XMLHTTP") },
+        function () { return new ActiveXObject("Msxml2.XMLHTTP.6.0") }
+    ];
+    for (var i = 0, il = options.length; i < il; i++) {
+        try { return options[i]() } catch(e) {}
+    }
+}
+ HttpManager.prototype.getUrlBase = function() {
+    return this.urlBase;
+};
+HttpManager.prototype.listener = function(self,callbackArg) {
+	try
+	{
+		if (self.xmlhttp.readyState==4 && self.xmlhttp.status==200)
+		{
+			self.fcnCallback(callbackArg,true,self.xmlhttp.responseText);
+		}
+		else
+		{
+			self.fcnCallback(callbackArg,false,"Invalid response");	
+		}
+	}
+	catch(err)
+	{
+		self.fcnCallback(callbackArg,false,err);	
+	}
+};
+HttpManager.prototype.getData = function(url,fcnCallback,callbackArg) {
+	this.fcnCallback=fcnCallback;
+	var self=this;
+	var callbackArgLocal= callbackArg ;
+	this.xmlhttp.onreadystatechange = function(){ self.listener(self,callbackArgLocal);};
+	this.xmlhttp.open("GET",this.urlBase+"/"+url,true);
+	this.xmlhttp.send();
+};
+
+// Class Card
+function Card (id,name) {
+    this.id = id;
+	if(name==null || name=="undefined" || name=="" || name==" ")
+		this.name = null;
+	else
+		this.name = name;
+}
+Card.prototype.getName = function() {
+	return this.name;
+}
+Card.prototype.getId = function() {
+	return this.id;
+}
+
+//	Class DataParser
+function DataParser (data) {
+    this.data = data;
+}
+DataParser.prototype.parse = function() {
+	var cards = [];
+	var rows = this.data.split(";");
+	var arrayLength = rows.length;
+	for (var i = 0; i < arrayLength; i++) {
+		var row = rows[i];
+		var parts = row.split(",");
+		if(parts[0]!=null && parts[0]!="" && parts[0]!=" " && parts[0]!="undefined")
+		{
+			var card = new Card(parts[0],parts[1])
+			console.log("ID:"+card.getId()+" name:"+card.getName());
+			cards.push(card);
+		}	
+	}
+	return cards;
+};
+
+//	Class ScreenManager
+function ScreenManager (data) {
+    this.data = data;
+}
+ScreenManager.prototype.refresh = function(cards) {
+	var tableElement = document.getElementById("table");
+	var notifElement = document.getElementById("notification");
+
+	var strHtml = "<tr><td>ID</td><td>Nombre</td><td></td><td></td></tr>";	
+	var arrayLength = cards.length;
+	
+	var i_start=0;
+	var checkID = null;
+	
+	if(cards.length != 0)
+	{
+		if(cards[0].getId().charAt(0)=='x')
+		{
+			checkID = cards[0].getId().substr(1);
+			i_start = 1;
+		}
+		else
+		{
+			checkID = null;
+			i_start = 0;
+		}
+	}
+	
+	var permitir = -1;
+	
+	for (var i = i_start; i < arrayLength; i++) 
+	{
+		var card = cards[i];
+		
+		if(checkID != null)
+		{
+			if((card.getId() == checkID)&&(card.getName()!=null))
+			{
+				permitir=i;
+			}
+		}
+		
+		strHtml+="<tr>";
+			strHtml+="<td>"+card.getId()+"</td>";
+			if(card.getName()==null)
+				strHtml+="<td><input id='"+i+"' type='text' value='Desconocido' disabled ></td>";
+			else	
+				strHtml+="<td><input id='"+i+"' type='text' value='"+card.getName()+"' disabled ></td>";
+				
+			strHtml+="<td onclick=enableEditor('"+i+"')>"+this.getEditIcon()+"</td>"
+			strHtml+="<td onclick=saveCard('"+i+"')>"+this.getSaveIcon()+"</td>"
+		strHtml+="</tr>";
+	}
+	tableElement.innerHTML = strHtml;
+	
+	if(checkID!=null)
+	{
+		if(permitir != -1)
+		{
+			var estiloVerde = "<p style='color:#00FF00;font-family:verdana;font-size:20px;font-weight:bold;'>";
+			notifElement.innerHTML = estiloVerde + "ID " + cards[permitir].getId() + " (" + cards[permitir].getName() + ") acceso permitido.</p>";			
+		}
+		else
+		{
+			var estiloRojo = "<p style='color:#FF0000;font-family:verdana;font-size:20px;font-weight:bold;'>";
+			notifElement.innerHTML = estiloRojo + "ID " + checkID + " acceso denegado.</p>";			
+		}
+	}
+	else
+	{
+		notifElement.innerHTML = "";			
+	}
+}
+ScreenManager.prototype.getNewNameValue = function(cardsIndex) {
+	return document.getElementById(""+cardsIndex).value;
+}
+ScreenManager.prototype.enableEditor = function(id) {
+	return document.getElementById(""+id).disabled=false;
+}
+ScreenManager.prototype.getEditIcon = function() {
+	var icon = "<svg style='width:22px; height:22px; margin-top:5px margin-left:5px' clip-rule='evenodd' fill-rule='evenodd' image-rendering='optimizeQuality' shape-rendering='geometricPrecision' text-rendering='geometricPrecision' viewBox='0 0 500 500' xmlns='http://www.w3.org/2000/svg'><defs><style type='text/css'><![CDATA[ .str2 {stroke:#434242;stroke-width:5} .str0 {stroke:#434242;stroke-width:10;stroke-linecap:round;stroke-linejoin:round} .str1 {stroke:#434242;stroke-width:15;stroke-linejoin:round} .fil2 {fill:#434242} .fil1 {fill:#FEFEFE} .fil5 {fill:#0075D8} .fil6 {fill:#008BFF} .fil7 {fill:#289CFF} .fil3 {fill:#979798} .fil4 {fill:#CDCDCE} .fil0 {fill:#FFFFFF}]]></style></defs><g id='Layer_x0020_1'><path class='fil0 str0' d='M190 30h140c11 0 20 9 20 20v400c0 11-9 20-20 20h-280c-11 0-20-9-20-20v-260l160-160z'/><path class='fil1 str0' d='M160 190h-130l160-160v130c0 17-14 30-30 30z'/><path class='fil2 str1' d='M400 88l64 63c6 6 6 16 0 22l-202 201-127 43 42-128 202-201c6-6 15-6 21 0z'/><rect class='fil3' height='219.999' transform='matrix(-2.121 -2.121 .064 -.064 424.911 211.53)' width='39.999'/><polygon class='fil4' points='177,289 262,374 135,417'/><rect class='fil5' height='229.998' transform='matrix(.707 .707 -.707 .707 396.628 183.246)' width='39.997'/><rect class='fil6' height='230.001' transform='matrix(.707 .707 -.707 .707 368.344 154.959)' width='39.999'/><rect class='fil7' height='230.001' transform='matrix(.707 .707 -.707 .707 340.059 126.675)' width='40.001'/><path class='fil2 str2' d='M135 417l66-23c-3-10-9-19-17-27-7-8-17-13-27-17l-22 67z'/></g></svg>";
+	return icon;
+}
+ScreenManager.prototype.getSaveIcon = function() {
+	var icon = "<svg style='width:22px; height:22px; clip-rule='evenodd' fill-rule='evenodd' image-rendering='optimizeQuality' shape-rendering='geometricPrecision' text-rendering='geometricPrecision' viewBox='0 0 500 500' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient gradientUnits='userSpaceOnUse' id='a' x1='249.999' x2='249.999' y1='30.694' y2='470.692'><stop offset='0' stop-color='#008BFF'/><stop offset='1' stop-color='#0af'/></linearGradient><linearGradient gradientUnits='userSpaceOnUse' id='b' x1='284.421' x2='215.575' y1='130.457' y2='70.929'><stop offset='0' stop-color='#EBECEC'/><stop offset='1' stop-color='#FEFEFE'/></linearGradient><linearGradient gradientUnits='userSpaceOnUse' id='c' x1='249.997' x2='249.997' y1='448.641' y2='272.235'><stop offset='0' stop-color='#EBECEC'/><stop offset='1' stop-color='#FEFEFE'/></linearGradient></defs><g><path d='M55 31h365l50 50v365c0 13-11 25-25 25h-390c-14 0-25-12-25-25v-390c0-14 11-25 25-25z' fill='url(#a)' stroke='#434242' stroke-linejoin='round' stroke-width='10'/><path d='M110 31h280v125c0 8-7 15-15 15h-250c-8 0-15-7-15-15v-125z' fill='url(#b)' stroke='#434242' stroke-linejoin='round' stroke-width='10'/><rect fill='url(#c)' height='221' stroke='#434242' stroke-linejoin='round' stroke-width='10' width='320' x='90' y='250'/><path d='M290 29h70v102c0 2-2 5-5 5h-60c-3 0-5-3-5-5v-102z' fill='#434242'/><line fill='none' stroke='#434242' stroke-linecap='round' stroke-width='15' x1='370' x2='130' y1='295' y2='295'/><line fill='none' stroke='#434242' stroke-linecap='round' stroke-width='15' x1='370' x2='130' y1='335' y2='335'/><line fill='none' stroke='#434242' stroke-linecap='round' stroke-width='15' x1='370' x2='130' y1='375' y2='375'/><line fill='none' stroke='#434242' stroke-linecap='round' stroke-width='15' x1='370' x2='130' y1='415' y2='415'/></g></svg>";
+	return icon;
+}
+</script>
+</head>
+
+<body>
+	<div id="topPart">
+		<div id="topContent">		
+			<section>
+				<article>
+					<header><h1>Computadora Industrial Abierta Argentina</h1></header>
+					<p>Sistema de control de acceso RFID</p>
+					<p>Laboratorio de Sistemas Embebidos - FIUBA</p>			
+				</article>
+			</section>
+			<!-- LOGO -->
+		</div>
+		<div id='notification'></div>
+	</div>
+	<div id="bottomPart" >	
+		<table id='table'>	
+		</table>
+		</br>
+	</div>
+
+</body>
+
+<script>
+//Main
+var urlBase = "192.168.0.123"; // Poner la ip de la placa
+var urlPageGetList = "getList"; // Poner "getList"
+var urlSaveCard = "setName"; // Poner "setName"
+var pageRefreshInterval = 1000; // Tiempo de refresco de la pagina en ms
+var editNameTimeout = 60000; // Tiempo en que el campo de texto aparece habilitado y no se refresca la pantalla
+var pageRefreshTimer;
+var screenManager = new ScreenManager();
+var httpm = new HttpManager (urlBase);
+var cards;
+
+var refreshPage = function(){
+	httpm.getData(urlPageGetList,onResponse,"0");
+}
+var resetRefresh = function(interval) {
+	clearInterval(pageRefreshTimer);
+	if(interval==null)
+		pageRefreshTimer = setInterval(refreshPage,pageRefreshInterval);
+	else	
+		pageRefreshTimer = setInterval(refreshPage,interval);
+}
+var saveCard = function(cardsIndex)
+{
+	var card = cards[cardsIndex];	
+	var newName = screenManager.getNewNameValue(cardsIndex);
+	var nameAux = newName.replace(" ","-");
+	console.log("save:"+urlSaveCard+"?uid="+card.getId()+"&name="+nameAux);
+	httpm.getData(urlSaveCard+"?uid="+card.getId()+"&name="+nameAux,onResponse,"1");
+}
+var enableEditor = function(editorId){
+	console.log("editor for id:"+editorId);
+	screenManager.enableEditor(editorId);
+	resetRefresh(editNameTimeout);
+}
+
+var onResponse = function(args,flagOk,msg) {
+	if(flagOk)
+	{
+		if(args=="0") //getList
+		{
+			console.log("Llego:"+msg);
+			var parser = new DataParser(msg);
+			cards = parser.parse();		
+			screenManager.refresh(cards);
+		}
+		else if(args=="1") // setName
+		{
+			if(msg=="OK")
+				alert("Nombre guardado correctamente");
+			else
+				alert("Error guardando nombre");
+			refreshPage();
+			resetRefresh(null);
+		}
+	}	
+};
+
+refreshPage();
+resetRefresh(null);
+
+</script>
+</html>

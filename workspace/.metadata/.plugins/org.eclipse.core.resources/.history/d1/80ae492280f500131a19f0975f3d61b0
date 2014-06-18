@@ -1,0 +1,30 @@
+/*
+ * ciaaI2C.c
+ *
+ *  Created on: Jun 16, 2014
+ *      Author: pablo
+ */
+
+
+#include "ciaaI2C.h"
+
+
+void ciaaI2CInit(void)
+{
+	I2C_Init(LPC_I2C0, 100000);
+
+	I2C_Cmd(LPC_I2C0, ENABLE);
+
+	I2C_M_SETUP_Type i2cdata;
+
+	i2cdata.callback = 0;
+	i2cdata.retransmissions_count = 3;
+
+
+
+	I2C_MasterTransferData(LPC_I2C0, &i2cdata, I2C_TRANSFER_POLLING);
+
+
+
+
+}

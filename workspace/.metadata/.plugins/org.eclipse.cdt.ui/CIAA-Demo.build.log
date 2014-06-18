@@ -1,0 +1,7 @@
+16:50:23 **** Clean-only build of configuration Debug for project CIAA-Demo ****
+make clean 
+rm -rf  ./src/Emac/src/emac.o ./src/Emac/src/tcpip.o ./src/Emac/src/webserver.o  ./src/ciaaI2C.o ./src/ciaaIO.o ./src/ciaaUART.o ./src/cr_start_m0.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/database.o ./src/main.o  ./src/Emac/src/emac.d ./src/Emac/src/tcpip.d ./src/Emac/src/webserver.d  ./src/ciaaI2C.d ./src/ciaaIO.d ./src/ciaaUART.d ./src/cr_start_m0.d ./src/cr_startup_lpc43xx.d ./src/crp.d ./src/database.d ./src/main.d  CIAA-Demo.axf
+ 
+
+16:50:23 Build Finished (took 115ms)
+

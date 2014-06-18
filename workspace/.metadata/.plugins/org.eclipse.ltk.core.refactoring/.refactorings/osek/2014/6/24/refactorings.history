@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;osek/src/ciaaInputs.c&apos; to &apos;ciaaIO.c&apos;" description="Rename resource &apos;ciaaInputs.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ciaaInputs.c" name="ciaaIO.c" stamp="1402592889283" updateReferences="true"/>
+</session>

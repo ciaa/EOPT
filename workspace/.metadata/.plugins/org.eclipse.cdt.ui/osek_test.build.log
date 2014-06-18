@@ -1,0 +1,6 @@
+10:02:09 **** Incremental Build of configuration Debug for project osek_test ****
+make all 
+make: Nothing to be done for `all'.
+
+10:02:09 Build Finished (took 65ms)
+

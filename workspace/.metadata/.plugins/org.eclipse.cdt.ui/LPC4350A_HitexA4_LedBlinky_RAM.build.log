@@ -1,0 +1,26 @@
+15:38:57 **** Build of configuration Debug for project LPC4350A_HitexA4_LedBlinky_RAM ****
+make all 
+Building file: ../src/Gpio_LedBlinky.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -D__MULTICORE_NONE -I"/home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib/inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -MMD -MP -MF"src/Gpio_LedBlinky.d" -MT"src/Gpio_LedBlinky.d" -o "src/Gpio_LedBlinky.o" "../src/Gpio_LedBlinky.c"
+Finished building: ../src/Gpio_LedBlinky.c
+ 
+Building file: ../src/cr_startup_lpc43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -D__MULTICORE_NONE -I"/home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib/inc" -Os -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -MMD -MP -MF"src/cr_startup_lpc43xx.d" -MT"src/cr_startup_lpc43xx.d" -o "src/cr_startup_lpc43xx.o" "../src/cr_startup_lpc43xx.c"
+Finished building: ../src/cr_startup_lpc43xx.c
+ 
+Building target: LPC4350A_HitexA4_LedBlinky_RAM.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib/Debug" -Xlinker -Map="LPC4350A_HitexA4_LedBlinky_RAM.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mthumb -T "LPC4350A_HitexA4_LedBlinky_RAM_Debug.ld" -o "LPC4350A_HitexA4_LedBlinky_RAM.axf"  ./src/Gpio_LedBlinky.o ./src/cr_startup_lpc43xx.o   -lCMSIS_LPC43xx_DriverLib
+Finished building target: LPC4350A_HitexA4_LedBlinky_RAM.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "LPC4350A_HitexA4_LedBlinky_RAM.axf"; # arm-none-eabi-objcopy -O binary "LPC4350A_HitexA4_LedBlinky_RAM.axf" "LPC4350A_HitexA4_LedBlinky_RAM.bin" ; checksum -p LPC4350 -d "LPC4350A_HitexA4_LedBlinky_RAM.bin";
+   text	   data	    bss	    dec	    hex	filename
+   3308	     72	     20	   3400	    d48	LPC4350A_HitexA4_LedBlinky_RAM.axf
+ 
+
+15:38:58 Build Finished (took 412ms)
+

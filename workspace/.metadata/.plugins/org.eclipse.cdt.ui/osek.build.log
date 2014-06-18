@@ -1,0 +1,7 @@
+16:50:23 **** Clean-only build of configuration Debug for project osek ****
+make clean 
+rm -rf  ./src/ActivateTask.o ./src/CancelAlarm.o ./src/ChainTask.o ./src/ClearEvent.o ./src/GetActiveApplicationMode.o ./src/GetAlarm.o ./src/GetAlarmBase.o ./src/GetEvent.o ./src/GetResource.o ./src/GetTaskID.o ./src/GetTaskState.o ./src/Os.o ./src/Os_Arch.o ./src/Os_Cfg.o ./src/Os_Internal.o ./src/Os_Internal_Arch.o ./src/Os_Internal_Cfg.o ./src/PendSV.o ./src/ReleaseResource.o ./src/Schedule.o ./src/SetAbsAlarm.o ./src/SetEvent.o ./src/SetRelAlarm.o ./src/ShutdownOS.o ./src/StartOS.o ./src/StartOs_Arch.o ./src/TerminateTask.o ./src/WaitEvent.o ./src/blinking.o ./src/ciaaIO.o ./src/ciaaUART.o ./src/cr_startup_lpc43xx.o ./src/crp.o  ./src/ActivateTask.d ./src/CancelAlarm.d ./src/ChainTask.d ./src/ClearEvent.d ./src/GetActiveApplicationMode.d ./src/GetAlarm.d ./src/GetAlarmBase.d ./src/GetEvent.d ./src/GetResource.d ./src/GetTaskID.d ./src/GetTaskState.d ./src/Os.d ./src/Os_Arch.d ./src/Os_Cfg.d ./src/Os_Internal.d ./src/Os_Internal_Arch.d ./src/Os_Internal_Cfg.d ./src/ReleaseResource.d ./src/Schedule.d ./src/SetAbsAlarm.d ./src/SetEvent.d ./src/SetRelAlarm.d ./src/ShutdownOS.d ./src/StartOS.d ./src/StartOs_Arch.d ./src/TerminateTask.d ./src/WaitEvent.d ./src/blinking.d ./src/ciaaIO.d ./src/ciaaUART.d ./src/cr_startup_lpc43xx.d ./src/crp.d  osek.axf
+ 
+
+16:50:23 Build Finished (took 63ms)
+

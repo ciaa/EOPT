@@ -1,0 +1,31 @@
+/*
+ * Os_Internal_Arch.s
+ *
+ *  Created on: May 18, 2014
+ *      Author: pablo
+ */
+
+		.syntax unified
+
+		.global CallTask_s,JmpTask,SaveContext_s
+
+		.text
+		.thumb_func
+
+/*
+CallTask_s
+	r0 <- TasksConst[(actualtask)].TaskContext
+	r1 <- TasksConst[(nexttask)].TaskContext
+*/
+CallTask:
+
+		bx lr
+
+
+JmpTask:
+
+		bx lr
+
+SaveContext:
+
+		bx lr
