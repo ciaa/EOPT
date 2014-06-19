@@ -87,7 +87,14 @@ int main(void)
 	ciaaUARTInit();
 	ciaaIOInit();
 
-//	UART_Send(LPC_USART2, "A", 1, BLOCKING);
+/* RS485/Profibus simple test */
+//	char c=1;
+//	while(c!='0')
+//	{
+//		ciaaUART485Recv(&c, 1);
+//
+//		ciaaUART485Send("test\n", 5);
+//	}
 
 
 	printf("[main]StartOS\n");

@@ -29,7 +29,7 @@ all: CIAA-Demo-M0.axf
 CIAA-Demo-M0.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"/home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib-M0/Debug" -L"/home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_DSPLIB_CM0/lib" -Xlinker -Map="CIAA-Demo-M0.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "CIAA-Demo-M0_Debug.ld" -o "CIAA-Demo-M0.axf" $(OBJS) $(USER_OBJS) $(LIBS) && arm-none-eabi-objcopy --target elf32-littlearm --verbose --strip-all --redefine-sym __vectors_start__=__vectors_start___core_m0app --keep-symbol __vectors_start___core_m0app --rename-section .text=".core_m0app" --rename-section .data=".core_m0app.data" "CIAA-Demo-M0.axf" "CIAA-Demo-M0.axf.o"
+	arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug" -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_DSPLIB_CM0/lib" -Xlinker -Map="CIAA-Demo-M0.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "CIAA-Demo-M0_Debug.ld" -o "CIAA-Demo-M0.axf" $(OBJS) $(USER_OBJS) $(LIBS) && arm-none-eabi-objcopy --target elf32-littlearm --verbose --strip-all --redefine-sym __vectors_start__=__vectors_start___core_m0app --keep-symbol __vectors_start___core_m0app --rename-section .text=".core_m0app" --rename-section .data=".core_m0app.data" "CIAA-Demo-M0.axf" "CIAA-Demo-M0.axf.o"
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

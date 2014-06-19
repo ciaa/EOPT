@@ -1,7 +1,60 @@
-16:50:23 **** Clean-only build of configuration Debug for project osek ****
-make clean 
-rm -rf  ./src/ActivateTask.o ./src/CancelAlarm.o ./src/ChainTask.o ./src/ClearEvent.o ./src/GetActiveApplicationMode.o ./src/GetAlarm.o ./src/GetAlarmBase.o ./src/GetEvent.o ./src/GetResource.o ./src/GetTaskID.o ./src/GetTaskState.o ./src/Os.o ./src/Os_Arch.o ./src/Os_Cfg.o ./src/Os_Internal.o ./src/Os_Internal_Arch.o ./src/Os_Internal_Cfg.o ./src/PendSV.o ./src/ReleaseResource.o ./src/Schedule.o ./src/SetAbsAlarm.o ./src/SetEvent.o ./src/SetRelAlarm.o ./src/ShutdownOS.o ./src/StartOS.o ./src/StartOs_Arch.o ./src/TerminateTask.o ./src/WaitEvent.o ./src/blinking.o ./src/ciaaIO.o ./src/ciaaUART.o ./src/cr_startup_lpc43xx.o ./src/crp.o  ./src/ActivateTask.d ./src/CancelAlarm.d ./src/ChainTask.d ./src/ClearEvent.d ./src/GetActiveApplicationMode.d ./src/GetAlarm.d ./src/GetAlarmBase.d ./src/GetEvent.d ./src/GetResource.d ./src/GetTaskID.d ./src/GetTaskState.d ./src/Os.d ./src/Os_Arch.d ./src/Os_Cfg.d ./src/Os_Internal.d ./src/Os_Internal_Arch.d ./src/Os_Internal_Cfg.d ./src/ReleaseResource.d ./src/Schedule.d ./src/SetAbsAlarm.d ./src/SetEvent.d ./src/SetRelAlarm.d ./src/ShutdownOS.d ./src/StartOS.d ./src/StartOs_Arch.d ./src/TerminateTask.d ./src/WaitEvent.d ./src/blinking.d ./src/ciaaIO.d ./src/ciaaUART.d ./src/cr_startup_lpc43xx.d ./src/crp.d  osek.axf
+12:30:08 **** Incremental Build of configuration Debug for project osek ****
+make all 
+Building file: ../src/blinking.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU=lpc4337 -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -D__LPC43XX__ -D__MULTICORE_NONE -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/blinking.d" -MT"src/blinking.d" -o "src/blinking.o" "../src/blinking.c"
+In file included from ../src/Types.h:67:0,
+                 from ../src/os.h:76,
+                 from ../src/blinking.c:61:
+/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc/lpc_types.h:204:0: warning: "INLINE" redefined [enabled by default]
+ #define INLINE inline
+ ^
+In file included from ../src/Types.h:66:0,
+                 from ../src/os.h:76,
+                 from ../src/blinking.c:61:
+../src/Compiler.h:94:0: note: this is the location of the previous definition
+ #define INLINE
+ ^
+In file included from ../src/os.h:76:0,
+                 from ../src/blinking.c:61:
+../src/Types.h:105:0: warning: "INLINE" redefined [enabled by default]
+ #define INLINE
+ ^
+In file included from ../src/Types.h:67:0,
+                 from ../src/os.h:76,
+                 from ../src/blinking.c:61:
+/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc/lpc_types.h:204:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from ../src/Types.h:127:0,
+                 from ../src/os.h:76,
+                 from ../src/blinking.c:61:
+../src/Types_Arch.h:71:0: warning: "NULL" redefined [enabled by default]
+ #define NULL ((void *)0)
+ ^
+In file included from ../src/Types.h:67:0,
+                 from ../src/os.h:76,
+                 from ../src/blinking.c:61:
+/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc/lpc_types.h:137:0: note: this is the location of the previous definition
+ #define NULL ((void*) 0)
+ ^
+../src/blinking.c: In function 'main':
+../src/blinking.c:99:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("[main]StartOS\n");
+  ^
+Finished building: ../src/blinking.c
+ 
+Building target: osek.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug" -Xlinker -Map="osek.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "osek_Debug.ld" -o "osek.axf"  ./src/ActivateTask.o ./src/CancelAlarm.o ./src/ChainTask.o ./src/ClearEvent.o ./src/GetActiveApplicationMode.o ./src/GetAlarm.o ./src/GetAlarmBase.o ./src/GetEvent.o ./src/GetResource.o ./src/GetTaskID.o ./src/GetTaskState.o ./src/Os.o ./src/Os_Arch.o ./src/Os_Cfg.o ./src/Os_Internal.o ./src/Os_Internal_Arch.o ./src/Os_Internal_Cfg.o ./src/PendSV.o ./src/ReleaseResource.o ./src/Schedule.o ./src/SetAbsAlarm.o ./src/SetEvent.o ./src/SetRelAlarm.o ./src/ShutdownOS.o ./src/StartOS.o ./src/StartOs_Arch.o ./src/TerminateTask.o ./src/WaitEvent.o ./src/blinking.o ./src/ciaaIO.o ./src/ciaaUART.o ./src/cr_startup_lpc43xx.o ./src/crp.o   -lCMSIS_LPC43xx_DriverLib
+Finished building target: osek.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "osek.axf"; # arm-none-eabi-objcopy -v -O binary "osek.axf" "osek.bin" ; # checksum -p LPC4337 -d "osek.bin";
+   text	   data	    bss	    dec	    hex	filename
+  22104	     88	   6688	  28880	   70d0	osek.axf
  
 
-16:50:23 Build Finished (took 63ms)
+12:30:09 Build Finished (took 315ms)
 

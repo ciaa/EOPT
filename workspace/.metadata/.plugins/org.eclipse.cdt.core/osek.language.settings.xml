@@ -69,7 +69,7 @@
 						<entry kind="macro" name="__REDLIB__" value=""/>
 						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
 					</resource>
-					<resource project-relative-path="src/Os_Cfg.c">
+					<resource project-relative-path="src/GetAlarmBase.c">
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
@@ -95,7 +95,7 @@
 						<entry kind="macro" name="__REDLIB__" value=""/>
 						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
 					</resource>
-					<resource project-relative-path="src/GetAlarmBase.c">
+					<resource project-relative-path="src/Os_Cfg.c">
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
@@ -342,19 +342,6 @@
 						<entry kind="macro" name="__REDLIB__" value=""/>
 						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
 					</resource>
-					<resource project-relative-path="src/SetEvent.c">
-						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="CPU" value="lpc4337"/>
-						<entry kind="macro" name="DEBUG" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_NONE" value=""/>
-						<entry kind="macro" name="__REDLIB__" value=""/>
-						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
-					</resource>
 					<resource project-relative-path="src/Schedule.c">
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
@@ -368,7 +355,7 @@
 						<entry kind="macro" name="__REDLIB__" value=""/>
 						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
 					</resource>
-					<resource project-relative-path="src/SetAbsAlarm.c">
+					<resource project-relative-path="src/SetEvent.c">
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
@@ -394,7 +381,7 @@
 						<entry kind="macro" name="__REDLIB__" value=""/>
 						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
 					</resource>
-					<resource project-relative-path="src/Os_Internal_Arch.c">
+					<resource project-relative-path="src/SetAbsAlarm.c">
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
@@ -408,6 +395,19 @@
 						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
 					</resource>
 					<resource project-relative-path="src/Os.c">
+						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="CPU" value="lpc4337"/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_NONE" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
+					</resource>
+					<resource project-relative-path="src/Os_Internal_Arch.c">
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>

@@ -20,5 +20,7 @@
 
 void ciaaUARTInit(void);
 void uartSend(void * data, int datalen);
+void ciaaUART485Send(void * data, int datalen);
+void ciaaUART485Recv(void * data, int datalen);
 
 #endif /* CIAAUART_H_ */

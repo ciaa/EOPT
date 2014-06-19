@@ -38,14 +38,14 @@ C_DEPS += \
 src/%.o: ../src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU C Compiler'
-	arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -D__LPC43XX__ -DLPC43_MULTICORE_M0APP -D__MULTICORE_MASTER -I"/home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CIAA-Demo/src" -I"/home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CIAA-Demo/src/Emac/inc" -I"/home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__NEWLIB__ -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -D__LPC43XX__ -DLPC43_MULTICORE_M0APP -D__MULTICORE_MASTER -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src/Emac/inc" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__NEWLIB__ -specs=redlib.specs -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/cr_startup_lpc43xx.o: ../src/cr_startup_lpc43xx.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU C Compiler'
-	arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -D__LPC43XX__ -DLPC43_MULTICORE_M0APP -D__MULTICORE_MASTER -I"/home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CIAA-Demo/src" -I"/home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CIAA-Demo/src/Emac/inc" -I"/home/pablo/Dropbox/Privado/FRBA/DPLab/osek_lpc4337/CMSIS_LPC43xx_DriverLib/inc" -Os -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__NEWLIB__ -MMD -MP -MF"$(@:%.o=%.d)" -MT"src/cr_startup_lpc43xx.d" -o "$@" "$<"
+	arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -D__LPC43XX__ -DLPC43_MULTICORE_M0APP -D__MULTICORE_MASTER -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src/Emac/inc" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc" -Os -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__NEWLIB__ -specs=redlib.specs -MMD -MP -MF"$(@:%.o=%.d)" -MT"src/cr_startup_lpc43xx.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

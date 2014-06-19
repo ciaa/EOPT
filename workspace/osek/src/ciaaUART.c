@@ -15,9 +15,27 @@ uint32_t uartRxDataCount = 0;
 
 void ciaaUARTInit(void)
 {
-	/* UART2 (USB-UART) */
 	UART_CFG_Type cfg;
 
+	/* UART0 (RS485/Profibus) */
+	cfg.Baud_rate = 115200;
+	cfg.Clock_Speed = 0;
+	cfg.Databits = UART_DATABIT_8;
+	cfg.Parity = UART_PARITY_NONE;
+	cfg.Stopbits = UART_STOPBIT_1;
+
+	UART_Init(LPC_USART0, &cfg);
+	UART_TxCmd(LPC_USART0, ENABLE);
+
+	scu_pinmux(9, 5, MD_PDN, FUNC7); 					// P9_5: UART0_TXD
+	scu_pinmux(9, 6, MD_PLN|MD_EZI|MD_ZI, FUNC7); 		// P9_6: UART0_RXD
+
+	//DIR pin, software driven
+	scu_pinmux(6, 2, MD_PDN, FUNC0); 					// P6_2: GPIO3[1]
+	GPIO_SetDir(3, 1<<1, 1);
+	GPIO_ClearValue(3, 1<<1);
+
+	/* UART2 (USB-UART) */
 	cfg.Baud_rate = 115200;
 	cfg.Clock_Speed = 0;
 	cfg.Databits = UART_DATABIT_8;
@@ -95,4 +113,19 @@ void uartSend(void * data, int datalen)
 		if(pTxIn == (uartTxBuf + UART_BUF_SIZE))
 			pTxIn = uartTxBuf;
 	}
+}
+
+void ciaaUART485Send(void * data, int datalen)
+{
+	int foo;
+	GPIO_SetValue(3, 1<<1);
+	for(foo=0; foo<0xFFF; foo++);
+	UART_Send(LPC_USART0, (uint8_t *)data, datalen, BLOCKING);
+	for(foo=0; foo<0xFFF; foo++);
+	GPIO_ClearValue(3, 1<<1);
+}
+
+void ciaaUART485Recv(void * data, int datalen)
+{
+	UART_Receive(LPC_USART0, (uint8_t *)data, datalen, BLOCKING);
 }
