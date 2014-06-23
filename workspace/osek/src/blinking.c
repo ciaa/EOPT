@@ -65,6 +65,8 @@
 #include "ciaaIO.h"
 #include "ciaaUART.h"
 
+#include "vcomdemo.h"
+
 /*==================[macros and definitions]=================================*/
 
 /*==================[internal data declaration]==============================*/
@@ -96,6 +98,9 @@ int main(void)
 //		ciaaUART485Send("test\n", 5);
 //	}
 
+	/* USB Aux. test */
+	uint16_t;
+	Vcom_init();
 
 	printf("[main]StartOS\n");
 	StartOS(AppMode1);

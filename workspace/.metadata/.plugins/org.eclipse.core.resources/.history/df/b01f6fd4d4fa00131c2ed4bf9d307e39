@@ -1,0 +1,14 @@
+/*
+ * ciaaAOUT.h
+ *
+ *  Created on: Jun 23, 2014
+ *      Author: pablo
+ */
+
+#ifndef CIAAAOUT_H_
+#define CIAAAOUT_H_
+
+#include "lpc43xx_dac.h"
+#include "lpc43xx_scu.h"
+
+#endif /* CIAAAOUT_H_ */

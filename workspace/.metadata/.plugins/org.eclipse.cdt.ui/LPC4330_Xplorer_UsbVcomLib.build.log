@@ -1,0 +1,82 @@
+13:07:37 **** Incremental Build of configuration Debug for project LPC4330_Xplorer_UsbVcomLib ****
+make all 
+Building file: ../src/cdcuser.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/cdcuser.d" -MT"src/cdcuser.d" -o "src/cdcuser.o" "../src/cdcuser.c"
+../src/cdcuser.c: In function 'CDC_SendEncapsulatedCommand':
+../src/cdcuser.c:166:11: error: 'TRUE' undeclared (first use in this function)
+   return (TRUE);
+           ^
+../src/cdcuser.c:166:11: note: each undeclared identifier is reported only once for each function it appears in
+../src/cdcuser.c: In function 'CDC_GetEncapsulatedResponse':
+../src/cdcuser.c:179:11: error: 'TRUE' undeclared (first use in this function)
+   return (TRUE);
+           ^
+../src/cdcuser.c: In function 'CDC_SetCommFeature':
+../src/cdcuser.c:192:11: error: 'TRUE' undeclared (first use in this function)
+   return (TRUE);
+           ^
+../src/cdcuser.c: In function 'CDC_GetCommFeature':
+../src/cdcuser.c:205:11: error: 'TRUE' undeclared (first use in this function)
+   return (TRUE);
+           ^
+../src/cdcuser.c: In function 'CDC_ClearCommFeature':
+../src/cdcuser.c:218:11: error: 'TRUE' undeclared (first use in this function)
+   return (TRUE);
+           ^
+../src/cdcuser.c: In function 'CDC_SetLineCoding':
+../src/cdcuser.c:253:11: error: 'TRUE' undeclared (first use in this function)
+   return (TRUE);
+           ^
+../src/cdcuser.c: In function 'CDC_GetLineCoding':
+../src/cdcuser.c:273:11: error: 'TRUE' undeclared (first use in this function)
+   return (TRUE);
+           ^
+../src/cdcuser.c: In function 'CDC_SetControlLineState':
+../src/cdcuser.c:286:11: error: 'TRUE' undeclared (first use in this function)
+   return (TRUE);
+           ^
+../src/cdcuser.c: In function 'CDC_SendBreak':
+../src/cdcuser.c:301:11: error: 'TRUE' undeclared (first use in this function)
+   return (TRUE);
+           ^
+../src/cdcuser.c: In function 'CDC_SendEncapsulatedCommand':
+../src/cdcuser.c:167:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/cdcuser.c: In function 'CDC_GetEncapsulatedResponse':
+../src/cdcuser.c:180:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/cdcuser.c: In function 'CDC_SetCommFeature':
+../src/cdcuser.c:193:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/cdcuser.c: In function 'CDC_GetCommFeature':
+../src/cdcuser.c:206:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/cdcuser.c: In function 'CDC_ClearCommFeature':
+../src/cdcuser.c:219:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/cdcuser.c: In function 'CDC_SetLineCoding':
+../src/cdcuser.c:254:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/cdcuser.c: In function 'CDC_GetLineCoding':
+../src/cdcuser.c:274:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/cdcuser.c: In function 'CDC_SetControlLineState':
+../src/cdcuser.c:287:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/cdcuser.c: In function 'CDC_SendBreak':
+../src/cdcuser.c:302:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/cdcuser.o] Error 1
+
+13:07:37 Build Finished (took 61ms)
+

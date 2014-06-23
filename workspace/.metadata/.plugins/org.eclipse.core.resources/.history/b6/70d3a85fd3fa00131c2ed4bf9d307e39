@@ -1,0 +1,18 @@
+/*
+ * ciaaAOUT.c
+ *
+ *  Created on: Jun 23, 2014
+ *      Author: pablo
+ */
+
+#include "ciaaAOUT.h"
+
+
+void ciaaAOUTInit(void)
+{
+
+	DAC_Init(LPC_DAC);
+
+	DAC_UpdateValue(LPC_DAC, 0);
+
+}

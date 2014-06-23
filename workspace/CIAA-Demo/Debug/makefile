@@ -24,10 +24,7 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: pre-build main-build
-
-# Main-build Target
-main-build: CIAA-Demo.axf
+all: CIAA-Demo.axf
 
 # Tool invocations
 CIAA-Demo.axf: $(OBJS) $(USER_OBJS)
@@ -43,16 +40,12 @@ clean:
 	-$(RM) $(OBJS)$(C_DEPS)$(EXECUTABLES) CIAA-Demo.axf
 	-@echo ' '
 
-pre-build:
-	-killall redlinkserv
-	-@echo ' '
-
 post-build:
 	-@echo 'Performing post-build steps'
 	-arm-none-eabi-size "CIAA-Demo.axf"; # arm-none-eabi-objcopy -v -O binary "CIAA-Demo.axf" "CIAA-Demo.bin" ; # checksum -p LPC4337 -d "CIAA-Demo.bin";
 	-@echo ' '
 
 .PHONY: all clean dependents
-.SECONDARY: main-build pre-build post-build
+.SECONDARY: post-build
 
 -include ../makefile.targets

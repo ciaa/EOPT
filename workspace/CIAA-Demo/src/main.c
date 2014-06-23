@@ -33,6 +33,7 @@
 #include "ciaaUART.h"
 #include "ciaaI2C.h"
 #include "ciaaIO.h"
+#include "ciaaAOUT.h"
 
 volatile uint32_t msec;
 
@@ -40,6 +41,12 @@ uint32_t wiegandTimeout;
 
 #define wiegandData0() (GPIO_ReadValue(3)&(1<<0))
 #define wiegandData1() (GPIO_ReadValue(5)&(1<<5))
+
+void pausems(uint32_t t)
+{
+	msec = t;
+	while(msec) __WFI();
+}
 
 uint32_t wiegand26(void)
 {
@@ -117,6 +124,19 @@ void setupHardware(void)
 	ciaaIOInit();
 
 	ciaaI2CInit();
+
+	ciaaAOUTInit();
+
+	int i = 1;
+	while(i)
+	{
+		ciaaAOUTSet(i);
+		i += 10;
+		if(i>101) i = 1;
+		pausems(1000);
+
+	}
+
 
 	enetInit();
 }

@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := -lCMSIS_LPC43xx_DriverLib
+LIBS := -lLPC4330_Xplorer_UsbVcomLib -lCMSIS_LPC43xx_DriverLib
 
