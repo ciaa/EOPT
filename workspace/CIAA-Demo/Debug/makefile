@@ -42,7 +42,7 @@ clean:
 
 post-build:
 	-@echo 'Performing post-build steps'
-	-arm-none-eabi-size "CIAA-Demo.axf"; # arm-none-eabi-objcopy -v -O binary "CIAA-Demo.axf" "CIAA-Demo.bin" ; # checksum -p LPC4337 -d "CIAA-Demo.bin";
+	-arm-none-eabi-size "CIAA-Demo.axf"; arm-none-eabi-objcopy -v -O binary "CIAA-Demo.axf" "CIAA-Demo.bin" ; # checksum -p LPC4337 -d "CIAA-Demo.bin";
 	-@echo ' '
 
 .PHONY: all clean dependents

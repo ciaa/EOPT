@@ -111,6 +111,30 @@ void setupHardware(void)
 {
     SysTick_Config(CGU_GetPCLKFrequency(CGU_PERIPHERAL_M4CORE)/1000);
 
+	ciaaAOUTInit();
+
+	ciaaIOInit();
+
+	int i = 100, flag = 0;
+	while(i != 1)
+	{
+		ciaaAOUTSet(i);
+		i -= 10;
+		if(i<0) i = 100;
+		pausems(2000);
+
+		if(flag == 0)
+		{
+			GPIO_ClearValue(5,(1<<1));
+			flag = 1;
+		}
+		else
+		{
+			GPIO_SetValue(5,(1<<1));
+			flag = 0;
+		}
+	}
+
     scu_pinmux(4 , 8, MD_PUP, FUNC4); 	// P8.1 : USB0_IND1 LED
 	GPIO_SetDir(LED1_PORT,(1<<LED1_BIT), 1);
 	GPIO_SetValue(LED1_PORT,(1<<LED1_BIT));
@@ -124,19 +148,6 @@ void setupHardware(void)
 	ciaaIOInit();
 
 	ciaaI2CInit();
-
-	ciaaAOUTInit();
-
-	int i = 1;
-	while(i)
-	{
-		ciaaAOUTSet(i);
-		i += 10;
-		if(i>101) i = 1;
-		pausems(1000);
-
-	}
-
 
 	enetInit();
 }

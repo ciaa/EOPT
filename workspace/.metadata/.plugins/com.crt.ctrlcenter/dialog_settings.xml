@@ -12,11 +12,11 @@
 		<item value="," key="file"/>
 		<item value="" key="base"/>
 		<item value="true" key="logFLag"/>
-		<item value="true" key="exec"/>
-		<item value="false" key="clipboard_exec"/>
 		<item value="LPC18x7_43x7_2x512_BootA.cfx," key="flashdriver"/>
-		<item value="false" key="clipboard"/>
+		<item value="false" key="clipboard_exec"/>
+		<item value="true" key="exec"/>
 		<item value="," key="redlink_connect_script"/>
+		<item value="false" key="clipboard"/>
 		<item value="false" key="reopen"/>
 	</section>
 </section>

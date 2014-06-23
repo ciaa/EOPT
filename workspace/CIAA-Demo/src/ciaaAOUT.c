@@ -31,5 +31,5 @@ void ciaaAOUTSet(uint8_t level)
 {
 	if(level > 100) level = 100;
 
-	DAC_UpdateValue(LPC_DAC, (level * 1024) / 100);
+	DAC_UpdateValue(LPC_DAC, (level * 0x3FF) / 100);
 }
