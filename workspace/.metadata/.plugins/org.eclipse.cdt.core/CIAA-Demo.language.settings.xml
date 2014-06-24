@@ -42,6 +42,25 @@
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
 					</resource>
+					<resource project-relative-path="src/ciaaAIN.c">
+						<entry kind="includePath" name="/${ProjName}/src">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/src/Emac/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
+					</resource>
 					<resource project-relative-path="src/Emac/src/tcpip.c">
 						<entry kind="includePath" name="/${ProjName}/src">
 							<flag value="VALUE_WORKSPACE_PATH"/>

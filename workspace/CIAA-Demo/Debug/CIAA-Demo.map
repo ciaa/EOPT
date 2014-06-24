@@ -1,5 +1,7 @@
 Archive member included because of file (symbol)
 
+/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+                              ./src/ciaaAIN.o (ADC_Init)
 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
                               ./src/main.o (CGU_GetPCLKFrequency)
 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
@@ -143,6 +145,7 @@ _TxFrame2           0x4a              ./src/Emac/src/webserver.o
 __end_of_heap       0x4               /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
 RecdFrameLength     0x2               ./src/Emac/src/webserver.o
 _db_hex_16          0x4               ./src/Emac/src/webserver.o
+current_in          0x8               ./src/ciaaAIN.o
 _TxFrame1           0x436             ./src/Emac/src/webserver.o
 TCPSeqNr            0x4               ./src/Emac/src/webserver.o
 RetryCounter        0x1               ./src/Emac/src/webserver.o
@@ -233,6 +236,29 @@ Discarded input sections
  .debug_macro   0x00000000      0x118 ./src/Emac/src/webserver.o
  .debug_macro   0x00000000      0x259 ./src/Emac/src/webserver.o
  .debug_macro   0x00000000      0x2d7 ./src/Emac/src/webserver.o
+ .group         0x00000000        0x8 ./src/ciaaAIN.o
+ .group         0x00000000        0x8 ./src/ciaaAIN.o
+ .group         0x00000000        0x8 ./src/ciaaAIN.o
+ .group         0x00000000        0x8 ./src/ciaaAIN.o
+ .group         0x00000000        0x8 ./src/ciaaAIN.o
+ .group         0x00000000        0x8 ./src/ciaaAIN.o
+ .group         0x00000000        0x8 ./src/ciaaAIN.o
+ .group         0x00000000        0x8 ./src/ciaaAIN.o
+ .group         0x00000000        0x8 ./src/ciaaAIN.o
+ .group         0x00000000        0x8 ./src/ciaaAIN.o
+ .group         0x00000000        0x8 ./src/ciaaAIN.o
+ .group         0x00000000        0x8 ./src/ciaaAIN.o
+ .text          0x00000000        0x0 ./src/ciaaAIN.o
+ .data          0x00000000        0x0 ./src/ciaaAIN.o
+ .bss           0x00000000        0x0 ./src/ciaaAIN.o
+ .debug_macro   0x00000000      0x880 ./src/ciaaAIN.o
+ .debug_macro   0x00000000       0x2d ./src/ciaaAIN.o
+ .debug_macro   0x00000000       0x3b ./src/ciaaAIN.o
+ .debug_macro   0x00000000       0x2d ./src/ciaaAIN.o
+ .debug_macro   0x00000000       0x42 ./src/ciaaAIN.o
+ .debug_macro   0x00000000      0xd39 ./src/ciaaAIN.o
+ .debug_macro   0x00000000      0x329 ./src/ciaaAIN.o
+ .debug_macro   0x00000000       0x6d ./src/ciaaAIN.o
  .group         0x00000000        0x8 ./src/ciaaAOUT.o
  .group         0x00000000        0x8 ./src/ciaaAOUT.o
  .group         0x00000000        0x8 ./src/ciaaAOUT.o
@@ -251,6 +277,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x880 ./src/ciaaAOUT.o
  .debug_macro   0x00000000       0x2d ./src/ciaaAOUT.o
  .debug_macro   0x00000000       0x3b ./src/ciaaAOUT.o
+ .debug_macro   0x00000000       0x16 ./src/ciaaAOUT.o
+ .debug_macro   0x00000000       0x44 ./src/ciaaAOUT.o
+ .debug_macro   0x00000000      0x209 ./src/ciaaAOUT.o
  .debug_macro   0x00000000       0x2d ./src/ciaaAOUT.o
  .debug_macro   0x00000000       0x42 ./src/ciaaAOUT.o
  .debug_macro   0x00000000      0xd39 ./src/ciaaAOUT.o
@@ -445,6 +474,7 @@ Discarded input sections
  .group         0x00000000        0x8 ./src/main.o
  .group         0x00000000        0x8 ./src/main.o
  .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
  .text          0x00000000        0x0 ./src/main.o
  .data          0x00000000        0x0 ./src/main.o
  .bss           0x00000000        0x0 ./src/main.o
@@ -472,6 +502,47 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./src/main.o
  .debug_macro   0x00000000      0x194 ./src/main.o
  .bss           0x00000000        0x4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo-M0/Debug/CIAA-Demo-M0.axf.o
+ .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .text          0x00000000        0x0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .data          0x00000000        0x0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .bss           0x00000000        0x0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .text.ADC_DeInit
+                0x00000000       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .text.ADC_StartCmd
+                0x00000000       0x14 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .text.ADC_PowerdownCmd
+                0x00000000       0x14 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .text.ADC_EdgeStartConfig
+                0x00000000       0x14 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .text.ADC_ChannelGetData
+                0x00000000        0xc /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .text.ADC_GlobalGetStatus
+                0x00000000       0x18 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_macro   0x00000000       0x2d /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_macro   0x00000000       0x3b /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_macro   0x00000000       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_macro   0x00000000      0x122 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_macro   0x00000000      0x5b9 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_macro   0x00000000       0x2d /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_macro   0x00000000       0x42 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_macro   0x00000000      0xd39 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_macro   0x00000000      0x329 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_macro   0x00000000       0x6d /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_macro   0x00000000       0xef /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_macro   0x00000000       0x4c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
  .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
  .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
  .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
@@ -518,6 +589,7 @@ Discarded input sections
                 0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
  .rodata.fccoMax
                 0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000      0x868 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
  .debug_macro   0x00000000       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
  .debug_macro   0x00000000      0x122 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
  .debug_macro   0x00000000      0x5b9 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
@@ -560,6 +632,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6d /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
  .debug_macro   0x00000000       0x3a /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
  .debug_macro   0x00000000       0x4c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
+ .debug_macro   0x00000000       0xfe /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
  .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
  .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
  .group         0x00000000        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
@@ -1040,6 +1113,7 @@ Linker script and memory map
 LOAD ./src/Emac/src/emac.o
 LOAD ./src/Emac/src/tcpip.o
 LOAD ./src/Emac/src/webserver.o
+LOAD ./src/ciaaAIN.o
 LOAD ./src/ciaaAOUT.o
 LOAD ./src/ciaaI2C.o
 LOAD ./src/ciaaIO.o
@@ -1074,7 +1148,7 @@ END GROUP
  *(.rodata.$Flash2*)
  *(.rodata.$MFlashB512*)
 
-.text           0x1a000000     0xc474
+.text           0x1a000000     0xc734
  FILL mask 0xff
                 0x1a000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -1083,25 +1157,25 @@ END GROUP
                 0x1a000114                . = ALIGN (0x4)
                 0x1a000114                __section_table_start = .
                 0x1a000114                __data_section_table = .
-                0x1a000114        0x4 LONG 0x1a00c704 LOADADDR (.data)
+                0x1a000114        0x4 LONG 0x1a00c9c4 LOADADDR (.data)
                 0x1a000118        0x4 LONG 0x10000000 ADDR (.data)
                 0x1a00011c        0x4 LONG 0x8c4 SIZEOF (.data)
-                0x1a000120        0x4 LONG 0x1a00c47c LOADADDR (.data_RAM2)
+                0x1a000120        0x4 LONG 0x1a00c73c LOADADDR (.data_RAM2)
                 0x1a000124        0x4 LONG 0x10080000 ADDR (.data_RAM2)
                 0x1a000128        0x4 LONG 0x288 SIZEOF (.data_RAM2)
-                0x1a00012c        0x4 LONG 0x1a00c704 LOADADDR (.data_RAM3)
+                0x1a00012c        0x4 LONG 0x1a00c9c4 LOADADDR (.data_RAM3)
                 0x1a000130        0x4 LONG 0x20000000 ADDR (.data_RAM3)
                 0x1a000134        0x4 LONG 0x0 SIZEOF (.data_RAM3)
-                0x1a000138        0x4 LONG 0x1a00c704 LOADADDR (.data_RAM4)
+                0x1a000138        0x4 LONG 0x1a00c9c4 LOADADDR (.data_RAM4)
                 0x1a00013c        0x4 LONG 0x20008000 ADDR (.data_RAM4)
                 0x1a000140        0x4 LONG 0x0 SIZEOF (.data_RAM4)
-                0x1a000144        0x4 LONG 0x1a00c704 LOADADDR (.data_RAM5)
+                0x1a000144        0x4 LONG 0x1a00c9c4 LOADADDR (.data_RAM5)
                 0x1a000148        0x4 LONG 0x2000c000 ADDR (.data_RAM5)
                 0x1a00014c        0x4 LONG 0x0 SIZEOF (.data_RAM5)
                 0x1a000150                __data_section_table_end = .
                 0x1a000150                __bss_section_table = .
                 0x1a000150        0x4 LONG 0x100008c4 ADDR (.bss)
-                0x1a000154        0x4 LONG 0x1320 SIZEOF (.bss)
+                0x1a000154        0x4 LONG 0x1328 SIZEOF (.bss)
                 0x1a000158        0x4 LONG 0x10080288 ADDR (.bss_RAM2)
                 0x1a00015c        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
                 0x1a000160        0x4 LONG 0x20000000 ADDR (.bss_RAM3)
@@ -1138,7 +1212,6 @@ END GROUP
                 0x1a00018a                TIMER3_IRQHandler
                 0x1a00018a                UART0_IRQHandler
                 0x1a00018a                SGPIO_IRQHandler
-                0x1a00018a                ADC0_IRQHandler
                 0x1a00018a                GPIO6_IRQHandler
                 0x1a00018a                IntDefaultHandler
                 0x1a00018a                GPIO1_IRQHandler
@@ -1324,436 +1397,465 @@ END GROUP
  .text.HTTPServer
                 0x1a001e0c      0x388 ./src/Emac/src/webserver.o
                 0x1a001e0c                HTTPServer
- .text.ciaaAOUTInit
-                0x1a002194       0x34 ./src/ciaaAOUT.o
-                0x1a002194                ciaaAOUTInit
- .text.ciaaAOUTSet
-                0x1a0021c8       0x40 ./src/ciaaAOUT.o
-                0x1a0021c8                ciaaAOUTSet
- .text.ciaaI2CInit
-                0x1a002208       0x20 ./src/ciaaI2C.o
-                0x1a002208                ciaaI2CInit
- .text.ciaaI2CWrite
-                0x1a002228       0x4c ./src/ciaaI2C.o
-                0x1a002228                ciaaI2CWrite
- .text.ciaaI2CRead
-                0x1a002274       0x4c ./src/ciaaI2C.o
-                0x1a002274                ciaaI2CRead
- .text.ciaaIOInit
-                0x1a0022c0      0x120 ./src/ciaaIO.o
-                0x1a0022c0                ciaaIOInit
  .text.NVIC_EnableIRQ
-                0x1a0023e0       0x30 ./src/ciaaUART.o
+                0x1a002194       0x30 ./src/ciaaAIN.o
+ .text.ADC0_IRQHandler
+                0x1a0021c4       0xa8 ./src/ciaaAIN.o
+                0x1a0021c4                ADC0_IRQHandler
+ .text.ciaaAINInit
+                0x1a00226c       0x78 ./src/ciaaAIN.o
+                0x1a00226c                ciaaAINInit
+ .text.ciaaAINRead
+                0x1a0022e4       0x30 ./src/ciaaAIN.o
+                0x1a0022e4                ciaaAINRead
+ .text.ciaaAOUTInit
+                0x1a002314       0x34 ./src/ciaaAOUT.o
+                0x1a002314                ciaaAOUTInit
+ .text.ciaaAOUTSet
+                0x1a002348       0x40 ./src/ciaaAOUT.o
+                0x1a002348                ciaaAOUTSet
+ .text.ciaaI2CInit
+                0x1a002388       0x20 ./src/ciaaI2C.o
+                0x1a002388                ciaaI2CInit
+ .text.ciaaI2CWrite
+                0x1a0023a8       0x4c ./src/ciaaI2C.o
+                0x1a0023a8                ciaaI2CWrite
+ .text.ciaaI2CRead
+                0x1a0023f4       0x4c ./src/ciaaI2C.o
+                0x1a0023f4                ciaaI2CRead
+ .text.ciaaIOInit
+                0x1a002440      0x120 ./src/ciaaIO.o
+                0x1a002440                ciaaIOInit
+ .text.NVIC_EnableIRQ
+                0x1a002560       0x30 ./src/ciaaUART.o
  .text.ciaaUARTInit
-                0x1a002410       0x60 ./src/ciaaUART.o
-                0x1a002410                ciaaUARTInit
+                0x1a002590       0x60 ./src/ciaaUART.o
+                0x1a002590                ciaaUARTInit
  .text.UART2_IRQHandler
-                0x1a002470       0xa4 ./src/ciaaUART.o
-                0x1a002470                UART2_IRQHandler
+                0x1a0025f0       0xa4 ./src/ciaaUART.o
+                0x1a0025f0                UART2_IRQHandler
  .text.UART3_IRQHandler
-                0x1a002514        0xc ./src/ciaaUART.o
-                0x1a002514                UART3_IRQHandler
+                0x1a002694        0xc ./src/ciaaUART.o
+                0x1a002694                UART3_IRQHandler
  .text.uartSend
-                0x1a002520       0x8c ./src/ciaaUART.o
-                0x1a002520                uartSend
+                0x1a0026a0       0x8c ./src/ciaaUART.o
+                0x1a0026a0                uartSend
  .text.startSlave
-                0x1a0025ac       0x80 ./src/cr_start_m0.o
+                0x1a00272c       0x80 ./src/cr_start_m0.o
  .text.haltSlave
-                0x1a00262c       0x80 ./src/cr_start_m0.o
+                0x1a0027ac       0x80 ./src/cr_start_m0.o
  .text.cr_start_m0
-                0x1a0026ac       0x40 ./src/cr_start_m0.o
-                0x1a0026ac                cr_start_m0
+                0x1a00282c       0x40 ./src/cr_start_m0.o
+                0x1a00282c                cr_start_m0
  .text.ResetISR
-                0x1a0026ec       0x94 ./src/cr_startup_lpc43xx.o
-                0x1a0026ec                ResetISR
+                0x1a00286c       0x94 ./src/cr_startup_lpc43xx.o
+                0x1a00286c                ResetISR
  .text.hex2byte
-                0x1a002780       0x70 ./src/database.o
-                0x1a002780                hex2byte
+                0x1a002900       0x70 ./src/database.o
+                0x1a002900                hex2byte
  .text.dbNewUID
-                0x1a0027f0       0xe0 ./src/database.o
-                0x1a0027f0                dbNewUID
+                0x1a002970       0xe0 ./src/database.o
+                0x1a002970                dbNewUID
  .text.dbSetName
-                0x1a0028d0       0xf0 ./src/database.o
-                0x1a0028d0                dbSetName
+                0x1a002a50       0xf0 ./src/database.o
+                0x1a002a50                dbSetName
  .text.dbGetList
-                0x1a0029c0       0xe8 ./src/database.o
-                0x1a0029c0                dbGetList
+                0x1a002b40       0xe8 ./src/database.o
+                0x1a002b40                dbGetList
  .text.NVIC_SetPriority
-                0x1a002aa8       0x54 ./src/main.o
+                0x1a002c28       0x54 ./src/main.o
  .text.SysTick_Config
-                0x1a002afc       0x44 ./src/main.o
- .text.pausems  0x1a002b40       0x28 ./src/main.o
-                0x1a002b40                pausems
+                0x1a002c7c       0x44 ./src/main.o
+ .text.pausems  0x1a002cc0       0x28 ./src/main.o
+                0x1a002cc0                pausems
  .text.wiegand26
-                0x1a002b68       0xa8 ./src/main.o
-                0x1a002b68                wiegand26
+                0x1a002ce8       0xa8 ./src/main.o
+                0x1a002ce8                wiegand26
  .text.wiegandReaderTask
-                0x1a002c10       0x6c ./src/main.o
-                0x1a002c10                wiegandReaderTask
+                0x1a002d90       0x6c ./src/main.o
+                0x1a002d90                wiegandReaderTask
  .text.SysTick_Handler
-                0x1a002c7c       0x74 ./src/main.o
-                0x1a002c7c                SysTick_Handler
+                0x1a002dfc       0x74 ./src/main.o
+                0x1a002dfc                SysTick_Handler
  .text.setupHardware
-                0x1a002cf0       0xcc ./src/main.o
-                0x1a002cf0                setupHardware
+                0x1a002e70      0x124 ./src/main.o
+                0x1a002e70                setupHardware
  .text.mem48Read
-                0x1a002dbc       0x44 ./src/main.o
-                0x1a002dbc                mem48Read
+                0x1a002f94       0x44 ./src/main.o
+                0x1a002f94                mem48Read
  .text.mem48Write
-                0x1a002e00       0x9c ./src/main.o
-                0x1a002e00                mem48Write
- .text.memRead  0x1a002e9c       0x54 ./src/main.o
-                0x1a002e9c                memRead
+                0x1a002fd8       0x9c ./src/main.o
+                0x1a002fd8                mem48Write
+ .text.memRead  0x1a003074       0x54 ./src/main.o
+                0x1a003074                memRead
  .text.memWrite
-                0x1a002ef0       0xa8 ./src/main.o
-                0x1a002ef0                memWrite
- .text.main     0x1a002f98       0xbc ./src/main.o
-                0x1a002f98                main
+                0x1a0030c8       0xa8 ./src/main.o
+                0x1a0030c8                memWrite
+ .text.main     0x1a003170       0xbc ./src/main.o
+                0x1a003170                main
+ .text.ADC_Init
+                0x1a00322c       0x54 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+                0x1a00322c                ADC_Init
+ .text.ADC_BurstCmd
+                0x1a003280       0x14 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+                0x1a003280                ADC_BurstCmd
+ .text.ADC_IntConfig
+                0x1a003294       0x20 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+                0x1a003294                ADC_IntConfig
+ .text.ADC_ChannelCmd
+                0x1a0032b4       0x30 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+                0x1a0032b4                ADC_ChannelCmd
+ .text.ADC_ChannelGetStatus
+                0x1a0032e4       0x1c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+                0x1a0032e4                ADC_ChannelGetStatus
+ .text.ADC_GlobalGetData
+                0x1a003300        0x4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+                0x1a003300                ADC_GlobalGetData
  .text.CGU_GetPCLKFrequency
-                0x1a003054       0xb0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
-                0x1a003054                CGU_GetPCLKFrequency
+                0x1a003304       0xb0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a003304                CGU_GetPCLKFrequency
  .text.CGU_UpdateClock
-                0x1a003104      0x100 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
-                0x1a003104                CGU_UpdateClock
+                0x1a0033b4      0x100 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a0033b4                CGU_UpdateClock
  .text.CGU_SetXTALOSC
-                0x1a003204       0x40 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
-                0x1a003204                CGU_SetXTALOSC
+                0x1a0034b4       0x40 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a0034b4                CGU_SetXTALOSC
  .text.CGU_SetDIV
-                0x1a003244       0x40 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
-                0x1a003244                CGU_SetDIV
+                0x1a0034f4       0x40 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a0034f4                CGU_SetDIV
  .text.CGU_EnableEntity
-                0x1a003284      0x140 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
-                0x1a003284                CGU_EnableEntity
+                0x1a003534      0x140 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a003534                CGU_EnableEntity
  .text.CGU_EntityConnect
-                0x1a0033c4       0x8c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
-                0x1a0033c4                CGU_EntityConnect
+                0x1a003674       0x8c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a003674                CGU_EntityConnect
  .text.CGU_SetPLL1
-                0x1a003450       0x84 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
-                0x1a003450                CGU_SetPLL1
+                0x1a003700       0x84 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a003700                CGU_SetPLL1
  .text.CGU_Init
-                0x1a0034d4       0x3c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
-                0x1a0034d4                CGU_Init
+                0x1a003784       0x3c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a003784                CGU_Init
  .text.DAC_UpdateValue
-                0x1a003510       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
-                0x1a003510                DAC_UpdateValue
+                0x1a0037c0       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
+                0x1a0037c0                DAC_UpdateValue
  .text.DAC_SetBias
-                0x1a003520       0x18 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
-                0x1a003520                DAC_SetBias
+                0x1a0037d0       0x18 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
+                0x1a0037d0                DAC_SetBias
  .text.DAC_Init
-                0x1a003538       0x18 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
-                0x1a003538                DAC_Init
+                0x1a0037e8       0x18 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
+                0x1a0037e8                DAC_Init
  .text.DAC_ConfigDAConverterControl
-                0x1a003550       0x30 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
-                0x1a003550                DAC_ConfigDAConverterControl
+                0x1a003800       0x30 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
+                0x1a003800                DAC_ConfigDAConverterControl
  .text.GPIO_SetDir
-                0x1a003580       0x2c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
-                0x1a003580                GPIO_SetDir
+                0x1a003830       0x2c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+                0x1a003830                GPIO_SetDir
  .text.GPIO_SetValue
-                0x1a0035ac       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
-                0x1a0035ac                GPIO_SetValue
+                0x1a00385c       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+                0x1a00385c                GPIO_SetValue
  .text.GPIO_ClearValue
-                0x1a0035bc       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
-                0x1a0035bc                GPIO_ClearValue
+                0x1a00386c       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+                0x1a00386c                GPIO_ClearValue
  .text.GPIO_ReadValue
-                0x1a0035cc       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
-                0x1a0035cc                GPIO_ReadValue
+                0x1a00387c       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+                0x1a00387c                GPIO_ReadValue
  .text.I2C_getNum
-                0x1a0035dc       0x20 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+                0x1a00388c       0x20 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
  .text.I2C_Start
-                0x1a0035fc       0x1c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+                0x1a0038ac       0x1c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
  .text.I2C_Stop
-                0x1a003618       0x18 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+                0x1a0038c8       0x18 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
  .text.I2C_SendByte
-                0x1a003630       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+                0x1a0038e0       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
  .text.I2C_GetByte
-                0x1a003654       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+                0x1a003904       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
  .text.I2C_Init
-                0x1a003678       0x80 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
-                0x1a003678                I2C_Init
- .text.I2C_Cmd  0x1a0036f8       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
-                0x1a0036f8                I2C_Cmd
+                0x1a003928       0x80 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+                0x1a003928                I2C_Init
+ .text.I2C_Cmd  0x1a0039a8       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+                0x1a0039a8                I2C_Cmd
  .text.I2C_IntCmd
-                0x1a003708       0x54 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
-                0x1a003708                I2C_IntCmd
+                0x1a0039b8       0x54 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+                0x1a0039b8                I2C_IntCmd
  .text.I2C_MasterTransferData
-                0x1a00375c      0x1dc /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
-                0x1a00375c                I2C_MasterTransferData
+                0x1a003a0c      0x1dc /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+                0x1a003a0c                I2C_MasterTransferData
  .text.RGU_SoftReset
-                0x1a003938       0x34 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
-                0x1a003938                RGU_SoftReset
+                0x1a003be8       0x34 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
+                0x1a003be8                RGU_SoftReset
  .text.RIT_Init
-                0x1a00396c       0x14 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
-                0x1a00396c                RIT_Init
+                0x1a003c1c       0x14 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
+                0x1a003c1c                RIT_Init
  .text.RIT_TimerConfig
-                0x1a003980       0x28 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
-                0x1a003980                RIT_TimerConfig
- .text.RIT_Cmd  0x1a0039a8       0x14 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
-                0x1a0039a8                RIT_Cmd
+                0x1a003c30       0x28 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
+                0x1a003c30                RIT_TimerConfig
+ .text.RIT_Cmd  0x1a003c58       0x14 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
+                0x1a003c58                RIT_Cmd
  .text.scu_pinmux
-                0x1a0039bc       0x18 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
-                0x1a0039bc                scu_pinmux
+                0x1a003c6c       0x18 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+                0x1a003c6c                scu_pinmux
  .text.uart_set_divisors
-                0x1a0039d4      0x190 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+                0x1a003c84      0x190 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
  .text.UART_Init
-                0x1a003b64      0x134 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
-                0x1a003b64                UART_Init
+                0x1a003e14      0x134 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+                0x1a003e14                UART_Init
  .text.UART_SendByte
-                0x1a003c98        0x4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
-                0x1a003c98                UART_SendByte
+                0x1a003f48        0x4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+                0x1a003f48                UART_SendByte
  .text.UART_ReceiveByte
-                0x1a003c9c        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
-                0x1a003c9c                UART_ReceiveByte
+                0x1a003f4c        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+                0x1a003f4c                UART_ReceiveByte
  .text.UART_IntConfig
-                0x1a003ca4       0x60 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
-                0x1a003ca4                UART_IntConfig
+                0x1a003f54       0x60 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+                0x1a003f54                UART_IntConfig
  .text.UART_GetLineStatus
-                0x1a003d04       0x14 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
-                0x1a003d04                UART_GetLineStatus
+                0x1a003fb4       0x14 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+                0x1a003fb4                UART_GetLineStatus
  .text.UART_TxCmd
-                0x1a003d18       0x38 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
-                0x1a003d18                UART_TxCmd
+                0x1a003fc8       0x38 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+                0x1a003fc8                UART_TxCmd
  .text.SystemInit
-                0x1a003d50       0x40 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
-                0x1a003d50                SystemInit
- .text          0x1a003d90      0x370 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_addsubdf3.o)
-                0x1a003d90                __aeabi_drsub
-                0x1a003d98                __aeabi_dsub
-                0x1a003d98                __subdf3
-                0x1a003d9c                __adddf3
-                0x1a003d9c                __aeabi_dadd
-                0x1a004014                __aeabi_ui2d
-                0x1a004014                __floatunsidf
-                0x1a004034                __floatsidf
-                0x1a004034                __aeabi_i2d
-                0x1a004058                __extendsfdf2
-                0x1a004058                __aeabi_f2d
-                0x1a004094                __aeabi_ul2d
-                0x1a004094                __floatundidf
-                0x1a0040a4                __floatdidf
-                0x1a0040a4                __aeabi_l2d
- .text          0x1a004100      0x424 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_muldivdf3.o)
-                0x1a004100                __aeabi_dmul
-                0x1a004100                __muldf3
-                0x1a004354                __aeabi_ddiv
-                0x1a004354                __divdf3
- .text          0x1a004524      0x110 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_cmpdf2.o)
-                0x1a004524                __gtdf2
-                0x1a004524                __gedf2
-                0x1a00452c                __ltdf2
-                0x1a00452c                __ledf2
-                0x1a004534                __cmpdf2
-                0x1a004534                __eqdf2
-                0x1a004534                __nedf2
-                0x1a0045b0                __aeabi_cdrcmple
-                0x1a0045c0                __aeabi_cdcmple
-                0x1a0045c0                __aeabi_cdcmpeq
-                0x1a0045d0                __aeabi_dcmpeq
-                0x1a0045e4                __aeabi_dcmplt
-                0x1a0045f8                __aeabi_dcmple
-                0x1a00460c                __aeabi_dcmpge
-                0x1a004620                __aeabi_dcmpgt
- .text          0x1a004634       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_aeabi_uldivmod.o)
-                0x1a004634                __aeabi_uldivmod
- .text          0x1a004660       0x60 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(bpabi.o)
-                0x1a004660                __gnu_ldivmod_helper
-                0x1a004690                __gnu_uldivmod_helper
- .text          0x1a0046c0        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_dvmd_tls.o)
-                0x1a0046c0                __aeabi_ldiv0
-                0x1a0046c0                __aeabi_idiv0
- .text          0x1a0046c4      0x298 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
-                0x1a0046c4                __divdi3
- .text          0x1a00495c      0x284 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
-                0x1a00495c                __udivdi3
- .text.memcmp   0x1a004be0       0x68 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcmp.o)
-                0x1a004be0                memcmp
- .text          0x1a004c48      0x134 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcpy.o)
-                0x1a004c48                memcpy
- .text.memset   0x1a004d7c       0x94 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memset.o)
-                0x1a004d7c                memset
- .text.sprintf  0x1a004e10       0x4c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-sprintf.o)
-                0x1a004e10                sprintf
- .text.strcat   0x1a004e5c       0x4c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strcat.o)
-                0x1a004e5c                strcat
- .text.strcpy   0x1a004ea8       0xbc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strcpy.o)
-                0x1a004ea8                strcpy
- .text.strlen   0x1a004f64       0x60 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strlen.o)
-                0x1a004f64                strlen
- .text.strncpy  0x1a004fc4       0x64 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strncpy.o)
-                0x1a004fc4                strncpy
+                0x1a004000       0x40 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
+                0x1a004000                SystemInit
+ .text          0x1a004040      0x370 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_addsubdf3.o)
+                0x1a004040                __aeabi_drsub
+                0x1a004048                __aeabi_dsub
+                0x1a004048                __subdf3
+                0x1a00404c                __adddf3
+                0x1a00404c                __aeabi_dadd
+                0x1a0042c4                __aeabi_ui2d
+                0x1a0042c4                __floatunsidf
+                0x1a0042e4                __floatsidf
+                0x1a0042e4                __aeabi_i2d
+                0x1a004308                __extendsfdf2
+                0x1a004308                __aeabi_f2d
+                0x1a004344                __aeabi_ul2d
+                0x1a004344                __floatundidf
+                0x1a004354                __floatdidf
+                0x1a004354                __aeabi_l2d
+ .text          0x1a0043b0      0x424 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_muldivdf3.o)
+                0x1a0043b0                __aeabi_dmul
+                0x1a0043b0                __muldf3
+                0x1a004604                __aeabi_ddiv
+                0x1a004604                __divdf3
+ .text          0x1a0047d4      0x110 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_cmpdf2.o)
+                0x1a0047d4                __gtdf2
+                0x1a0047d4                __gedf2
+                0x1a0047dc                __ltdf2
+                0x1a0047dc                __ledf2
+                0x1a0047e4                __cmpdf2
+                0x1a0047e4                __eqdf2
+                0x1a0047e4                __nedf2
+                0x1a004860                __aeabi_cdrcmple
+                0x1a004870                __aeabi_cdcmple
+                0x1a004870                __aeabi_cdcmpeq
+                0x1a004880                __aeabi_dcmpeq
+                0x1a004894                __aeabi_dcmplt
+                0x1a0048a8                __aeabi_dcmple
+                0x1a0048bc                __aeabi_dcmpge
+                0x1a0048d0                __aeabi_dcmpgt
+ .text          0x1a0048e4       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_aeabi_uldivmod.o)
+                0x1a0048e4                __aeabi_uldivmod
+ .text          0x1a004910       0x60 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(bpabi.o)
+                0x1a004910                __gnu_ldivmod_helper
+                0x1a004940                __gnu_uldivmod_helper
+ .text          0x1a004970        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_dvmd_tls.o)
+                0x1a004970                __aeabi_ldiv0
+                0x1a004970                __aeabi_idiv0
+ .text          0x1a004974      0x298 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
+                0x1a004974                __divdi3
+ .text          0x1a004c0c      0x284 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
+                0x1a004c0c                __udivdi3
+ .text.memcmp   0x1a004e90       0x68 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcmp.o)
+                0x1a004e90                memcmp
+ .text          0x1a004ef8      0x134 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcpy.o)
+                0x1a004ef8                memcpy
+ .text.memset   0x1a00502c       0x94 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memset.o)
+                0x1a00502c                memset
+ .text.sprintf  0x1a0050c0       0x4c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-sprintf.o)
+                0x1a0050c0                sprintf
+ .text.strcat   0x1a00510c       0x4c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strcat.o)
+                0x1a00510c                strcat
+ .text.strcpy   0x1a005158       0xbc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strcpy.o)
+                0x1a005158                strcpy
+ .text.strlen   0x1a005214       0x60 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strlen.o)
+                0x1a005214                strlen
+ .text.strncpy  0x1a005274       0x64 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strncpy.o)
+                0x1a005274                strncpy
  .text.critical_factorization
-                0x1a005028       0xbc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strstr.o)
+                0x1a0052d8       0xbc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strstr.o)
  .text.two_way_long_needle
-                0x1a0050e4      0x1ec /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strstr.o)
- .text.strstr   0x1a0052d0      0x200 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strstr.o)
-                0x1a0052d0                strstr
+                0x1a005394      0x1ec /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strstr.o)
+ .text.strstr   0x1a005580      0x200 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strstr.o)
+                0x1a005580                strstr
  .text._svfprintf_r
-                0x1a0054d0     0x1500 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfprintf.o)
-                0x1a0054d0                _svfprintf_r
- .text.quorem   0x1a0069d0      0x130 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-dtoa.o)
- .text._dtoa_r  0x1a006b00      0xe30 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-dtoa.o)
-                0x1a006b00                _dtoa_r
+                0x1a005780     0x1500 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfprintf.o)
+                0x1a005780                _svfprintf_r
+ .text.quorem   0x1a006c80      0x130 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-dtoa.o)
+ .text._dtoa_r  0x1a006db0      0xe30 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-dtoa.o)
+                0x1a006db0                _dtoa_r
  .text._localeconv_r
-                0x1a007930        0x8 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-locale.o)
-                0x1a007930                _localeconv_r
+                0x1a007be0        0x8 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-locale.o)
+                0x1a007be0                _localeconv_r
  .text._malloc_r
-                0x1a007938      0x538 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mallocr.o)
-                0x1a007938                _malloc_r
- .text.memchr   0x1a007e70       0x90 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memchr-stub.o)
-                0x1a007e70                memchr
+                0x1a007be8      0x538 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mallocr.o)
+                0x1a007be8                _malloc_r
+ .text.memchr   0x1a008120       0x90 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memchr-stub.o)
+                0x1a008120                memchr
  .text.__malloc_lock
-                0x1a007f00        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mlock.o)
-                0x1a007f00                __malloc_lock
+                0x1a0081b0        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mlock.o)
+                0x1a0081b0                __malloc_lock
  .text.__malloc_unlock
-                0x1a007f04        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mlock.o)
-                0x1a007f04                __malloc_unlock
- .text._Balloc  0x1a007f08       0x4c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
-                0x1a007f08                _Balloc
- .text._Bfree   0x1a007f54       0x14 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
-                0x1a007f54                _Bfree
+                0x1a0081b4        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mlock.o)
+                0x1a0081b4                __malloc_unlock
+ .text._Balloc  0x1a0081b8       0x4c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x1a0081b8                _Balloc
+ .text._Bfree   0x1a008204       0x14 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x1a008204                _Bfree
  .text.__multadd
-                0x1a007f68       0x98 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
-                0x1a007f68                __multadd
+                0x1a008218       0x98 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x1a008218                __multadd
  .text.__hi0bits
-                0x1a008000       0x40 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
-                0x1a008000                __hi0bits
+                0x1a0082b0       0x40 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x1a0082b0                __hi0bits
  .text.__lo0bits
-                0x1a008040       0x5c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
-                0x1a008040                __lo0bits
- .text.__i2b    0x1a00809c       0x14 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
-                0x1a00809c                __i2b
+                0x1a0082f0       0x5c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x1a0082f0                __lo0bits
+ .text.__i2b    0x1a00834c       0x14 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x1a00834c                __i2b
  .text.__multiply
-                0x1a0080b0      0x13c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
-                0x1a0080b0                __multiply
+                0x1a008360      0x13c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x1a008360                __multiply
  .text.__pow5mult
-                0x1a0081ec       0x9c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
-                0x1a0081ec                __pow5mult
+                0x1a00849c       0x9c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x1a00849c                __pow5mult
  .text.__lshift
-                0x1a008288       0xbc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
-                0x1a008288                __lshift
- .text.__mcmp   0x1a008344       0x48 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
-                0x1a008344                __mcmp
- .text.__mdiff  0x1a00838c       0xd4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
-                0x1a00838c                __mdiff
- .text.__d2b    0x1a008460       0xbc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
-                0x1a008460                __d2b
+                0x1a008538       0xbc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x1a008538                __lshift
+ .text.__mcmp   0x1a0085f4       0x48 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x1a0085f4                __mcmp
+ .text.__mdiff  0x1a00863c       0xd4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x1a00863c                __mdiff
+ .text.__d2b    0x1a008710       0xbc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x1a008710                __d2b
  .text.__fpclassifyd
-                0x1a00851c       0x50 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-s_fpclassify.o)
-                0x1a00851c                __fpclassifyd
- .text._sbrk_r  0x1a00856c       0x24 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-sbrkr.o)
-                0x1a00856c                _sbrk_r
- .text.strchr   0x1a008590       0xf4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strchr.o)
-                0x1a008590                strchr
+                0x1a0087cc       0x50 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-s_fpclassify.o)
+                0x1a0087cc                __fpclassifyd
+ .text._sbrk_r  0x1a00881c       0x24 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-sbrkr.o)
+                0x1a00881c                _sbrk_r
+ .text.strchr   0x1a008840       0xf4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strchr.o)
+                0x1a008840                strchr
  .text.__ssprint_r
-                0x1a008684      0x100 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfiprintf.o)
-                0x1a008684                __ssprint_r
+                0x1a008934      0x100 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfiprintf.o)
+                0x1a008934                __ssprint_r
  .text._calloc_r
-                0x1a008784       0x60 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-callocr.o)
-                0x1a008784                _calloc_r
+                0x1a008a34       0x60 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-callocr.o)
+                0x1a008a34                _calloc_r
  .text._malloc_trim_r
-                0x1a0087e4       0x9c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-freer.o)
-                0x1a0087e4                _malloc_trim_r
- .text._free_r  0x1a008880      0x19c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-freer.o)
-                0x1a008880                _free_r
- .text.memmove  0x1a008a1c       0xc0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memmove.o)
-                0x1a008a1c                memmove
+                0x1a008a94       0x9c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-freer.o)
+                0x1a008a94                _malloc_trim_r
+ .text._free_r  0x1a008b30      0x19c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-freer.o)
+                0x1a008b30                _free_r
+ .text.memmove  0x1a008ccc       0xc0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memmove.o)
+                0x1a008ccc                memmove
  .text._realloc_r
-                0x1a008adc      0x3cc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-reallocr.o)
-                0x1a008adc                _realloc_r
- .text._sbrk    0x1a008ea8       0x3c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
-                0x1a008ea8                _sbrk
+                0x1a008d8c      0x3cc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-reallocr.o)
+                0x1a008d8c                _realloc_r
+ .text._sbrk    0x1a009158       0x3c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
+                0x1a009158                _sbrk
  .text.__check_heap_overflow
-                0x1a008ee4       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
-                0x1a008ee4                __check_heap_overflow
- .text          0x1a008f10       0x50 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_fixdfsi.o)
-                0x1a008f10                __fixdfsi
-                0x1a008f10                __aeabi_d2iz
- .text.__errno  0x1a008f60        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-errno.o)
-                0x1a008f60                __errno
+                0x1a009194       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
+                0x1a009194                __check_heap_overflow
+ .text          0x1a0091c0       0x50 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_fixdfsi.o)
+                0x1a0091c0                __fixdfsi
+                0x1a0091c0                __aeabi_d2iz
+ .text.__errno  0x1a009210        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-errno.o)
+                0x1a009210                __errno
  *(.rodata .rodata.* .constdata .constdata.*)
- .rodata.MyMAC  0x1a008f6c        0x8 ./src/Emac/src/tcpip.o
-                0x1a008f6c                MyMAC
+ .rodata.MyMAC  0x1a00921c        0x8 ./src/Emac/src/tcpip.o
+                0x1a00921c                MyMAC
  .rodata.GetResponse
-                0x1a008f74       0x30 ./src/Emac/src/webserver.o
-                0x1a008f74                GetResponse
- .rodata.MyIP   0x1a008fa4        0x4 ./src/Emac/src/webserver.o
-                0x1a008fa4                MyIP
+                0x1a009224       0x30 ./src/Emac/src/webserver.o
+                0x1a009224                GetResponse
+ .rodata.MyIP   0x1a009254        0x4 ./src/Emac/src/webserver.o
+                0x1a009254                MyIP
  .rodata.SubnetMask
-                0x1a008fa8        0x4 ./src/Emac/src/webserver.o
-                0x1a008fa8                SubnetMask
+                0x1a009258        0x4 ./src/Emac/src/webserver.o
+                0x1a009258                SubnetMask
  .rodata.GatewayIP
-                0x1a008fac        0x4 ./src/Emac/src/webserver.o
-                0x1a008fac                GatewayIP
+                0x1a00925c        0x4 ./src/Emac/src/webserver.o
+                0x1a00925c                GatewayIP
  .rodata.WebSide
-                0x1a008fb0     0x2d7c ./src/Emac/src/webserver.o
-                0x1a008fb0                WebSide
- .rodata        0x1a00bd2c       0x74 ./src/Emac/src/webserver.o
- .rodata        0x1a00bda0       0x20 ./src/database.o
- .rodata        0x1a00bdc0       0x48 ./src/main.o
+                0x1a009260     0x2d7c ./src/Emac/src/webserver.o
+                0x1a009260                WebSide
+ .rodata        0x1a00bfdc       0x74 ./src/Emac/src/webserver.o
+ .rodata        0x1a00c050       0x20 ./src/database.o
+ .rodata        0x1a00c070       0x58 ./src/main.o
  .rodata.CGU_PERIPHERAL_Info
-                0x1a00be08      0x190 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
-                0x1a00be08                CGU_PERIPHERAL_Info
+                0x1a00c0c8      0x190 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a00c0c8                CGU_PERIPHERAL_Info
  .rodata.CGU_Entity_ControlReg_Offset
-                0x1a00bf98       0x5c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
-                0x1a00bf98                CGU_Entity_ControlReg_Offset
+                0x1a00c258       0x5c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a00c258                CGU_Entity_ControlReg_Offset
  .rodata.CGU_ConnectAlloc_Tbl
-                0x1a00bff4      0x300 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
-                0x1a00bff4                CGU_ConnectAlloc_Tbl
+                0x1a00c2b4      0x300 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a00c2b4                CGU_ConnectAlloc_Tbl
  .rodata.zeroes.6760
-                0x1a00c2f4       0x10 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfprintf.o)
+                0x1a00c5b4       0x10 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfprintf.o)
  .rodata.str1.4
-                0x1a00c304       0x42 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfprintf.o)
+                0x1a00c5c4       0x42 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfprintf.o)
                                  0x44 (size before relaxing)
- *fill*         0x1a00c346        0x2 
+ *fill*         0x1a00c606        0x2 
  .rodata.blanks.6759
-                0x1a00c348       0x10 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfprintf.o)
+                0x1a00c608       0x10 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfprintf.o)
  .rodata.str1.4
-                0x1a00c358       0x10 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-dtoa.o)
+                0x1a00c618       0x10 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-dtoa.o)
                                  0x14 (size before relaxing)
  .rodata.str1.4
-                0x1a00c368        0x2 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
+                0x1a00c628        0x2 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
                                   0x4 (size before relaxing)
- *fill*         0x1a00c36a        0x2 
+ *fill*         0x1a00c62a        0x2 
  .rodata.str1.4
-                0x1a00c36c        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-locale.o)
+                0x1a00c62c        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-locale.o)
                                  0x14 (size before relaxing)
  .rodata.__mprec_tens
-                0x1a00c378       0xc8 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
-                0x1a00c378                __mprec_tens
+                0x1a00c638       0xc8 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x1a00c638                __mprec_tens
  .rodata.__mprec_bigtens
-                0x1a00c440       0x28 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
-                0x1a00c440                __mprec_bigtens
+                0x1a00c700       0x28 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x1a00c700                __mprec_bigtens
  .rodata.p05.5266
-                0x1a00c468        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
-                0x1a00c474                . = ALIGN (0x4)
+                0x1a00c728        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x1a00c734                . = ALIGN (0x4)
 
-.glue_7         0x1a00c474        0x0
+.glue_7         0x1a00c734        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x1a00c474        0x0
+.glue_7t        0x1a00c734        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x1a00c474        0x0
+.vfp11_veneer   0x1a00c734        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x1a00c474        0x0
+.v4_bx          0x1a00c734        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x1a00c474        0x0
+.iplt           0x1a00c734        0x0
  .iplt          0x00000000        0x0 ./src/Emac/src/emac.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x1a00c474                __exidx_start = .
+                0x1a00c734                __exidx_start = .
 
-.ARM.exidx      0x1a00c474        0x8
+.ARM.exidx      0x1a00c734        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x1a00c474        0x8 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
- .ARM.exidx     0x1a00c47c        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x1a00c734        0x8 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x1a00c73c        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
                                   0x8 (size before relaxing)
-                0x1a00c47c                __exidx_end = .
-                0x1a00c47c                _etext = .
+                0x1a00c73c                __exidx_end = .
+                0x1a00c73c                _etext = .
 
-.data_RAM2      0x10080000      0x288 load address 0x1a00c47c
+.data_RAM2      0x10080000      0x288 load address 0x1a00c73c
  FILL mask 0xff
                 0x10080000                __core_m0app_START__ = .
  *(.core_m0app)
@@ -1767,10 +1869,10 @@ END GROUP
  *(.data.$RamLoc40*)
                 0x10080288                . = ALIGN (0x4)
 
-.rel.dyn        0x10080288        0x0 load address 0x1a00c704
+.rel.dyn        0x10080288        0x0 load address 0x1a00c9c4
  .rel.iplt      0x00000000        0x0 ./src/Emac/src/emac.o
 
-.data_RAM3      0x20000000        0x0 load address 0x1a00c704
+.data_RAM3      0x20000000        0x0 load address 0x1a00c9c4
  FILL mask 0xff
  *(.ramfunc.$RAM3)
  *(.ramfunc.$RamAHB32)
@@ -1778,7 +1880,7 @@ END GROUP
  *(.data.$RamAHB32*)
                 0x20000000                . = ALIGN (0x4)
 
-.data_RAM4      0x20008000        0x0 load address 0x1a00c704
+.data_RAM4      0x20008000        0x0 load address 0x1a00c9c4
  FILL mask 0xff
  *(.ramfunc.$RAM4)
  *(.ramfunc.$RamAHB16)
@@ -1786,7 +1888,7 @@ END GROUP
  *(.data.$RamAHB16*)
                 0x20008000                . = ALIGN (0x4)
 
-.data_RAM5      0x2000c000        0x0 load address 0x1a00c704
+.data_RAM5      0x2000c000        0x0 load address 0x1a00c9c4
  FILL mask 0xff
  *(.ramfunc.$RAM5)
  *(.ramfunc.$RamAHB_ETB16)
@@ -1800,7 +1902,7 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _end_uninit_RESERVED = .
 
-.data           0x10000000      0x8c4 load address 0x1a00c704
+.data           0x10000000      0x8c4 load address 0x1a00c9c4
  FILL mask 0xff
                 0x10000000                _data = .
  *(vtable)
@@ -1834,7 +1936,7 @@ END GROUP
                 0x100008c4                . = ALIGN (0x4)
                 0x100008c4                _edata = .
 
-.igot.plt       0x100008c4        0x0 load address 0x1a00cfc8
+.igot.plt       0x100008c4        0x0 load address 0x1a00d288
  .igot.plt      0x00000000        0x0 ./src/Emac/src/emac.o
 
 .bss_RAM2       0x10080288        0x0
@@ -1857,7 +1959,7 @@ END GROUP
  *(.bss.$RamAHB_ETB16*)
                 0x2000c000                . = ALIGN (0x4)
 
-.bss            0x100008c4     0x1320
+.bss            0x100008c4     0x1328
                 0x100008c4                _bss = .
  *(.bss*)
  .bss.rptr      0x100008c4        0x4 ./src/Emac/src/emac.o
@@ -1875,7 +1977,7 @@ END GROUP
  .bss.registro_count
                 0x100008dc        0x4 ./src/database.o
                 0x100008dc                registro_count
- .bss.TimeTick.7726
+ .bss.TimeTick.7806
                 0x100008e0        0x4 ./src/main.o
  .bss.expectedPLL0AudioFreq
                 0x100008e4        0x4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
@@ -1941,23 +2043,25 @@ END GROUP
                 0x10001248                __Ciob
                 0x10001270                SocketStatus
  *fill*         0x10001271        0x3 
- COMMON         0x10001274      0x800 ./src/ciaaUART.o
-                0x10001274                uartRxBuf
-                0x10001674                uartTxBuf
- COMMON         0x10001a74      0x15e ./src/database.o
-                0x10001a74                registro
-                0x10001bc8                currentUID
- *fill*         0x10001bd2        0x2 
- COMMON         0x10001bd4        0x8 ./src/main.o
-                0x10001bd4                msec
-                0x10001bd8                wiegandTimeout
- COMMON         0x10001bdc        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-reent.o)
-                0x10001bdc                errno
- COMMON         0x10001be0        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
-                0x10001be0                __end_of_heap
-                0x10001be4                . = ALIGN (0x4)
-                0x10001be4                _ebss = .
-                0x10001be4                PROVIDE (end, .)
+ COMMON         0x10001274        0x8 ./src/ciaaAIN.o
+                0x10001274                current_in
+ COMMON         0x1000127c      0x800 ./src/ciaaUART.o
+                0x1000127c                uartRxBuf
+                0x1000167c                uartTxBuf
+ COMMON         0x10001a7c      0x15e ./src/database.o
+                0x10001a7c                registro
+                0x10001bd0                currentUID
+ *fill*         0x10001bda        0x2 
+ COMMON         0x10001bdc        0x8 ./src/main.o
+                0x10001bdc                msec
+                0x10001be0                wiegandTimeout
+ COMMON         0x10001be4        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-reent.o)
+                0x10001be4                errno
+ COMMON         0x10001be8        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
+                0x10001be8                __end_of_heap
+                0x10001bec                . = ALIGN (0x4)
+                0x10001bec                _ebss = .
+                0x10001bec                PROVIDE (end, .)
 
 .noinit_RAM2    0x10080288        0x0
  *(.noinit.$RAM2*)
@@ -1979,66 +2083,70 @@ END GROUP
  *(.noinit.$RamAHB_ETB16*)
                 0x2000c000                . = ALIGN (0x4)
 
-.noinit         0x10001be4        0x0
-                0x10001be4                _noinit = .
+.noinit         0x10001bec        0x0
+                0x10001bec                _noinit = .
  *(.noinit*)
-                0x10001be4                . = ALIGN (0x4)
-                0x10001be4                _end_noinit = .
-                0x10001be4                PROVIDE (_pvHeapStart, .)
+                0x10001bec                . = ALIGN (0x4)
+                0x10001bec                _end_noinit = .
+                0x10001bec                PROVIDE (_pvHeapStart, .)
                 0x10008000                PROVIDE (_vStackTop, (__top_RamLoc32 - 0x0))
 OUTPUT(CIAA-Demo.axf elf32-littlearm)
 
-.debug_info     0x00000000     0xab90
+.debug_info     0x00000000     0xb7e6
  .debug_info    0x00000000      0xd45 ./src/Emac/src/emac.o
  .debug_info    0x00000d45      0x683 ./src/Emac/src/tcpip.o
  .debug_info    0x000013c8      0xa01 ./src/Emac/src/webserver.o
- .debug_info    0x00001dc9      0x19e ./src/ciaaAOUT.o
- .debug_info    0x00001f67      0x35a ./src/ciaaI2C.o
- .debug_info    0x000022c1      0x11f ./src/ciaaIO.o
- .debug_info    0x000023e0      0x8ba ./src/ciaaUART.o
- .debug_info    0x00002c9a      0x143 ./src/cr_start_m0.o
- .debug_info    0x00002ddd      0x2e6 ./src/cr_startup_lpc43xx.o
- .debug_info    0x000030c3       0x3f ./src/crp.o
- .debug_info    0x00003102      0x29e ./src/database.o
- .debug_info    0x000033a0      0xba9 ./src/main.o
- .debug_info    0x00003f49     0x1e10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
- .debug_info    0x00005d59      0x38b /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
- .debug_info    0x000060e4      0x4b6 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
- .debug_info    0x0000659a     0x1f82 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
- .debug_info    0x0000851c      0x6c3 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
- .debug_info    0x00008bdf      0x3a0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
- .debug_info    0x00008f7f      0x113 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
- .debug_info    0x00009092     0x13ef /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
- .debug_info    0x0000a481      0x560 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
- .debug_info    0x0000a9e1      0x12d /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_info    0x0000ab0e       0x82 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_info    0x00001dc9      0x639 ./src/ciaaAIN.o
+ .debug_info    0x00002402      0x19e ./src/ciaaAOUT.o
+ .debug_info    0x000025a0      0x35a ./src/ciaaI2C.o
+ .debug_info    0x000028fa      0x11f ./src/ciaaIO.o
+ .debug_info    0x00002a19      0x8ba ./src/ciaaUART.o
+ .debug_info    0x000032d3      0x143 ./src/cr_start_m0.o
+ .debug_info    0x00003416      0x2e6 ./src/cr_startup_lpc43xx.o
+ .debug_info    0x000036fc       0x3f ./src/crp.o
+ .debug_info    0x0000373b      0x29e ./src/database.o
+ .debug_info    0x000039d9      0xbca ./src/main.o
+ .debug_info    0x000045a3      0x5fc /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_info    0x00004b9f     0x1e10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_info    0x000069af      0x38b /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
+ .debug_info    0x00006d3a      0x4b6 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_info    0x000071f0     0x1f82 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+ .debug_info    0x00009172      0x6c3 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
+ .debug_info    0x00009835      0x3a0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
+ .debug_info    0x00009bd5      0x113 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_info    0x00009ce8     0x13ef /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+ .debug_info    0x0000b0d7      0x560 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_info    0x0000b637      0x12d /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_info    0x0000b764       0x82 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
 
-.debug_abbrev   0x00000000     0x205b
+.debug_abbrev   0x00000000     0x2365
  .debug_abbrev  0x00000000      0x221 ./src/Emac/src/emac.o
  .debug_abbrev  0x00000221      0x1e8 ./src/Emac/src/tcpip.o
  .debug_abbrev  0x00000409      0x1e6 ./src/Emac/src/webserver.o
- .debug_abbrev  0x000005ef       0xde ./src/ciaaAOUT.o
- .debug_abbrev  0x000006cd      0x146 ./src/ciaaI2C.o
- .debug_abbrev  0x00000813       0xb1 ./src/ciaaIO.o
- .debug_abbrev  0x000008c4      0x1c4 ./src/ciaaUART.o
- .debug_abbrev  0x00000a88       0x9a ./src/cr_start_m0.o
- .debug_abbrev  0x00000b22      0x13a ./src/cr_startup_lpc43xx.o
- .debug_abbrev  0x00000c5c       0x36 ./src/crp.o
- .debug_abbrev  0x00000c92      0x142 ./src/database.o
- .debug_abbrev  0x00000dd4      0x233 ./src/main.o
- .debug_abbrev  0x00001007      0x29c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
- .debug_abbrev  0x000012a3      0x14a /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
- .debug_abbrev  0x000013ed      0x169 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
- .debug_abbrev  0x00001556      0x31d /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
- .debug_abbrev  0x00001873      0x11c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
- .debug_abbrev  0x0000198f      0x137 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
- .debug_abbrev  0x00001ac6       0xb1 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
- .debug_abbrev  0x00001b77      0x23f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
- .debug_abbrev  0x00001db6      0x13c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
- .debug_abbrev  0x00001ef2       0xf6 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_abbrev  0x00001fe8       0x73 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_abbrev  0x000005ef      0x171 ./src/ciaaAIN.o
+ .debug_abbrev  0x00000760       0xde ./src/ciaaAOUT.o
+ .debug_abbrev  0x0000083e      0x146 ./src/ciaaI2C.o
+ .debug_abbrev  0x00000984       0xb1 ./src/ciaaIO.o
+ .debug_abbrev  0x00000a35      0x1c4 ./src/ciaaUART.o
+ .debug_abbrev  0x00000bf9       0x9a ./src/cr_start_m0.o
+ .debug_abbrev  0x00000c93      0x13a ./src/cr_startup_lpc43xx.o
+ .debug_abbrev  0x00000dcd       0x36 ./src/crp.o
+ .debug_abbrev  0x00000e03      0x142 ./src/database.o
+ .debug_abbrev  0x00000f45      0x233 ./src/main.o
+ .debug_abbrev  0x00001178      0x199 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_abbrev  0x00001311      0x29c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_abbrev  0x000015ad      0x14a /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
+ .debug_abbrev  0x000016f7      0x169 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_abbrev  0x00001860      0x31d /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+ .debug_abbrev  0x00001b7d      0x11c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
+ .debug_abbrev  0x00001c99      0x137 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
+ .debug_abbrev  0x00001dd0       0xb1 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_abbrev  0x00001e81      0x23f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+ .debug_abbrev  0x000020c0      0x13c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_abbrev  0x000021fc       0xf6 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_abbrev  0x000022f2       0x73 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
 
-.debug_aranges  0x00000000      0x820
+.debug_aranges  0x00000000      0x8d0
  .debug_aranges
                 0x00000000       0x98 ./src/Emac/src/emac.o
  .debug_aranges
@@ -2046,71 +2154,77 @@ OUTPUT(CIAA-Demo.axf elf32-littlearm)
  .debug_aranges
                 0x000001a0       0x38 ./src/Emac/src/webserver.o
  .debug_aranges
-                0x000001d8       0x28 ./src/ciaaAOUT.o
+                0x000001d8       0x38 ./src/ciaaAIN.o
  .debug_aranges
-                0x00000200       0x30 ./src/ciaaI2C.o
+                0x00000210       0x28 ./src/ciaaAOUT.o
  .debug_aranges
-                0x00000230       0x30 ./src/ciaaIO.o
+                0x00000238       0x30 ./src/ciaaI2C.o
  .debug_aranges
-                0x00000260       0x40 ./src/ciaaUART.o
+                0x00000268       0x30 ./src/ciaaIO.o
  .debug_aranges
-                0x000002a0       0x30 ./src/cr_start_m0.o
+                0x00000298       0x40 ./src/ciaaUART.o
  .debug_aranges
-                0x000002d0       0x80 ./src/cr_startup_lpc43xx.o
+                0x000002d8       0x30 ./src/cr_start_m0.o
  .debug_aranges
-                0x00000350       0x18 ./src/crp.o
+                0x00000308       0x80 ./src/cr_startup_lpc43xx.o
  .debug_aranges
-                0x00000368       0x40 ./src/database.o
+                0x00000388       0x18 ./src/crp.o
  .debug_aranges
-                0x000003a8       0x80 ./src/main.o
+                0x000003a0       0x40 ./src/database.o
  .debug_aranges
-                0x00000428       0xb8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x000003e0       0x80 ./src/main.o
  .debug_aranges
-                0x000004e0       0x40 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
+                0x00000460       0x78 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
  .debug_aranges
-                0x00000520       0x60 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+                0x000004d8       0xb8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
  .debug_aranges
-                0x00000580       0xb8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+                0x00000590       0x40 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
  .debug_aranges
-                0x00000638       0x30 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
+                0x000005d0       0x60 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
  .debug_aranges
-                0x00000668       0x48 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
+                0x00000630       0xb8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
  .debug_aranges
-                0x000006b0       0x20 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+                0x000006e8       0x30 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
  .debug_aranges
-                0x000006d0       0xf0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+                0x00000718       0x48 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
  .debug_aranges
-                0x000007c0       0x20 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
+                0x00000760       0x20 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
  .debug_aranges
-                0x000007e0       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
+                0x00000780       0xf0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
  .debug_aranges
-                0x00000800       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
+                0x00000870       0x20 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_aranges
+                0x00000890       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_aranges
+                0x000008b0       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
 
-.debug_ranges   0x00000000      0x6a8
+.debug_ranges   0x00000000      0x738
  .debug_ranges  0x00000000       0x88 ./src/Emac/src/emac.o
  .debug_ranges  0x00000088       0xf8 ./src/Emac/src/tcpip.o
  .debug_ranges  0x00000180       0x28 ./src/Emac/src/webserver.o
- .debug_ranges  0x000001a8       0x18 ./src/ciaaAOUT.o
- .debug_ranges  0x000001c0       0x20 ./src/ciaaI2C.o
- .debug_ranges  0x000001e0       0x20 ./src/ciaaIO.o
- .debug_ranges  0x00000200       0x30 ./src/ciaaUART.o
- .debug_ranges  0x00000230       0x20 ./src/cr_start_m0.o
- .debug_ranges  0x00000250       0x70 ./src/cr_startup_lpc43xx.o
- .debug_ranges  0x000002c0       0x30 ./src/database.o
- .debug_ranges  0x000002f0       0x70 ./src/main.o
- .debug_ranges  0x00000360       0xa8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
- .debug_ranges  0x00000408       0x30 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
- .debug_ranges  0x00000438       0x50 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
- .debug_ranges  0x00000488       0xa8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
- .debug_ranges  0x00000530       0x20 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
- .debug_ranges  0x00000550       0x38 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
- .debug_ranges  0x00000588       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
- .debug_ranges  0x00000598       0xe0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
- .debug_ranges  0x00000678       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
- .debug_ranges  0x00000688       0x10 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_ranges  0x00000698       0x10 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_ranges  0x000001a8       0x28 ./src/ciaaAIN.o
+ .debug_ranges  0x000001d0       0x18 ./src/ciaaAOUT.o
+ .debug_ranges  0x000001e8       0x20 ./src/ciaaI2C.o
+ .debug_ranges  0x00000208       0x20 ./src/ciaaIO.o
+ .debug_ranges  0x00000228       0x30 ./src/ciaaUART.o
+ .debug_ranges  0x00000258       0x20 ./src/cr_start_m0.o
+ .debug_ranges  0x00000278       0x70 ./src/cr_startup_lpc43xx.o
+ .debug_ranges  0x000002e8       0x30 ./src/database.o
+ .debug_ranges  0x00000318       0x70 ./src/main.o
+ .debug_ranges  0x00000388       0x68 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_ranges  0x000003f0       0xa8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_ranges  0x00000498       0x30 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
+ .debug_ranges  0x000004c8       0x50 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_ranges  0x00000518       0xa8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+ .debug_ranges  0x000005c0       0x20 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
+ .debug_ranges  0x000005e0       0x38 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
+ .debug_ranges  0x00000618       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_ranges  0x00000628       0xe0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+ .debug_ranges  0x00000708       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_ranges  0x00000718       0x10 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_ranges  0x00000728       0x10 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
 
-.debug_macro    0x00000000     0x651a
+.debug_macro    0x00000000     0x686b
  .debug_macro   0x00000000       0xbc ./src/Emac/src/emac.o
  .debug_macro   0x000000bc      0x880 ./src/Emac/src/emac.o
  .debug_macro   0x0000093c      0x259 ./src/Emac/src/emac.o
@@ -2137,136 +2251,146 @@ OUTPUT(CIAA-Demo.axf elf32-littlearm)
  .debug_macro   0x00002ff8       0x64 ./src/Emac/src/webserver.o
  .debug_macro   0x0000305c       0x1c ./src/Emac/src/webserver.o
  .debug_macro   0x00003078       0x10 ./src/Emac/src/webserver.o
- .debug_macro   0x00003088       0xac ./src/ciaaAOUT.o
- .debug_macro   0x00003134       0x16 ./src/ciaaAOUT.o
- .debug_macro   0x0000314a       0x44 ./src/ciaaAOUT.o
- .debug_macro   0x0000318e      0x209 ./src/ciaaAOUT.o
- .debug_macro   0x00003397       0x3a ./src/ciaaAOUT.o
- .debug_macro   0x000033d1       0xa6 ./src/ciaaI2C.o
- .debug_macro   0x00003477      0x18e ./src/ciaaI2C.o
- .debug_macro   0x00003605       0xb4 ./src/ciaaIO.o
- .debug_macro   0x000036b9       0xd9 ./src/ciaaUART.o
- .debug_macro   0x00003792       0x69 ./src/cr_start_m0.o
- .debug_macro   0x000037fb       0x16 ./src/cr_start_m0.o
- .debug_macro   0x00003811       0x1d ./src/cr_startup_lpc43xx.o
- .debug_macro   0x0000382e      0x886 ./src/cr_startup_lpc43xx.o
- .debug_macro   0x000040b4       0x1a ./src/crp.o
- .debug_macro   0x000040ce       0x34 ./src/crp.o
- .debug_macro   0x00004102       0xd8 ./src/database.o
- .debug_macro   0x000041da       0xa0 ./src/database.o
- .debug_macro   0x0000427a       0x66 ./src/database.o
- .debug_macro   0x000042e0      0x3a7 ./src/database.o
- .debug_macro   0x00004687      0x24c ./src/main.o
- .debug_macro   0x000048d3       0x82 ./src/main.o
- .debug_macro   0x00004955       0x28 ./src/main.o
- .debug_macro   0x0000497d       0x58 ./src/main.o
- .debug_macro   0x000049d5       0x35 ./src/main.o
- .debug_macro   0x00004a0a       0xa2 ./src/main.o
- .debug_macro   0x00004aac       0x16 ./src/main.o
- .debug_macro   0x00004ac2       0x97 ./src/main.o
- .debug_macro   0x00004b59       0x10 ./src/main.o
- .debug_macro   0x00004b69       0xef ./src/main.o
- .debug_macro   0x00004c58       0x52 ./src/main.o
- .debug_macro   0x00004caa       0x16 ./src/main.o
- .debug_macro   0x00004cc0       0x43 ./src/main.o
- .debug_macro   0x00004d03      0x180 ./src/main.o
- .debug_macro   0x00004e83       0x10 ./src/main.o
- .debug_macro   0x00004e93       0x22 ./src/main.o
- .debug_macro   0x00004eb5       0xbd ./src/main.o
- .debug_macro   0x00004f72       0x16 ./src/main.o
- .debug_macro   0x00004f88      0x16c ./src/main.o
- .debug_macro   0x000050f4      0x2a6 ./src/main.o
- .debug_macro   0x0000539a       0x10 ./src/main.o
- .debug_macro   0x000053aa       0x35 ./src/main.o
- .debug_macro   0x000053df       0x1f ./src/main.o
- .debug_macro   0x000053fe       0x10 ./src/main.o
- .debug_macro   0x0000540e       0x40 ./src/main.o
- .debug_macro   0x0000544e      0x11c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
- .debug_macro   0x0000556a      0x868 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
- .debug_macro   0x00005dd2       0x67 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
- .debug_macro   0x00005e39       0x46 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
- .debug_macro   0x00005e7f       0xae /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
- .debug_macro   0x00005f2d       0xfe /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
- .debug_macro   0x0000602b       0xa4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
- .debug_macro   0x000060cf       0xcf /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
- .debug_macro   0x0000619e       0xa9 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
- .debug_macro   0x00006247       0xae /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
- .debug_macro   0x000062f5       0x22 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
- .debug_macro   0x00006317       0x96 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
- .debug_macro   0x000063ad       0xc1 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
- .debug_macro   0x0000646e       0xac /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_macro   0x00003088       0xac ./src/ciaaAIN.o
+ .debug_macro   0x00003134       0x16 ./src/ciaaAIN.o
+ .debug_macro   0x0000314a       0x44 ./src/ciaaAIN.o
+ .debug_macro   0x0000318e      0x209 ./src/ciaaAIN.o
+ .debug_macro   0x00003397       0xef ./src/ciaaAIN.o
+ .debug_macro   0x00003486       0xac ./src/ciaaAOUT.o
+ .debug_macro   0x00003532       0x3a ./src/ciaaAOUT.o
+ .debug_macro   0x0000356c       0xa6 ./src/ciaaI2C.o
+ .debug_macro   0x00003612      0x18e ./src/ciaaI2C.o
+ .debug_macro   0x000037a0       0xb4 ./src/ciaaIO.o
+ .debug_macro   0x00003854       0xd9 ./src/ciaaUART.o
+ .debug_macro   0x0000392d       0x69 ./src/cr_start_m0.o
+ .debug_macro   0x00003996       0x16 ./src/cr_start_m0.o
+ .debug_macro   0x000039ac       0x1d ./src/cr_startup_lpc43xx.o
+ .debug_macro   0x000039c9      0x886 ./src/cr_startup_lpc43xx.o
+ .debug_macro   0x0000424f       0x1a ./src/crp.o
+ .debug_macro   0x00004269       0x34 ./src/crp.o
+ .debug_macro   0x0000429d       0xd8 ./src/database.o
+ .debug_macro   0x00004375       0xa0 ./src/database.o
+ .debug_macro   0x00004415       0x66 ./src/database.o
+ .debug_macro   0x0000447b      0x3a7 ./src/database.o
+ .debug_macro   0x00004822      0x25f ./src/main.o
+ .debug_macro   0x00004a81       0x82 ./src/main.o
+ .debug_macro   0x00004b03       0x28 ./src/main.o
+ .debug_macro   0x00004b2b       0x58 ./src/main.o
+ .debug_macro   0x00004b83       0x35 ./src/main.o
+ .debug_macro   0x00004bb8       0xa2 ./src/main.o
+ .debug_macro   0x00004c5a       0x16 ./src/main.o
+ .debug_macro   0x00004c70       0x97 ./src/main.o
+ .debug_macro   0x00004d07       0x10 ./src/main.o
+ .debug_macro   0x00004d17       0xef ./src/main.o
+ .debug_macro   0x00004e06       0x52 ./src/main.o
+ .debug_macro   0x00004e58       0x16 ./src/main.o
+ .debug_macro   0x00004e6e       0x43 ./src/main.o
+ .debug_macro   0x00004eb1      0x180 ./src/main.o
+ .debug_macro   0x00005031       0x10 ./src/main.o
+ .debug_macro   0x00005041       0x22 ./src/main.o
+ .debug_macro   0x00005063       0xbd ./src/main.o
+ .debug_macro   0x00005120       0x16 ./src/main.o
+ .debug_macro   0x00005136      0x16c ./src/main.o
+ .debug_macro   0x000052a2      0x2a6 ./src/main.o
+ .debug_macro   0x00005548       0x10 ./src/main.o
+ .debug_macro   0x00005558       0x35 ./src/main.o
+ .debug_macro   0x0000558d       0x1f ./src/main.o
+ .debug_macro   0x000055ac       0x10 ./src/main.o
+ .debug_macro   0x000055bc       0x40 ./src/main.o
+ .debug_macro   0x000055fc       0xf5 ./src/main.o
+ .debug_macro   0x000056f1       0xae /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_macro   0x0000579f      0x868 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_macro   0x00006007       0xfe /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_macro   0x00006105      0x11c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_macro   0x00006221       0x67 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_macro   0x00006288       0x46 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_macro   0x000062ce       0xae /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
+ .debug_macro   0x0000637c       0xa4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_macro   0x00006420       0xcf /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+ .debug_macro   0x000064ef       0xa9 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
+ .debug_macro   0x00006598       0xae /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
+ .debug_macro   0x00006646       0x22 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
+ .debug_macro   0x00006668       0x96 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_macro   0x000066fe       0xc1 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+ .debug_macro   0x000067bf       0xac /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
 
-.debug_line     0x00000000     0x4588
+.debug_line     0x00000000     0x4b8a
  .debug_line    0x00000000      0x460 ./src/Emac/src/emac.o
  .debug_line    0x00000460      0x580 ./src/Emac/src/tcpip.o
  .debug_line    0x000009e0      0x3f8 ./src/Emac/src/webserver.o
- .debug_line    0x00000dd8      0x2b7 ./src/ciaaAOUT.o
- .debug_line    0x0000108f      0x21e ./src/ciaaI2C.o
- .debug_line    0x000012ad      0x240 ./src/ciaaIO.o
- .debug_line    0x000014ed      0x2b1 ./src/ciaaUART.o
- .debug_line    0x0000179e      0x174 ./src/cr_start_m0.o
- .debug_line    0x00001912       0xbb ./src/cr_startup_lpc43xx.o
- .debug_line    0x000019cd       0x7c ./src/crp.o
- .debug_line    0x00001a49      0x324 ./src/database.o
- .debug_line    0x00001d6d      0x74b ./src/main.o
- .debug_line    0x000024b8      0x667 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
- .debug_line    0x00002b1f      0x260 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
- .debug_line    0x00002d7f      0x290 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
- .debug_line    0x0000300f      0x5b0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
- .debug_line    0x000035bf      0x25a /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
- .debug_line    0x00003819      0x27f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
- .debug_line    0x00003a98      0x1e4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
- .debug_line    0x00003c7c      0x5cb /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
- .debug_line    0x00004247      0x1ee /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
- .debug_line    0x00004435      0x101 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_line    0x00004536       0x52 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_line    0x00000dd8      0x2ea ./src/ciaaAIN.o
+ .debug_line    0x000010c2      0x2b7 ./src/ciaaAOUT.o
+ .debug_line    0x00001379      0x21e ./src/ciaaI2C.o
+ .debug_line    0x00001597      0x240 ./src/ciaaIO.o
+ .debug_line    0x000017d7      0x2b1 ./src/ciaaUART.o
+ .debug_line    0x00001a88      0x174 ./src/cr_start_m0.o
+ .debug_line    0x00001bfc       0xbb ./src/cr_startup_lpc43xx.o
+ .debug_line    0x00001cb7       0x7c ./src/crp.o
+ .debug_line    0x00001d33      0x324 ./src/database.o
+ .debug_line    0x00002057      0x772 ./src/main.o
+ .debug_line    0x000027c9      0x2f1 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_line    0x00002aba      0x667 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_line    0x00003121      0x260 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
+ .debug_line    0x00003381      0x290 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_line    0x00003611      0x5b0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+ .debug_line    0x00003bc1      0x25a /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
+ .debug_line    0x00003e1b      0x27f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
+ .debug_line    0x0000409a      0x1e4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_line    0x0000427e      0x5cb /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+ .debug_line    0x00004849      0x1ee /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_line    0x00004a37      0x101 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_line    0x00004b38       0x52 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
 
-.debug_str      0x00000000    0x18020
+.debug_str      0x00000000    0x18a2b
  .debug_str     0x00000000     0xc918 ./src/Emac/src/emac.o
                                0xca0b (size before relaxing)
  .debug_str     0x0000c918      0x4ca ./src/Emac/src/tcpip.o
                                0x436c (size before relaxing)
  .debug_str     0x0000cde2     0x2dbf ./src/Emac/src/webserver.o
                                0xf018 (size before relaxing)
- .debug_str     0x0000fba1      0xbee ./src/ciaaAOUT.o
+ .debug_str     0x0000fba1     0x16e7 ./src/ciaaAIN.o
+                               0xa86c (size before relaxing)
+ .debug_str     0x00011288      0x22e ./src/ciaaAOUT.o
                                0x9b88 (size before relaxing)
- .debug_str     0x0001078f      0x15f ./src/ciaaI2C.o
+ .debug_str     0x000114b6      0x15f ./src/ciaaI2C.o
                                0xaf55 (size before relaxing)
- .debug_str     0x000108ee       0xbd ./src/ciaaIO.o
+ .debug_str     0x00011615       0xbd ./src/ciaaIO.o
                                0xac5f (size before relaxing)
- .debug_str     0x000109ab      0x6e7 ./src/ciaaUART.o
+ .debug_str     0x000116d2      0x2a6 ./src/ciaaUART.o
                                0xd1d5 (size before relaxing)
- .debug_str     0x00011092      0x1e0 ./src/cr_start_m0.o
+ .debug_str     0x00011978      0x1e0 ./src/cr_start_m0.o
                                0x3dc6 (size before relaxing)
- .debug_str     0x00011272      0x309 ./src/cr_startup_lpc43xx.o
+ .debug_str     0x00011b58      0x309 ./src/cr_startup_lpc43xx.o
                                0x26d0 (size before relaxing)
- .debug_str     0x0001157b       0xe9 ./src/crp.o
+ .debug_str     0x00011e61       0xe9 ./src/crp.o
                                0x259a (size before relaxing)
- .debug_str     0x00011664       0x7d ./src/database.o
+ .debug_str     0x00011f4a       0x7d ./src/database.o
                                0xc539 (size before relaxing)
- .debug_str     0x000116e1     0x39db ./src/main.o
-                              0x11464 (size before relaxing)
- .debug_str     0x000150bc     0x1468 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_str     0x00011fc7     0x39d0 ./src/main.o
+                              0x11bfc (size before relaxing)
+ .debug_str     0x00015997      0x41f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+                               0xb4fd (size before relaxing)
+ .debug_str     0x00015db6     0x12d4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
                                0xc695 (size before relaxing)
- .debug_str     0x00016524      0x208 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
+ .debug_str     0x0001708a       0xcc /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
                                0xad09 (size before relaxing)
- .debug_str     0x0001672c       0xc3 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_str     0x00017156       0xc3 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
                                0xa79a (size before relaxing)
- .debug_str     0x000167ef      0xa67 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+ .debug_str     0x00017219      0xa5e /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
                                0xce48 (size before relaxing)
- .debug_str     0x00017256       0xd9 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
+ .debug_str     0x00017c77       0xd9 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
                                0xae6e (size before relaxing)
- .debug_str     0x0001732f       0x99 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
+ .debug_str     0x00017d50       0x93 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
                                0xad0b (size before relaxing)
- .debug_str     0x000173c8       0x2d /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_str     0x00017de3       0x28 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
                                0xab77 (size before relaxing)
- .debug_str     0x000173f5      0x704 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+ .debug_str     0x00017e0b      0x6f9 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
                                0xd401 (size before relaxing)
- .debug_str     0x00017af9      0x337 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_str     0x00018504      0x337 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
                                0xaa6a (size before relaxing)
- .debug_str     0x00017e30      0x1c1 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_str     0x0001883b      0x1c1 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
                                 0x25a (size before relaxing)
- .debug_str     0x00017ff1       0x2f /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_str     0x000189fc       0x2f /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
                                 0x1bf (size before relaxing)
 
 .comment        0x00000000       0x70
@@ -2274,6 +2398,7 @@ OUTPUT(CIAA-Demo.axf elf32-littlearm)
                                  0x71 (size before relaxing)
  .comment       0x00000000       0x71 ./src/Emac/src/tcpip.o
  .comment       0x00000000       0x71 ./src/Emac/src/webserver.o
+ .comment       0x00000000       0x71 ./src/ciaaAIN.o
  .comment       0x00000000       0x71 ./src/ciaaAOUT.o
  .comment       0x00000000       0x71 ./src/ciaaI2C.o
  .comment       0x00000000       0x71 ./src/ciaaIO.o
@@ -2284,6 +2409,7 @@ OUTPUT(CIAA-Demo.axf elf32-littlearm)
  .comment       0x00000000       0x71 ./src/database.o
  .comment       0x00000000       0x71 ./src/main.o
  .comment       0x00000000       0x70 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo-M0/Debug/CIAA-Demo-M0.axf.o
+ .comment       0x00000000       0x71 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
  .comment       0x00000000       0x71 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
  .comment       0x00000000       0x71 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
  .comment       0x00000000       0x71 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
@@ -2305,181 +2431,188 @@ OUTPUT(CIAA-Demo.axf elf32-littlearm)
  .ARM.attributes
                 0x0000006e       0x37 ./src/Emac/src/webserver.o
  .ARM.attributes
-                0x000000a5       0x37 ./src/ciaaAOUT.o
+                0x000000a5       0x37 ./src/ciaaAIN.o
  .ARM.attributes
-                0x000000dc       0x37 ./src/ciaaI2C.o
+                0x000000dc       0x37 ./src/ciaaAOUT.o
  .ARM.attributes
-                0x00000113       0x37 ./src/ciaaIO.o
+                0x00000113       0x37 ./src/ciaaI2C.o
  .ARM.attributes
-                0x0000014a       0x37 ./src/ciaaUART.o
+                0x0000014a       0x37 ./src/ciaaIO.o
  .ARM.attributes
-                0x00000181       0x37 ./src/cr_start_m0.o
+                0x00000181       0x37 ./src/ciaaUART.o
  .ARM.attributes
-                0x000001b8       0x37 ./src/cr_startup_lpc43xx.o
+                0x000001b8       0x37 ./src/cr_start_m0.o
  .ARM.attributes
-                0x000001ef       0x37 ./src/crp.o
+                0x000001ef       0x37 ./src/cr_startup_lpc43xx.o
  .ARM.attributes
-                0x00000226       0x37 ./src/database.o
+                0x00000226       0x37 ./src/crp.o
  .ARM.attributes
-                0x0000025d       0x37 ./src/main.o
+                0x0000025d       0x37 ./src/database.o
  .ARM.attributes
-                0x00000294       0x2f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo-M0/Debug/CIAA-Demo-M0.axf.o
+                0x00000294       0x37 ./src/main.o
  .ARM.attributes
-                0x000002c3       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x000002cb       0x2f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo-M0/Debug/CIAA-Demo-M0.axf.o
  .ARM.attributes
-                0x000002fa       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
+                0x000002fa       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
  .ARM.attributes
-                0x00000331       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+                0x00000331       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
  .ARM.attributes
-                0x00000368       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+                0x00000368       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
  .ARM.attributes
-                0x0000039f       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
+                0x0000039f       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
  .ARM.attributes
-                0x000003d6       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
+                0x000003d6       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
  .ARM.attributes
-                0x0000040d       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+                0x0000040d       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
  .ARM.attributes
-                0x00000444       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+                0x00000444       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
  .ARM.attributes
-                0x0000047b       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
+                0x0000047b       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
  .ARM.attributes
-                0x000004b2       0x22 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_addsubdf3.o)
+                0x000004b2       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
  .ARM.attributes
-                0x000004d4       0x22 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_muldivdf3.o)
+                0x000004e9       0x37 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
  .ARM.attributes
-                0x000004f6       0x22 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_cmpdf2.o)
+                0x00000520       0x22 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x00000518       0x22 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_aeabi_uldivmod.o)
+                0x00000542       0x22 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x0000053a       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(bpabi.o)
+                0x00000564       0x22 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x0000056c       0x22 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_dvmd_tls.o)
+                0x00000586       0x22 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x0000058e       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
+                0x000005a8       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(bpabi.o)
  .ARM.attributes
-                0x000005c0       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
+                0x000005da       0x22 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000005f2       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcmp.o)
+                0x000005fc       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
  .ARM.attributes
-                0x00000624       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcpy.o)
+                0x0000062e       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
  .ARM.attributes
-                0x00000644       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memset.o)
+                0x00000660       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcmp.o)
  .ARM.attributes
-                0x00000676       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-sprintf.o)
+                0x00000692       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x000006a8       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strcat.o)
+                0x000006b2       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memset.o)
  .ARM.attributes
-                0x000006da       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strcpy.o)
+                0x000006e4       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-sprintf.o)
  .ARM.attributes
-                0x0000070c       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strlen.o)
+                0x00000716       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strcat.o)
  .ARM.attributes
-                0x0000073e       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strncpy.o)
+                0x00000748       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strcpy.o)
  .ARM.attributes
-                0x00000770       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strstr.o)
+                0x0000077a       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strlen.o)
  .ARM.attributes
-                0x000007a2       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfprintf.o)
+                0x000007ac       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strncpy.o)
  .ARM.attributes
-                0x000007d4       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-dtoa.o)
+                0x000007de       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strstr.o)
  .ARM.attributes
-                0x00000806       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
+                0x00000810       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfprintf.o)
  .ARM.attributes
-                0x00000838       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-locale.o)
+                0x00000842       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-dtoa.o)
  .ARM.attributes
-                0x0000086a       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mallocr.o)
+                0x00000874       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000089c       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memchr-stub.o)
+                0x000008a6       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-locale.o)
  .ARM.attributes
-                0x000008ce       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mlock.o)
+                0x000008d8       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mallocr.o)
  .ARM.attributes
-                0x00000900       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+                0x0000090a       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memchr-stub.o)
  .ARM.attributes
-                0x00000932       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-s_fpclassify.o)
+                0x0000093c       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mlock.o)
  .ARM.attributes
-                0x00000964       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-sbrkr.o)
+                0x0000096e       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
  .ARM.attributes
-                0x00000996       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strchr.o)
+                0x000009a0       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-s_fpclassify.o)
  .ARM.attributes
-                0x000009c8       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfiprintf.o)
+                0x000009d2       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x000009fa       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-callocr.o)
+                0x00000a04       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strchr.o)
  .ARM.attributes
-                0x00000a2c       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-freer.o)
+                0x00000a36       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfiprintf.o)
  .ARM.attributes
-                0x00000a5e       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memmove.o)
+                0x00000a68       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-callocr.o)
  .ARM.attributes
-                0x00000a90       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-reallocr.o)
+                0x00000a9a       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-freer.o)
  .ARM.attributes
-                0x00000ac2       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-reent.o)
+                0x00000acc       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memmove.o)
  .ARM.attributes
-                0x00000af4       0x37 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
+                0x00000afe       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-reallocr.o)
  .ARM.attributes
-                0x00000b2b       0x37 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
+                0x00000b30       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-reent.o)
  .ARM.attributes
-                0x00000b62       0x22 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_fixdfsi.o)
+                0x00000b62       0x37 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
  .ARM.attributes
-                0x00000b84       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-errno.o)
+                0x00000b99       0x37 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
+ .ARM.attributes
+                0x00000bd0       0x22 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x00000bf2       0x32 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-errno.o)
 
-.debug_frame    0x00000000     0x1c30
+.debug_frame    0x00000000     0x1da0
  .debug_frame   0x00000000      0x1d4 ./src/Emac/src/emac.o
  .debug_frame   0x000001d4      0x354 ./src/Emac/src/tcpip.o
  .debug_frame   0x00000528       0x84 ./src/Emac/src/webserver.o
- .debug_frame   0x000005ac       0x50 ./src/ciaaAOUT.o
- .debug_frame   0x000005fc       0x6c ./src/ciaaI2C.o
- .debug_frame   0x00000668       0x68 ./src/ciaaIO.o
- .debug_frame   0x000006d0       0xa4 ./src/ciaaUART.o
- .debug_frame   0x00000774       0x68 ./src/cr_start_m0.o
- .debug_frame   0x000007dc       0xf0 ./src/cr_startup_lpc43xx.o
- .debug_frame   0x000008cc       0xac ./src/database.o
- .debug_frame   0x00000978      0x1a0 ./src/main.o
- .debug_frame   0x00000b18      0x1fc /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
- .debug_frame   0x00000d14       0x68 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
- .debug_frame   0x00000d7c       0xc0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
- .debug_frame   0x00000e3c      0x1bc /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
- .debug_frame   0x00000ff8       0x40 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
- .debug_frame   0x00001038       0x7c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
- .debug_frame   0x000010b4       0x20 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
- .debug_frame   0x000010d4      0x238 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
- .debug_frame   0x0000130c       0x28 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
- .debug_frame   0x00001334       0x50 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(bpabi.o)
- .debug_frame   0x00001384       0x34 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
- .debug_frame   0x000013b8       0x34 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
- .debug_frame   0x000013ec       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcmp.o)
- .debug_frame   0x00001418       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memset.o)
- .debug_frame   0x00001444       0x64 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-sprintf.o)
- .debug_frame   0x000014a8       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strcat.o)
- .debug_frame   0x000014d4       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strcpy.o)
- .debug_frame   0x000014f4       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strlen.o)
- .debug_frame   0x00001514       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strncpy.o)
- .debug_frame   0x00001540       0x84 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strstr.o)
- .debug_frame   0x000015c4       0x3c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfprintf.o)
- .debug_frame   0x00001600       0x64 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-dtoa.o)
- .debug_frame   0x00001664       0x98 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-locale.o)
- .debug_frame   0x000016fc       0x38 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mallocr.o)
- .debug_frame   0x00001734       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memchr-stub.o)
- .debug_frame   0x00001760       0x30 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mlock.o)
- .debug_frame   0x00001790      0x22c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
- .debug_frame   0x000019bc       0x28 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-s_fpclassify.o)
- .debug_frame   0x000019e4       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-sbrkr.o)
- .debug_frame   0x00001a10       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strchr.o)
- .debug_frame   0x00001a3c       0x64 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfiprintf.o)
- .debug_frame   0x00001aa0       0x28 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-callocr.o)
- .debug_frame   0x00001ac8       0x50 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-freer.o)
- .debug_frame   0x00001b18       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memmove.o)
- .debug_frame   0x00001b44       0x38 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-reallocr.o)
- .debug_frame   0x00001b7c       0x48 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-reent.o)
- .debug_frame   0x00001bc4       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_frame   0x00001bf0       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
- .debug_frame   0x00001c10       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-errno.o)
+ .debug_frame   0x000005ac       0x80 ./src/ciaaAIN.o
+ .debug_frame   0x0000062c       0x50 ./src/ciaaAOUT.o
+ .debug_frame   0x0000067c       0x6c ./src/ciaaI2C.o
+ .debug_frame   0x000006e8       0x68 ./src/ciaaIO.o
+ .debug_frame   0x00000750       0xa4 ./src/ciaaUART.o
+ .debug_frame   0x000007f4       0x68 ./src/cr_start_m0.o
+ .debug_frame   0x0000085c       0xf0 ./src/cr_startup_lpc43xx.o
+ .debug_frame   0x0000094c       0xac ./src/database.o
+ .debug_frame   0x000009f8      0x1a8 ./src/main.o
+ .debug_frame   0x00000ba0       0xe8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_frame   0x00000c88      0x1fc /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_frame   0x00000e84       0x68 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
+ .debug_frame   0x00000eec       0xc0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_frame   0x00000fac      0x1bc /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+ .debug_frame   0x00001168       0x40 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
+ .debug_frame   0x000011a8       0x7c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
+ .debug_frame   0x00001224       0x20 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_frame   0x00001244      0x238 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+ .debug_frame   0x0000147c       0x28 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_frame   0x000014a4       0x50 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(bpabi.o)
+ .debug_frame   0x000014f4       0x34 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
+ .debug_frame   0x00001528       0x34 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
+ .debug_frame   0x0000155c       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcmp.o)
+ .debug_frame   0x00001588       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memset.o)
+ .debug_frame   0x000015b4       0x64 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-sprintf.o)
+ .debug_frame   0x00001618       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strcat.o)
+ .debug_frame   0x00001644       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strcpy.o)
+ .debug_frame   0x00001664       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strlen.o)
+ .debug_frame   0x00001684       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strncpy.o)
+ .debug_frame   0x000016b0       0x84 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strstr.o)
+ .debug_frame   0x00001734       0x3c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfprintf.o)
+ .debug_frame   0x00001770       0x64 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-dtoa.o)
+ .debug_frame   0x000017d4       0x98 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-locale.o)
+ .debug_frame   0x0000186c       0x38 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mallocr.o)
+ .debug_frame   0x000018a4       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memchr-stub.o)
+ .debug_frame   0x000018d0       0x30 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mlock.o)
+ .debug_frame   0x00001900      0x22c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-mprec.o)
+ .debug_frame   0x00001b2c       0x28 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-s_fpclassify.o)
+ .debug_frame   0x00001b54       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x00001b80       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-strchr.o)
+ .debug_frame   0x00001bac       0x64 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-svfiprintf.o)
+ .debug_frame   0x00001c10       0x28 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-callocr.o)
+ .debug_frame   0x00001c38       0x50 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-freer.o)
+ .debug_frame   0x00001c88       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memmove.o)
+ .debug_frame   0x00001cb4       0x38 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-reallocr.o)
+ .debug_frame   0x00001cec       0x48 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-reent.o)
+ .debug_frame   0x00001d34       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_frame   0x00001d60       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_frame   0x00001d80       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-errno.o)
 
-.debug_loc      0x00000000     0x352e
+.debug_loc      0x00000000     0x3807
  .debug_loc     0x00000000      0x1d3 ./src/cr_startup_lpc43xx.o
- .debug_loc     0x000001d3     0x146d /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
- .debug_loc     0x00001640       0x63 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
- .debug_loc     0x000016a3      0x2c7 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
- .debug_loc     0x0000196a      0xb23 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
- .debug_loc     0x0000248d      0x150 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
- .debug_loc     0x000025dd       0xdd /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
- .debug_loc     0x000026ba       0x42 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
- .debug_loc     0x000026fc      0xd98 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
- .debug_loc     0x00003494       0x47 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_loc     0x000034db       0x53 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_loc     0x000001d3      0x2d9 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_adc.o)
+ .debug_loc     0x000004ac     0x146d /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_loc     0x00001919       0x63 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_dac.o)
+ .debug_loc     0x0000197c      0x2c7 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_loc     0x00001c43      0xb23 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_i2c.o)
+ .debug_loc     0x00002766      0x150 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rgu.o)
+ .debug_loc     0x000028b6       0xdd /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_rit.o)
+ .debug_loc     0x00002993       0x42 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_loc     0x000029d5      0xd98 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug/libCMSIS_LPC43xx_DriverLib.a(lpc43xx_uart.o)
+ .debug_loc     0x0000376d       0x47 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_loc     0x000037b4       0x53 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_newlib_nohost.a(_cr_check_heap.o)

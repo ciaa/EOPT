@@ -4,6 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../src/ciaaAIN.c \
 ../src/ciaaAOUT.c \
 ../src/ciaaI2C.c \
 ../src/ciaaIO.c \
@@ -15,6 +16,7 @@ C_SRCS += \
 ../src/main.c 
 
 OBJS += \
+./src/ciaaAIN.o \
 ./src/ciaaAOUT.o \
 ./src/ciaaI2C.o \
 ./src/ciaaIO.o \
@@ -26,6 +28,7 @@ OBJS += \
 ./src/main.o 
 
 C_DEPS += \
+./src/ciaaAIN.d \
 ./src/ciaaAOUT.d \
 ./src/ciaaI2C.d \
 ./src/ciaaIO.d \

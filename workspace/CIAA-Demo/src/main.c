@@ -34,6 +34,7 @@
 #include "ciaaI2C.h"
 #include "ciaaIO.h"
 #include "ciaaAOUT.h"
+#include "ciaaAIN.h"
 
 volatile uint32_t msec;
 
@@ -113,9 +114,14 @@ void setupHardware(void)
 
 	ciaaAOUTInit();
 
+	ciaaAINInit();
+
 	ciaaIOInit();
 
+	ciaaUARTInit();
+
 	int i = 100, flag = 0;
+	char str[100];
 	while(i != 1)
 	{
 		ciaaAOUTSet(i);
@@ -125,14 +131,19 @@ void setupHardware(void)
 
 		if(flag == 0)
 		{
-			GPIO_ClearValue(5,(1<<1));
+			GPIO_ClearValue(1,(1<<8));
 			flag = 1;
 		}
 		else
 		{
-			GPIO_SetValue(5,(1<<1));
+			GPIO_SetValue(1,(1<<8));
 			flag = 0;
 		}
+
+		sprintf(str, "%d %d %d %d\n",
+				ciaaAINRead(0), ciaaAINRead(1),
+				ciaaAINRead(2), ciaaAINRead(3));
+		dbgPrint(str);
 	}
 
     scu_pinmux(4 , 8, MD_PUP, FUNC4); 	// P8.1 : USB0_IND1 LED
@@ -143,9 +154,6 @@ void setupHardware(void)
 	RIT_TimerConfig(LPC_RITIMER, 1);
 	RIT_Cmd(LPC_RITIMER, ENABLE);
 
-	ciaaUARTInit();
-
-	ciaaIOInit();
 
 	ciaaI2CInit();
 
