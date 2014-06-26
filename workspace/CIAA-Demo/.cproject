@@ -40,6 +40,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CIAA-Demo/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CIAA-Demo/src/Emac/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_LPC43xx_DriverLib/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/LPC4330_Xplorer_UsbVcomLib/inc}&quot;"/>
 								</option>
 								<option id="com.crt.advproject.gcc.fpu.1118888720" name="Floating point" superClass="com.crt.advproject.gcc.fpu" value="com.crt.advproject.gcc.fpu.fpv4" valueType="enumerated"/>
 								<option id="com.crt.advproject.gcc.exe.debug.option.optimization.level.1149804868" name="Optimization Level" superClass="com.crt.advproject.gcc.exe.debug.option.optimization.level" value="gnu.c.optimization.level.none" valueType="enumerated"/>
@@ -68,9 +69,11 @@
 								<option id="com.crt.advproject.link.gcc.hdrlib.1483521072" name="Library" superClass="com.crt.advproject.link.gcc.hdrlib" value="com.crt.advproject.gcc.link.hdrlib.newlib.nohost" valueType="enumerated"/>
 								<option id="gnu.c.link.option.libs.505930375" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" value="CMSIS_LPC43xx_DriverLib"/>
+									<listOptionValue builtIn="false" value="LPC4330_Xplorer_UsbVcomLib"/>
 								</option>
 								<option id="gnu.c.link.option.paths.1164622056" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_LPC43xx_DriverLib/Debug}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/LPC4330_Xplorer_UsbVcomLib/Debug}&quot;"/>
 								</option>
 								<option id="com.crt.advproject.link.fpu.1412928195" name="Floating point" superClass="com.crt.advproject.link.fpu" value="com.crt.advproject.link.fpu.fpv4" valueType="enumerated"/>
 								<option id="com.crt.advproject.link.crpenable.2141665611" name="Enable Code Read Protect" superClass="com.crt.advproject.link.crpenable" value="true" valueType="boolean"/>

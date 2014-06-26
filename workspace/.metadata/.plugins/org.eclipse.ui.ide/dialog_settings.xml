@@ -5,13 +5,13 @@
 		<item value="org.eclipse.cdt.gdb:8.3.0.201402142303"/>
 		<item value="org.eclipse.cdt:8.3.0.201402142303"/>
 		<item value="org.eclipse.cvs:1.4.0.v20140221-1700"/>
-		<item value="org.eclipse.egit.mylyn:3.3.2.201404171909-r"/>
-		<item value="org.eclipse.egit.source:3.3.2.201404171909-r"/>
-		<item value="org.eclipse.egit:3.3.2.201404171909-r"/>
+		<item value="org.eclipse.egit.mylyn:3.4.1.201406201815-r"/>
+		<item value="org.eclipse.egit.source:3.4.1.201406201815-r"/>
+		<item value="org.eclipse.egit:3.4.1.201406201815-r"/>
 		<item value="org.eclipse.emf.common:2.9.2.v20131212-0545"/>
 		<item value="org.eclipse.emf.ecore:2.9.2.v20131212-0545"/>
 		<item value="org.eclipse.help:2.0.2.v20140221-1700"/>
-		<item value="org.eclipse.jgit:3.3.2.201404171909-r"/>
+		<item value="org.eclipse.jgit:3.4.1.201406201815-r"/>
 		<item value="org.eclipse.mylyn.commons.identity:1.1.2.v20140211-0100"/>
 		<item value="org.eclipse.mylyn.commons.notifications:1.1.2.v20140211-0100"/>
 		<item value="org.eclipse.mylyn.commons.repositories:1.1.2.v20140211-0100"/>

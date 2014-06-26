@@ -36,6 +36,8 @@
 #include "ciaaAOUT.h"
 #include "ciaaAIN.h"
 
+#include "vcomdemo.h"
+
 volatile uint32_t msec;
 
 uint32_t wiegandTimeout;
@@ -110,6 +112,8 @@ void SysTick_Handler (void) 					// SysTick Interrupt Handler @ 1000Hz
 
 void setupHardware(void)
 {
+	Vcom_init();
+
     SysTick_Config(CGU_GetPCLKFrequency(CGU_PERIPHERAL_M4CORE)/1000);
 
 	ciaaAOUTInit();

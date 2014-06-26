@@ -14,6 +14,9 @@
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
+						<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
 						<entry kind="macro" name="CORE_M4" value=""/>
 						<entry kind="macro" name="DEBUG" value=""/>
 						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
@@ -31,6 +34,9 @@
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
 						<entry kind="macro" name="CORE_M4" value=""/>
@@ -52,6 +58,9 @@
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
+						<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
 						<entry kind="macro" name="CORE_M4" value=""/>
 						<entry kind="macro" name="DEBUG" value=""/>
 						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
@@ -69,6 +78,9 @@
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
 						<entry kind="macro" name="CORE_M4" value=""/>
@@ -90,42 +102,7 @@
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="DEBUG" value=""/>
-						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
-						<entry kind="macro" name="__NEWLIB__" value=""/>
-						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
-					</resource>
-					<resource project-relative-path="src/database.c">
-						<entry kind="includePath" name="/${ProjName}/src">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/${ProjName}/src/Emac/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="DEBUG" value=""/>
-						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
-						<entry kind="macro" name="__NEWLIB__" value=""/>
-						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
-					</resource>
-					<resource project-relative-path="src/ciaaI2C.c">
-						<entry kind="includePath" name="/${ProjName}/src">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/${ProjName}/src/Emac/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
+						<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
 						<entry kind="macro" name="CORE_M4" value=""/>
@@ -147,6 +124,53 @@
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
+						<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
+					</resource>
+					<resource project-relative-path="src/ciaaI2C.c">
+						<entry kind="includePath" name="/${ProjName}/src">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/src/Emac/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
+					</resource>
+					<resource project-relative-path="src/database.c">
+						<entry kind="includePath" name="/${ProjName}/src">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/src/Emac/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
 						<entry kind="macro" name="CORE_M4" value=""/>
 						<entry kind="macro" name="DEBUG" value=""/>
 						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
@@ -166,42 +190,7 @@
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="DEBUG" value=""/>
-						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
-						<entry kind="macro" name="__NEWLIB__" value=""/>
-						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
-					</resource>
-					<resource project-relative-path="src/crp.c">
-						<entry kind="includePath" name="/${ProjName}/src">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/${ProjName}/src/Emac/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="DEBUG" value=""/>
-						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
-						<entry kind="macro" name="__NEWLIB__" value=""/>
-						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
-					</resource>
-					<resource project-relative-path="src/cr_startup_lpc43xx.c">
-						<entry kind="includePath" name="/${ProjName}/src">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/${ProjName}/src/Emac/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
+						<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
 						<entry kind="macro" name="CORE_M4" value=""/>
@@ -223,6 +212,53 @@
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
+						<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
+					</resource>
+					<resource project-relative-path="src/cr_startup_lpc43xx.c">
+						<entry kind="includePath" name="/${ProjName}/src">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/src/Emac/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
+					</resource>
+					<resource project-relative-path="src/crp.c">
+						<entry kind="includePath" name="/${ProjName}/src">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/src/Emac/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
 						<entry kind="macro" name="CORE_M4" value=""/>
 						<entry kind="macro" name="DEBUG" value=""/>
 						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
@@ -240,6 +276,9 @@
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
 						<entry kind="macro" name="CORE_M4" value=""/>

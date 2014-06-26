@@ -1,6 +1,6 @@
-20:16:23 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+09:38:04 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
 make all 
 make: Nothing to be done for `all'.
 
-20:16:23 Build Finished (took 66ms)
+09:38:04 Build Finished (took 65ms)
 

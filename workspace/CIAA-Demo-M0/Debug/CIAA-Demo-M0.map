@@ -78,9 +78,9 @@ Discarded input sections
                 0x00000000       0x2c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
  .debug_macro   0x00000000       0x26 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
  .debug_macro   0x00000000       0x3a /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
- .debug_macro   0x00000000       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
- .debug_macro   0x00000000      0x122 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
- .debug_macro   0x00000000      0x5b9 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x00000000       0x44 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x00000000      0x209 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
  .debug_macro   0x00000000       0x1f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
  .debug_macro   0x00000000      0x242 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
  .debug_macro   0x00000000      0x329 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
@@ -113,9 +113,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x826 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
  .debug_macro   0x00000000       0x26 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
  .debug_macro   0x00000000       0x3a /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
- .debug_macro   0x00000000       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
- .debug_macro   0x00000000      0x122 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
- .debug_macro   0x00000000      0x5b9 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00000000       0x44 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00000000      0x209 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
  .debug_macro   0x00000000       0x1f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
  .debug_macro   0x00000000      0x242 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
  .debug_macro   0x00000000      0x329 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
@@ -138,9 +138,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x826 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
  .debug_macro   0x00000000       0x26 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
  .debug_macro   0x00000000       0x3a /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
- .debug_macro   0x00000000       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
- .debug_macro   0x00000000      0x122 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
- .debug_macro   0x00000000      0x5b9 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_macro   0x00000000       0x44 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_macro   0x00000000      0x209 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
  .debug_macro   0x00000000       0x1f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
  .debug_macro   0x00000000      0x242 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
  .debug_macro   0x00000000      0x329 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
@@ -221,17 +221,17 @@ Discarded input sections
                 0x00000000       0x5c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
  .rodata.CGU_ConnectAlloc_Tbl
                 0x00000000      0x300 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
- .debug_info    0x00000000     0x1df6 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_info    0x00000000     0x1e34 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
  .debug_abbrev  0x00000000      0x27c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
  .debug_loc     0x00000000     0x12bb /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
  .debug_aranges
                 0x00000000       0xb8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
  .debug_ranges  0x00000000       0xa8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
- .debug_macro   0x00000000      0x111 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000      0x117 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
  .debug_macro   0x00000000      0x826 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
- .debug_macro   0x00000000       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
- .debug_macro   0x00000000      0x122 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
- .debug_macro   0x00000000      0x5b9 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000       0x44 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_macro   0x00000000      0x209 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
  .debug_macro   0x00000000       0x67 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
  .debug_macro   0x00000000      0x118 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
  .debug_macro   0x00000000       0x26 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
@@ -240,8 +240,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x242 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
  .debug_macro   0x00000000      0x329 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
  .debug_macro   0x00000000       0x46 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
- .debug_line    0x00000000      0x684 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
- .debug_str     0x00000000     0x7aa7 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_line    0x00000000      0x72e /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
+ .debug_str     0x00000000     0x6e97 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
  .comment       0x00000000       0x71 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
  .ARM.attributes
                 0x00000000       0x31 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_cgu.o)
@@ -565,12 +565,12 @@ END GROUP
                 0x1008a000                PROVIDE (_vStackTop, (__top_RamLoc40 - 0x0))
 OUTPUT(CIAA-Demo-M0.axf elf32-littlearm)
 
-.debug_info     0x00000000     0x1444
+.debug_info     0x00000000     0x149c
  .debug_info    0x00000000      0x248 ./src/cr_startup_lpc43xx-m0app.o
- .debug_info    0x00000248      0x7ed ./src/main_m0.o
- .debug_info    0x00000a35      0x496 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
- .debug_info    0x00000ecb      0x480 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
- .debug_info    0x0000134b       0xf9 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_info    0x00000248      0x803 ./src/main_m0.o
+ .debug_info    0x00000a4b      0x4ac /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_info    0x00000ef7      0x496 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_info    0x0000138d      0x10f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
 
 .debug_abbrev   0x00000000      0x620
  .debug_abbrev  0x00000000       0xf7 ./src/cr_startup_lpc43xx-m0app.o
@@ -605,49 +605,49 @@ OUTPUT(CIAA-Demo-M0.axf elf32-littlearm)
  .debug_ranges  0x000000c0       0x38 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
  .debug_ranges  0x000000f8       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
 
-.debug_macro    0x00000000     0x2b97
+.debug_macro    0x00000000     0x2727
  .debug_macro   0x00000000       0x1d ./src/cr_startup_lpc43xx-m0app.o
  .debug_macro   0x0000001d      0x838 ./src/cr_startup_lpc43xx-m0app.o
- .debug_macro   0x00000855       0xb6 ./src/main_m0.o
- .debug_macro   0x0000090b      0x832 ./src/main_m0.o
- .debug_macro   0x0000113d       0x26 ./src/main_m0.o
- .debug_macro   0x00001163       0x3a ./src/main_m0.o
- .debug_macro   0x0000119d       0x10 ./src/main_m0.o
- .debug_macro   0x000011ad      0x122 ./src/main_m0.o
- .debug_macro   0x000012cf      0x5b9 ./src/main_m0.o
- .debug_macro   0x00001888       0x1f ./src/main_m0.o
- .debug_macro   0x000018a7      0x242 ./src/main_m0.o
- .debug_macro   0x00001ae9      0x329 ./src/main_m0.o
- .debug_macro   0x00001e12       0x82 ./src/main_m0.o
- .debug_macro   0x00001e94       0x6d ./src/main_m0.o
- .debug_macro   0x00001f01       0x28 ./src/main_m0.o
- .debug_macro   0x00001f29      0x118 ./src/main_m0.o
- .debug_macro   0x00002041       0x98 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
- .debug_macro   0x000020d9      0x826 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
- .debug_macro   0x000028ff       0xfe /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
- .debug_macro   0x000029fd       0xa2 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
- .debug_macro   0x00002a9f       0x22 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
- .debug_macro   0x00002ac1       0x4c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
- .debug_macro   0x00002b0d       0x8a /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_macro   0x00000855       0xbc ./src/main_m0.o
+ .debug_macro   0x00000911      0x832 ./src/main_m0.o
+ .debug_macro   0x00001143       0x26 ./src/main_m0.o
+ .debug_macro   0x00001169       0x3a ./src/main_m0.o
+ .debug_macro   0x000011a3       0x16 ./src/main_m0.o
+ .debug_macro   0x000011b9       0x44 ./src/main_m0.o
+ .debug_macro   0x000011fd      0x209 ./src/main_m0.o
+ .debug_macro   0x00001406       0x1f ./src/main_m0.o
+ .debug_macro   0x00001425      0x242 ./src/main_m0.o
+ .debug_macro   0x00001667      0x329 ./src/main_m0.o
+ .debug_macro   0x00001990       0x82 ./src/main_m0.o
+ .debug_macro   0x00001a12       0x6d ./src/main_m0.o
+ .debug_macro   0x00001a7f       0x28 ./src/main_m0.o
+ .debug_macro   0x00001aa7      0x118 ./src/main_m0.o
+ .debug_macro   0x00001bbf       0x9e /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x00001c5d      0x826 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x00002483       0xfe /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_macro   0x00002581       0xa8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00002629       0x22 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x0000264b       0x4c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_macro   0x00002697       0x90 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
 
-.debug_line     0x00000000      0xa63
+.debug_line     0x00000000      0xcc9
  .debug_line    0x00000000       0xbc ./src/cr_startup_lpc43xx-m0app.o
- .debug_line    0x000000bc      0x296 ./src/main_m0.o
- .debug_line    0x00000352      0x287 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
- .debug_line    0x000005d9      0x2b5 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
- .debug_line    0x0000088e      0x1d5 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+ .debug_line    0x000000bc      0x2fe ./src/main_m0.o
+ .debug_line    0x000003ba      0x331 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+ .debug_line    0x000006eb      0x35f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+ .debug_line    0x00000a4a      0x27f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
 
-.debug_str      0x00000000     0x7438
+.debug_str      0x00000000     0x6725
  .debug_str     0x00000000     0x24f2 ./src/cr_startup_lpc43xx-m0app.o
                                0x2512 (size before relaxing)
- .debug_str     0x000024f2     0x4729 ./src/main_m0.o
-                               0x6bfc (size before relaxing)
- .debug_str     0x00006c1b      0x276 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
-                               0x5be4 (size before relaxing)
- .debug_str     0x00006e91      0x57a /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
-                               0x6162 (size before relaxing)
- .debug_str     0x0000740b       0x2d /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
-                               0x5f81 (size before relaxing)
+ .debug_str     0x000024f2     0x3a16 ./src/main_m0.o
+                               0x5fc6 (size before relaxing)
+ .debug_str     0x00005f08      0x276 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_gpio.o)
+                               0x4fae (size before relaxing)
+ .debug_str     0x0000617e      0x57a /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_rit.o)
+                               0x552c (size before relaxing)
+ .debug_str     0x000066f8       0x2d /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug/libCMSIS_LPC43xx_DriverLib-M0.a(lpc43xx_scu.o)
+                               0x534b (size before relaxing)
 
 .comment        0x00000000       0x70
  .comment       0x00000000       0x70 ./src/cr_startup_lpc43xx-m0app.o
