@@ -34,7 +34,7 @@ int main(void)
 {
 	volatile int i;
 
-	/* FIXME: SystemCoreClock no se usa con LPC43xx,
+	/* TODO: SystemCoreClock no se usa con LPC43xx,
 	 * pero CGU_GetPCLKFrequency() no sé por qué genera
 	 * cuelgues erráticos o hace que SysTick no interrumpa :(
 	 */

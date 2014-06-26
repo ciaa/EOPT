@@ -309,6 +309,10 @@ extern unsigned int __bss_section_table_end;
 //
 //*****************************************************************************
 void ResetISR(void) {
+
+	for(SystemCoreClock=0; SystemCoreClock<0xFFFFF; SystemCoreClock++);
+	SystemCoreClock=0;
+
 // *************************************************************
 // The following conditional block of code manually resets as
 // much of the peripheral set of the LPC43 as possible. This is

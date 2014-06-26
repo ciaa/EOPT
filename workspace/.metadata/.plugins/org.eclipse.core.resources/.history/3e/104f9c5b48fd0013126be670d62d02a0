@@ -27,18 +27,13 @@ void SysTick_Handler(void)
 void pausems(int t)
 {
 	contms = t;
-	while(contms) __WFE();
+	while(contms) __WFI();
 }
 
 int main(void)
 {
 	volatile int i;
-
-	/* FIXME: SystemCoreClock no se usa con LPC43xx,
-	 * pero CGU_GetPCLKFrequency() no sé por qué genera
-	 * cuelgues erráticos o hace que SysTick no interrumpa :(
-	 */
-	SysTick_Config(SystemCoreClock/1000);
+    SysTick_Config(CGU_GetPCLKFrequency(CGU_PERIPHERAL_M4CORE)/1000);
     ciaaIOInit();
 
     while(1)

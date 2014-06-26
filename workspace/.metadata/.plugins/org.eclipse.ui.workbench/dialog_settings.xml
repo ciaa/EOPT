@@ -47,13 +47,13 @@
 	</section>
 	<section name="ShowViewDialog">
 		<item value="334" key="DIALOG_WIDTH"/>
-		<item value="org.eclipse.cdt.ui.callHierarchy" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
+		<item value="org.eclipse.debug.ui.ExpressionView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
 		<item value="92" key="DIALOG_Y_ORIGIN"/>
 		<item value="517" key="DIALOG_X_ORIGIN"/>
 		<item value="439" key="DIALOG_HEIGHT"/>
 		<item value="1|Droid Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.cdt.ui.views"/>
+			<item value="org.eclipse.debug.ui"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">
