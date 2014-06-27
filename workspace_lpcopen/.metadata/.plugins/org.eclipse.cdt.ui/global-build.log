@@ -1,0 +1,184 @@
+09:28:00 **** Incremental Build of configuration Debug for project lpc_chip_43xx ****
+make all 
+make: Nothing to be done for `all'.
+09:28:00 **** Incremental Build of configuration Debug for project ciaaTest ****
+make all 
+Building file: ../src/ciaaIO.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -DNO_BOARD_LIB -D__LPC43XX__ -I"/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/ciaaIO.d" -MT"src/ciaaIO.d" -o "src/ciaaIO.o" "../src/ciaaIO.c"
+Finished building: ../src/ciaaIO.c
+ 
+Building file: ../src/ciaaTest.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -DNO_BOARD_LIB -D__LPC43XX__ -I"/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/ciaaTest.d" -MT"src/ciaaTest.d" -o "src/ciaaTest.o" "../src/ciaaTest.c"
+../src/ciaaTest.c: In function 'SysTick_Handler':
+../src/ciaaTest.c:23:3: warning: implicit declaration of function 'ciaaWriteOutput' [-Wimplicit-function-declaration]
+   ciaaWriteOutput(4, 1);
+   ^
+../src/ciaaTest.c: In function 'main':
+../src/ciaaTest.c:37:2: warning: implicit declaration of function 'ciaaIOInit' [-Wimplicit-function-declaration]
+  ciaaIOInit();
+  ^
+Finished building: ../src/ciaaTest.c
+ 
+Building target: ciaaTest.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug" -Xlinker -Map="ciaaTest.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "ciaaTest_Debug.ld" -o "ciaaTest.axf"  ./src/ciaaIO.o ./src/ciaaTest.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/sysinit.o   -llpc_chip_43xx
+Finished building target: ciaaTest.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "ciaaTest.axf"; # arm-none-eabi-objcopy -v -O binary "ciaaTest.axf" "ciaaTest.bin" ; # checksum -p LPC4337 -d "ciaaTest.bin";
+   text	   data	    bss	    dec	    hex	filename
+   2968	      0	     16	   2984	    ba8	ciaaTest.axf
+ 
+09:28:10 **** Incremental Build of configuration Debug for project lpc_chip_43xx ****
+make all 
+make: Nothing to be done for `all'.
+09:28:10 **** Incremental Build of configuration Debug for project ciaaTest ****
+make all 
+Building file: ../src/ciaaTest.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -DNO_BOARD_LIB -D__LPC43XX__ -I"/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/ciaaTest.d" -MT"src/ciaaTest.d" -o "src/ciaaTest.o" "../src/ciaaTest.c"
+Finished building: ../src/ciaaTest.c
+ 
+Building target: ciaaTest.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug" -Xlinker -Map="ciaaTest.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "ciaaTest_Debug.ld" -o "ciaaTest.axf"  ./src/ciaaIO.o ./src/ciaaTest.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/sysinit.o   -llpc_chip_43xx
+Finished building target: ciaaTest.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "ciaaTest.axf"; # arm-none-eabi-objcopy -v -O binary "ciaaTest.axf" "ciaaTest.bin" ; # checksum -p LPC4337 -d "ciaaTest.bin";
+   text	   data	    bss	    dec	    hex	filename
+   2968	      0	     16	   2984	    ba8	ciaaTest.axf
+ 
+09:29:04 **** Incremental Build of configuration Debug for project lpc_chip_43xx ****
+make all 
+make: Nothing to be done for `all'.
+09:29:05 **** Incremental Build of configuration Debug for project ciaaTest ****
+make all 
+make: Nothing to be done for `all'.
+09:32:57 **** Incremental Build of configuration Debug for project lpc_chip_43xx ****
+make all 
+make: Nothing to be done for `all'.
+09:32:58 **** Incremental Build of configuration Debug for project ciaaTest ****
+make all 
+Building file: ../src/ciaaTest.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -DNO_BOARD_LIB -D__LPC43XX__ -I"/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/ciaaTest.d" -MT"src/ciaaTest.d" -o "src/ciaaTest.o" "../src/ciaaTest.c"
+Finished building: ../src/ciaaTest.c
+ 
+Building target: ciaaTest.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug" -Xlinker -Map="ciaaTest.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "ciaaTest_Debug.ld" -o "ciaaTest.axf"  ./src/ciaaIO.o ./src/ciaaTest.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/sysinit.o   -llpc_chip_43xx
+Finished building target: ciaaTest.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "ciaaTest.axf"; # arm-none-eabi-objcopy -v -O binary "ciaaTest.axf" "ciaaTest.bin" ; # checksum -p LPC4337 -d "ciaaTest.bin";
+   text	   data	    bss	    dec	    hex	filename
+   2972	      0	     16	   2988	    bac	ciaaTest.axf
+ 
+09:33:27 **** Incremental Build of configuration Debug for project lpc_chip_43xx ****
+make all 
+make: Nothing to be done for `all'.
+09:33:28 **** Incremental Build of configuration Debug for project ciaaTest ****
+make all 
+Building file: ../src/ciaaTest.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -DNO_BOARD_LIB -D__LPC43XX__ -I"/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/ciaaTest.d" -MT"src/ciaaTest.d" -o "src/ciaaTest.o" "../src/ciaaTest.c"
+Finished building: ../src/ciaaTest.c
+ 
+Building target: ciaaTest.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug" -Xlinker -Map="ciaaTest.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "ciaaTest_Debug.ld" -o "ciaaTest.axf"  ./src/ciaaIO.o ./src/ciaaTest.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/sysinit.o   -llpc_chip_43xx
+Finished building target: ciaaTest.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "ciaaTest.axf"; # arm-none-eabi-objcopy -v -O binary "ciaaTest.axf" "ciaaTest.bin" ; # checksum -p LPC4337 -d "ciaaTest.bin";
+   text	   data	    bss	    dec	    hex	filename
+   2968	      0	     16	   2984	    ba8	ciaaTest.axf
+ 
+09:34:52 **** Incremental Build of configuration Debug for project lpc_chip_43xx ****
+make all 
+make: Nothing to be done for `all'.
+09:34:52 **** Incremental Build of configuration Debug for project ciaaTest ****
+make all 
+Building file: ../src/ciaaTest.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -DNO_BOARD_LIB -D__LPC43XX__ -I"/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/ciaaTest.d" -MT"src/ciaaTest.d" -o "src/ciaaTest.o" "../src/ciaaTest.c"
+Finished building: ../src/ciaaTest.c
+ 
+Building target: ciaaTest.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug" -Xlinker -Map="ciaaTest.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "ciaaTest_Debug.ld" -o "ciaaTest.axf"  ./src/ciaaIO.o ./src/ciaaTest.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/sysinit.o   -llpc_chip_43xx
+Finished building target: ciaaTest.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "ciaaTest.axf"; # arm-none-eabi-objcopy -v -O binary "ciaaTest.axf" "ciaaTest.bin" ; # checksum -p LPC4337 -d "ciaaTest.bin";
+   text	   data	    bss	    dec	    hex	filename
+   2968	      0	     16	   2984	    ba8	ciaaTest.axf
+ 
+09:35:10 **** Incremental Build of configuration Debug for project lpc_chip_43xx ****
+make all 
+make: Nothing to be done for `all'.
+09:35:11 **** Incremental Build of configuration Debug for project ciaaTest ****
+make all 
+Building file: ../src/ciaaTest.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -DNO_BOARD_LIB -D__LPC43XX__ -I"/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/ciaaTest.d" -MT"src/ciaaTest.d" -o "src/ciaaTest.o" "../src/ciaaTest.c"
+Finished building: ../src/ciaaTest.c
+ 
+Building target: ciaaTest.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug" -Xlinker -Map="ciaaTest.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "ciaaTest_Debug.ld" -o "ciaaTest.axf"  ./src/ciaaIO.o ./src/ciaaTest.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/sysinit.o   -llpc_chip_43xx
+Finished building target: ciaaTest.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "ciaaTest.axf"; # arm-none-eabi-objcopy -v -O binary "ciaaTest.axf" "ciaaTest.bin" ; # checksum -p LPC4337 -d "ciaaTest.bin";
+   text	   data	    bss	    dec	    hex	filename
+   2968	      0	     16	   2984	    ba8	ciaaTest.axf
+ 
+09:38:24 **** Incremental Build of configuration Debug for project lpc_chip_43xx ****
+make all 
+make: Nothing to be done for `all'.
+09:38:24 **** Incremental Build of configuration Debug for project ciaaTest ****
+make all 
+make: Nothing to be done for `all'.
+09:39:11 **** Incremental Build of configuration Debug for project lpc_chip_43xx ****
+make all 
+make: Nothing to be done for `all'.
+09:39:11 **** Incremental Build of configuration Debug for project ciaaTest ****
+make all 
+Building file: ../src/ciaaTest.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -DNO_BOARD_LIB -D__LPC43XX__ -I"/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/ciaaTest.d" -MT"src/ciaaTest.d" -o "src/ciaaTest.o" "../src/ciaaTest.c"
+Finished building: ../src/ciaaTest.c
+ 
+Building target: ciaaTest.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug" -Xlinker -Map="ciaaTest.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "ciaaTest_Debug.ld" -o "ciaaTest.axf"  ./src/ciaaIO.o ./src/ciaaTest.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/sysinit.o   -llpc_chip_43xx
+Finished building target: ciaaTest.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "ciaaTest.axf"; # arm-none-eabi-objcopy -v -O binary "ciaaTest.axf" "ciaaTest.bin" ; # checksum -p LPC4337 -d "ciaaTest.bin";
+   text	   data	    bss	    dec	    hex	filename
+   2972	      0	     16	   2988	    bac	ciaaTest.axf
+ 
+09:39:17 **** Incremental Build of configuration Debug for project lpc_chip_43xx ****
+make all 
+make: Nothing to be done for `all'.
+09:39:18 **** Incremental Build of configuration Debug for project ciaaTest ****
+make all 
+make: Nothing to be done for `all'.
+09:39:28 **** Incremental Build of configuration Debug for project lpc_chip_43xx ****
+make all 
+make: Nothing to be done for `all'.
+09:39:28 **** Incremental Build of configuration Debug for project ciaaTest ****
+make all 
+make: Nothing to be done for `all'.

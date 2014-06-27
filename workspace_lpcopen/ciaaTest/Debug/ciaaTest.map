@@ -1,0 +1,1366 @@
+Archive member included because of file (symbol)
+
+/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+                              ./src/ciaaTest.o (SystemCoreClockUpdate)
+/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                              /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o) (Chip_Clock_SetDivider)
+/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+                              ./src/sysinit.o (fpuInit)
+/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+                              ./src/ciaaIO.o (Chip_GPIO_Init)
+/home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                              ./src/sysinit.o (Chip_SystemInit)
+/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc43xx.o (__main)
+
+Allocating common symbols
+Common symbol       size              file
+
+SystemCoreClock     0x4               /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaIO.o
+ .text          0x00000000        0x0 ./src/ciaaIO.o
+ .data          0x00000000        0x0 ./src/ciaaIO.o
+ .bss           0x00000000        0x0 ./src/ciaaIO.o
+ .text.ciaaReadInput
+                0x00000000       0x34 ./src/ciaaIO.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/ciaaTest.o
+ .text          0x00000000        0x0 ./src/ciaaTest.o
+ .data          0x00000000        0x0 ./src/ciaaTest.o
+ .bss           0x00000000        0x0 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x87a ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x10 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x10 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x122 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x5b9 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x22 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x7b ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x28 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x3b ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x2d ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x42 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0xd39 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x2b5 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x112 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x1e ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x16 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x2e6 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x82 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x13d ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x198 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x34 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x58 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x236 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x572 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x16 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x18a ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x88 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x1b9 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x1da ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x40 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x1c ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x2e ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x2e ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x22 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x201 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0xd2 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x34c ./src/ciaaTest.o
+ .debug_macro   0x00000000       0xdc ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x94 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0xb8 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x4c ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x16 ./src/ciaaTest.o
+ .debug_macro   0x00000000      0x328 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x3a ./src/ciaaTest.o
+ .debug_macro   0x00000000       0xd0 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x18 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x22 ./src/ciaaTest.o
+ .debug_macro   0x00000000       0x40 ./src/ciaaTest.o
+ .group         0x00000000        0x8 ./src/cr_startup_lpc43xx.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .debug_macro   0x00000000      0x87a ./src/cr_startup_lpc43xx.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .debug_macro   0x00000000      0x87a ./src/crp.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .text          0x00000000        0x0 ./src/sysinit.o
+ .data          0x00000000        0x0 ./src/sysinit.o
+ .bss           0x00000000        0x0 ./src/sysinit.o
+ .debug_macro   0x00000000      0x87a ./src/sysinit.o
+ .debug_macro   0x00000000       0x10 ./src/sysinit.o
+ .debug_macro   0x00000000       0x10 ./src/sysinit.o
+ .debug_macro   0x00000000      0x122 ./src/sysinit.o
+ .debug_macro   0x00000000      0x5b9 ./src/sysinit.o
+ .debug_macro   0x00000000       0x22 ./src/sysinit.o
+ .debug_macro   0x00000000       0x7b ./src/sysinit.o
+ .debug_macro   0x00000000       0x28 ./src/sysinit.o
+ .debug_macro   0x00000000       0x3b ./src/sysinit.o
+ .debug_macro   0x00000000       0x2d ./src/sysinit.o
+ .debug_macro   0x00000000       0x42 ./src/sysinit.o
+ .debug_macro   0x00000000      0xd39 ./src/sysinit.o
+ .debug_macro   0x00000000      0x2b5 ./src/sysinit.o
+ .debug_macro   0x00000000      0x112 ./src/sysinit.o
+ .debug_macro   0x00000000       0x1e ./src/sysinit.o
+ .debug_macro   0x00000000       0x16 ./src/sysinit.o
+ .debug_macro   0x00000000      0x2e6 ./src/sysinit.o
+ .debug_macro   0x00000000       0x82 ./src/sysinit.o
+ .debug_macro   0x00000000      0x13d ./src/sysinit.o
+ .debug_macro   0x00000000      0x198 ./src/sysinit.o
+ .debug_macro   0x00000000       0x34 ./src/sysinit.o
+ .debug_macro   0x00000000       0x58 ./src/sysinit.o
+ .debug_macro   0x00000000      0x236 ./src/sysinit.o
+ .debug_macro   0x00000000      0x572 ./src/sysinit.o
+ .debug_macro   0x00000000       0x16 ./src/sysinit.o
+ .debug_macro   0x00000000      0x18a ./src/sysinit.o
+ .debug_macro   0x00000000       0x88 ./src/sysinit.o
+ .debug_macro   0x00000000      0x1b9 ./src/sysinit.o
+ .debug_macro   0x00000000      0x1da ./src/sysinit.o
+ .debug_macro   0x00000000       0x40 ./src/sysinit.o
+ .debug_macro   0x00000000       0x1c ./src/sysinit.o
+ .debug_macro   0x00000000       0x2e ./src/sysinit.o
+ .debug_macro   0x00000000       0x2e ./src/sysinit.o
+ .debug_macro   0x00000000       0x22 ./src/sysinit.o
+ .debug_macro   0x00000000      0x201 ./src/sysinit.o
+ .debug_macro   0x00000000       0xd2 ./src/sysinit.o
+ .debug_macro   0x00000000      0x34c ./src/sysinit.o
+ .debug_macro   0x00000000       0xdc ./src/sysinit.o
+ .debug_macro   0x00000000       0x94 ./src/sysinit.o
+ .debug_macro   0x00000000       0xb8 ./src/sysinit.o
+ .debug_macro   0x00000000       0x4c ./src/sysinit.o
+ .debug_macro   0x00000000       0x16 ./src/sysinit.o
+ .debug_macro   0x00000000      0x328 ./src/sysinit.o
+ .debug_macro   0x00000000       0x3a ./src/sysinit.o
+ .debug_macro   0x00000000       0xd0 ./src/sysinit.o
+ .debug_macro   0x00000000       0x18 ./src/sysinit.o
+ .debug_macro   0x00000000       0x22 ./src/sysinit.o
+ .debug_macro   0x00000000       0x40 ./src/sysinit.o
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .text          0x00000000        0x0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .data          0x00000000        0x0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .bss           0x00000000        0x0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .text.Chip_USB_PllSetup
+                0x00000000       0x38 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .text.Chip_USB0_Init
+                0x00000000       0x34 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .text.Chip_USB1_Init
+                0x00000000       0x48 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .rodata.usbPLLSetup
+                0x00000000       0x14 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x122 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x5b9 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x7b /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x28 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3b /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2d /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x42 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0xd39 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2b5 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x112 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1e /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2e6 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x82 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x13d /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x198 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x34 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x236 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x572 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x18a /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x88 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1b9 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1da /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1c /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x201 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd2 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x34c /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0xdc /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x94 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0xb8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x4c /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x328 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3a /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x18 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text          0x00000000        0x0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .data          0x00000000        0x0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .bss           0x00000000        0x0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableCrystal
+                0x00000000       0x38 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableCrystal
+                0x00000000       0x10 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableMainPLL
+                0x00000000       0x10 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_MainPLLLocked
+                0x00000000       0x10 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetDivider
+                0x00000000       0x48 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetBaseClockOpts
+                0x00000000       0x34 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableBaseClock
+                0x00000000       0x18 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableBaseClock
+                0x00000000       0x18 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_IsBaseClockEnabled
+                0x00000000       0x20 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableOpts
+                0x00000000       0x34 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_Enable
+                0x00000000       0x28 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_RTCEnable
+                0x00000000       0x18 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_Disable
+                0x00000000       0x28 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_StartPowerDown
+                0x00000000       0x14 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_ClearPowerDown
+                0x00000000       0x14 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetEMCRate
+                0x00000000       0x30 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetupPLL
+                0x00000000       0x40 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnablePLL
+                0x00000000       0x14 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisablePLL
+                0x00000000       0x14 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetPLLStatus
+                0x00000000        0xc /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x868 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x122 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x5b9 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x7b /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x28 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3b /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2d /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x42 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0xd39 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2b5 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x112 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1e /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2e6 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x82 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x13d /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x198 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x34 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x236 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x572 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x18a /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x88 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1b9 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1da /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1c /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x201 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd2 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x34c /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xdc /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x94 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xb8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x4c /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x328 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3a /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x18 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .text          0x00000000        0x0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .data          0x00000000        0x0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .bss           0x00000000        0x0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000      0x868 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x10 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x10 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000      0x122 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000      0x5b9 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x22 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x7b /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x28 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x3b /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x2d /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x42 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000      0xd39 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .text          0x00000000        0x0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .data          0x00000000        0x0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .bss           0x00000000        0x0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_DeInit
+                0x00000000        0x4 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_WriteDirBit
+                0x00000000       0x38 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_SetPinDIR
+                0x00000000       0x38 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_SetPortDIR
+                0x00000000       0x24 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x868 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x122 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x5b9 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x7b /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x28 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3b /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2d /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x42 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0xd39 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2b5 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x112 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1e /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2e6 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x82 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x13d /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x198 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x34 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x236 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x572 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x18a /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x88 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1b9 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1da /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1c /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x201 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd2 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x34c /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0xdc /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x94 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0xb8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x4c /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x328 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3a /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x18 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .text          0x00000000        0x0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .data          0x00000000        0x0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .bss           0x00000000        0x0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .text.Chip_SetupXtalClocking
+                0x00000000       0x6c /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x868 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x122 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x5b9 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x7b /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x28 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3b /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2d /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x42 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0xd39 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2b5 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x112 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1e /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2e6 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x82 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x13d /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x198 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x34 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x236 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x572 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x18a /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x88 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1b9 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1da /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1c /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x201 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd2 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x34c /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xdc /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x94 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xb8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x4c /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x328 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3a /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x18 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlashA512       0x1a000000         0x00080000         xr
+MFlashB512       0x1b000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamLoc40         0x10080000         0x0000a000         xrw
+RamAHB32         0x20000000         0x00008000         xrw
+RamAHB16         0x20008000         0x00004000         xrw
+RamAHB_ETB16     0x2000c000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/ciaaIO.o
+LOAD ./src/ciaaTest.o
+LOAD ./src/cr_startup_lpc43xx.o
+LOAD ./src/crp.o
+LOAD ./src/sysinit.o
+LOAD /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a
+START GROUP
+LOAD /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a
+LOAD /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a
+END GROUP
+                0x1a080000                __top_MFlashA512 = 0x1a080000
+                0x1b080000                __top_MFlashB512 = 0x1b080000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x1008a000                __top_RamLoc40 = 0x1008a000
+                0x20008000                __top_RamAHB32 = 0x20008000
+                0x2000c000                __top_RamAHB16 = 0x2000c000
+                0x20010000                __top_RamAHB_ETB16 = 0x20010000
+
+.text_Flash2    0x1b000000        0x0
+ FILL mask 0xff
+ *(.text_Flash2*)
+ *(.text_MFlashB512*)
+ *(.text.$Flash2*)
+ *(.text.$MFlashB512*)
+ *(.rodata.$Flash2*)
+ *(.rodata.$MFlashB512*)
+
+.text           0x1a000000      0xb9c
+ FILL mask 0xff
+                0x1a000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x1a000000      0x114 ./src/cr_startup_lpc43xx.o
+                0x1a000000                g_pfnVectors
+                0x1a000114                . = ALIGN (0x4)
+                0x1a000114                __section_table_start = .
+                0x1a000114                __data_section_table = .
+                0x1a000114        0x4 LONG 0x1a000b9c LOADADDR (.data)
+                0x1a000118        0x4 LONG 0x10000000 ADDR (.data)
+                0x1a00011c        0x4 LONG 0x0 SIZEOF (.data)
+                0x1a000120        0x4 LONG 0x1a000b9c LOADADDR (.data_RAM2)
+                0x1a000124        0x4 LONG 0x10080000 ADDR (.data_RAM2)
+                0x1a000128        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x1a00012c        0x4 LONG 0x1a000b9c LOADADDR (.data_RAM3)
+                0x1a000130        0x4 LONG 0x20000000 ADDR (.data_RAM3)
+                0x1a000134        0x4 LONG 0x0 SIZEOF (.data_RAM3)
+                0x1a000138        0x4 LONG 0x1a000b9c LOADADDR (.data_RAM4)
+                0x1a00013c        0x4 LONG 0x20008000 ADDR (.data_RAM4)
+                0x1a000140        0x4 LONG 0x0 SIZEOF (.data_RAM4)
+                0x1a000144        0x4 LONG 0x1a000b9c LOADADDR (.data_RAM5)
+                0x1a000148        0x4 LONG 0x2000c000 ADDR (.data_RAM5)
+                0x1a00014c        0x4 LONG 0x0 SIZEOF (.data_RAM5)
+                0x1a000150                __data_section_table_end = .
+                0x1a000150                __bss_section_table = .
+                0x1a000150        0x4 LONG 0x10000000 ADDR (.bss)
+                0x1a000154        0x4 LONG 0x10 SIZEOF (.bss)
+                0x1a000158        0x4 LONG 0x10080000 ADDR (.bss_RAM2)
+                0x1a00015c        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x1a000160        0x4 LONG 0x20000000 ADDR (.bss_RAM3)
+                0x1a000164        0x4 LONG 0x0 SIZEOF (.bss_RAM3)
+                0x1a000168        0x4 LONG 0x20008000 ADDR (.bss_RAM4)
+                0x1a00016c        0x4 LONG 0x0 SIZEOF (.bss_RAM4)
+                0x1a000170        0x4 LONG 0x2000c000 ADDR (.bss_RAM5)
+                0x1a000174        0x4 LONG 0x0 SIZEOF (.bss_RAM5)
+                0x1a000178                __bss_section_table_end = .
+                0x1a000178                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x1a000178       0x58 ./src/cr_startup_lpc43xx.o
+                0x1a000178                NMI_Handler
+                0x1a00017c                HardFault_Handler
+                0x1a000180                MemManage_Handler
+                0x1a000184                BusFault_Handler
+                0x1a000188                UsageFault_Handler
+                0x1a00018c                SVC_Handler
+                0x1a000190                DebugMon_Handler
+                0x1a000194                PendSV_Handler
+                0x1a00019c                TIMER2_IRQHandler
+                0x1a00019c                RIT_IRQHandler
+                0x1a00019c                ADCHS_IRQHandler
+                0x1a00019c                I2C0_IRQHandler
+                0x1a00019c                SDIO_IRQHandler
+                0x1a00019c                ATIMER_IRQHandler
+                0x1a00019c                I2C1_IRQHandler
+                0x1a00019c                UART1_IRQHandler
+                0x1a00019c                GPIO5_IRQHandler
+                0x1a00019c                CAN1_IRQHandler
+                0x1a00019c                USB1_IRQHandler
+                0x1a00019c                I2S0_IRQHandler
+                0x1a00019c                TIMER3_IRQHandler
+                0x1a00019c                UART0_IRQHandler
+                0x1a00019c                SGPIO_IRQHandler
+                0x1a00019c                ADC0_IRQHandler
+                0x1a00019c                GPIO6_IRQHandler
+                0x1a00019c                IntDefaultHandler
+                0x1a00019c                GPIO1_IRQHandler
+                0x1a00019c                SSP0_IRQHandler
+                0x1a00019c                ADC1_IRQHandler
+                0x1a00019c                FLASHEEPROM_IRQHandler
+                0x1a00019c                RTC_IRQHandler
+                0x1a00019c                TIMER0_IRQHandler
+                0x1a00019c                SPI_IRQHandler
+                0x1a00019c                LCD_IRQHandler
+                0x1a00019c                TIMER1_IRQHandler
+                0x1a00019c                UART2_IRQHandler
+                0x1a00019c                GPIO2_IRQHandler
+                0x1a00019c                I2S1_IRQHandler
+                0x1a00019c                SSP1_IRQHandler
+                0x1a00019c                USB0_IRQHandler
+                0x1a00019c                GPIO3_IRQHandler
+                0x1a00019c                SCT_IRQHandler
+                0x1a00019c                MX_CORE_IRQHandler
+                0x1a00019c                WDT_IRQHandler
+                0x1a00019c                GPIO7_IRQHandler
+                0x1a00019c                SPIFI_IRQHandler
+                0x1a00019c                QEI_IRQHandler
+                0x1a00019c                ETH_IRQHandler
+                0x1a00019c                CAN0_IRQHandler
+                0x1a00019c                GINT0_IRQHandler
+                0x1a00019c                DAC_IRQHandler
+                0x1a00019c                M0SUB_IRQHandler
+                0x1a00019c                GPIO0_IRQHandler
+                0x1a00019c                DMA_IRQHandler
+                0x1a00019c                EVRT_IRQHandler
+                0x1a00019c                UART3_IRQHandler
+                0x1a00019c                MCPWM_IRQHandler
+                0x1a00019c                GINT1_IRQHandler
+                0x1a00019c                GPIO4_IRQHandler
+                0x1a0001a0                data_init
+                0x1a0001bc                bss_init
+                0x000002fc                . = 0x2fc
+ *fill*         0x1a0001d0      0x12c ff
+                0x1a0002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x1a0002fc        0x4 ./src/crp.o
+                0x1a0002fc                CRP_WORD
+                0x1a000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.ciaaIOInit
+                0x1a000300       0xcc ./src/ciaaIO.o
+                0x1a000300                ciaaIOInit
+ .text.ciaaWriteOutput
+                0x1a0003cc      0x11c ./src/ciaaIO.o
+                0x1a0003cc                ciaaWriteOutput
+ .text.SysTick_Handler
+                0x1a0004e8       0x38 ./src/ciaaTest.o
+                0x1a0004e8                SysTick_Handler
+ .text.main     0x1a000520       0x48 ./src/ciaaTest.o
+                0x1a000520                main
+ .text.ResetISR
+                0x1a000568       0x80 ./src/cr_startup_lpc43xx.o
+                0x1a000568                ResetISR
+ .text.SystemInit
+                0x1a0005e8       0x1c ./src/sysinit.o
+                0x1a0005e8                SystemInit
+ .text.SystemCoreClockUpdate
+                0x1a000604       0x14 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+                0x1a000604                SystemCoreClockUpdate
+ .text.Chip_Clock_TestMainPLLMultiplier
+                0x1a000618       0x24 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_FindBaseClock
+                0x1a00063c       0x48 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableMainPLL
+                0x1a000684       0x10 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000684                Chip_Clock_DisableMainPLL
+ .text.Chip_Clock_GetDividerSource
+                0x1a000694       0x1c /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000694                Chip_Clock_GetDividerSource
+ .text.Chip_Clock_GetDividerDivisor
+                0x1a0006b0       0x14 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a0006b0                Chip_Clock_GetDividerDivisor
+ .text.Chip_Clock_GetClockInputHz
+                0x1a0006c4       0xb8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a0006c4                Chip_Clock_GetClockInputHz
+ .text.Chip_Clock_SetupMainPLLMult
+                0x1a00077c       0x80 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a00077c                Chip_Clock_SetupMainPLLMult
+ .text.Chip_Clock_SetupMainPLLHz
+                0x1a0007fc       0xac /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a0007fc                Chip_Clock_SetupMainPLLHz
+ .text.Chip_Clock_GetMainPLLHz
+                0x1a0008a8       0x68 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a0008a8                Chip_Clock_GetMainPLLHz
+ .text.Chip_Clock_GetDivRate
+                0x1a000910       0x24 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetBaseClock
+                0x1a000934       0x44 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000934                Chip_Clock_SetBaseClock
+ .text.Chip_Clock_GetBaseClock
+                0x1a000978       0x24 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000978                Chip_Clock_GetBaseClock
+ .text.Chip_Clock_GetBaseClocktHz
+                0x1a00099c        0xc /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a00099c                Chip_Clock_GetBaseClocktHz
+ .text.Chip_Clock_GetRate
+                0x1a0009a8       0x44 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a0009a8                Chip_Clock_GetRate
+ .text.fpuInit  0x1a0009ec       0x58 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+                0x1a0009ec                fpuInit
+ .text.Chip_GPIO_Init
+                0x1a000a44        0x4 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+                0x1a000a44                Chip_GPIO_Init
+ .text.Chip_GPIO_SetDir
+                0x1a000a48       0x24 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+                0x1a000a48                Chip_GPIO_SetDir
+ .text.Chip_SetupIrcClocking
+                0x1a000a6c       0x64 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a000a6c                Chip_SetupIrcClocking
+ .text.Chip_SystemInit
+                0x1a000ad0        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a000ad0                Chip_SystemInit
+ .text.__weak_main
+                0x1a000ad8        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(__weak__main.o)
+                0x1a000ad8                __main
+                0x1a000ad8                __weak_main
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.OscRateIn
+                0x1a000adc        0x4 ./src/sysinit.o
+                0x1a000adc                OscRateIn
+ .rodata.ExtRateIn
+                0x1a000ae0        0x4 ./src/sysinit.o
+                0x1a000ae0                ExtRateIn
+ .rodata        0x1a000ae4        0x4 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .rodata.periph_to_base
+                0x1a000ae8       0x6c /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .rodata.InitClkStates
+                0x1a000b54       0x48 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a000b9c                . = ALIGN (0x4)
+
+.glue_7         0x1a000b9c        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x1a000b9c        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x1a000b9c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x1a000b9c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x1a000b9c        0x0
+ .iplt          0x00000000        0x0 ./src/ciaaIO.o
+
+.rel.dyn        0x1a000b9c        0x0
+ .rel.iplt      0x00000000        0x0 ./src/ciaaIO.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x1a000b9c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x1a000b9c                __exidx_end = .
+                0x1a000b9c                _etext = .
+
+.data_RAM2      0x10080000        0x0 load address 0x1a000b9c
+ FILL mask 0xff
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamLoc40)
+ *(.data.$RAM2*)
+ *(.data.$RamLoc40*)
+                0x10080000                . = ALIGN (0x4)
+
+.data_RAM3      0x20000000        0x0 load address 0x1a000b9c
+ FILL mask 0xff
+ *(.ramfunc.$RAM3)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM3*)
+ *(.data.$RamAHB32*)
+                0x20000000                . = ALIGN (0x4)
+
+.data_RAM4      0x20008000        0x0 load address 0x1a000b9c
+ FILL mask 0xff
+ *(.ramfunc.$RAM4)
+ *(.ramfunc.$RamAHB16)
+ *(.data.$RAM4*)
+ *(.data.$RamAHB16*)
+                0x20008000                . = ALIGN (0x4)
+
+.data_RAM5      0x2000c000        0x0 load address 0x1a000b9c
+ FILL mask 0xff
+ *(.ramfunc.$RAM5)
+ *(.ramfunc.$RamAHB_ETB16)
+ *(.data.$RAM5*)
+ *(.data.$RamAHB_ETB16*)
+                0x2000c000                . = ALIGN (0x4)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x0 load address 0x1a000b9c
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _edata = .
+
+.igot.plt       0x10000000        0x0 load address 0x1a000b9c
+ .igot.plt      0x00000000        0x0 ./src/ciaaIO.o
+
+.bss_RAM2       0x10080000        0x0
+ *(.bss.$RAM2*)
+ *(.bss.$RamLoc40*)
+                0x10080000                . = ALIGN (0x4)
+
+.bss_RAM3       0x20000000        0x0
+ *(.bss.$RAM3*)
+ *(.bss.$RamAHB32*)
+                0x20000000                . = ALIGN (0x4)
+
+.bss_RAM4       0x20008000        0x0
+ *(.bss.$RAM4*)
+ *(.bss.$RamAHB16*)
+                0x20008000                . = ALIGN (0x4)
+
+.bss_RAM5       0x2000c000        0x0
+ *(.bss.$RAM5*)
+ *(.bss.$RamAHB_ETB16*)
+                0x2000c000                . = ALIGN (0x4)
+
+.bss            0x10000000       0x10
+                0x10000000                _bss = .
+ *(.bss*)
+ .bss.cont.8645
+                0x10000000        0x4 ./src/ciaaTest.o
+ .bss.audio_usb_pll_freq
+                0x10000004        0x8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ *(COMMON)
+ COMMON         0x1000000c        0x4 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+                0x1000000c                SystemCoreClock
+                0x10000010                . = ALIGN (0x4)
+                0x10000010                _ebss = .
+                0x10000010                PROVIDE (end, .)
+
+.noinit_RAM2    0x10080000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamLoc40*)
+                0x10080000                . = ALIGN (0x4)
+
+.noinit_RAM3    0x20000000        0x0
+ *(.noinit.$RAM3*)
+ *(.noinit.$RamAHB32*)
+                0x20000000                . = ALIGN (0x4)
+
+.noinit_RAM4    0x20008000        0x0
+ *(.noinit.$RAM4*)
+ *(.noinit.$RamAHB16*)
+                0x20008000                . = ALIGN (0x4)
+
+.noinit_RAM5    0x2000c000        0x0
+ *(.noinit.$RAM5*)
+ *(.noinit.$RamAHB_ETB16*)
+                0x2000c000                . = ALIGN (0x4)
+
+.noinit         0x10000010        0x0
+                0x10000010                _noinit = .
+ *(.noinit*)
+                0x10000010                . = ALIGN (0x4)
+                0x10000010                _end_noinit = .
+                0x10000010                PROVIDE (_pvHeapStart, .)
+                0x10008000                PROVIDE (_vStackTop, (__top_RamLoc32 - 0x0))
+OUTPUT(ciaaTest.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x4eb6
+ .debug_info    0x00000000      0xe06 ./src/ciaaIO.o
+ .debug_info    0x00000e06      0x6b8 ./src/ciaaTest.o
+ .debug_info    0x000014be      0x2d2 ./src/cr_startup_lpc43xx.o
+ .debug_info    0x00001790       0x3f ./src/crp.o
+ .debug_info    0x000017cf      0x5e4 ./src/sysinit.o
+ .debug_info    0x00001db3      0xcb6 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_info    0x00002a69     0x15b7 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_info    0x00004020      0x12f /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_info    0x0000414f      0x49b /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_info    0x000045ea      0x8cc /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+
+.debug_abbrev   0x00000000      0xe7b
+ .debug_abbrev  0x00000000      0x1f1 ./src/ciaaIO.o
+ .debug_abbrev  0x000001f1      0x217 ./src/ciaaTest.o
+ .debug_abbrev  0x00000408      0x10d ./src/cr_startup_lpc43xx.o
+ .debug_abbrev  0x00000515       0x36 ./src/crp.o
+ .debug_abbrev  0x0000054b       0xf5 ./src/sysinit.o
+ .debug_abbrev  0x00000640      0x1f6 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_abbrev  0x00000836      0x2e5 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_abbrev  0x00000b1b       0xa2 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_abbrev  0x00000bbd      0x14b /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_abbrev  0x00000d08      0x173 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+
+.debug_loc      0x00000000     0x1d52
+ .debug_loc     0x00000000      0x7fa ./src/ciaaIO.o
+ .debug_loc     0x000007fa       0x59 ./src/ciaaTest.o
+ .debug_loc     0x00000853      0x1f0 ./src/cr_startup_lpc43xx.o
+ .debug_loc     0x00000a43      0xee3 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_loc     0x00001926       0x1f /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_loc     0x00001945      0x3cf /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_loc     0x00001d14       0x3e /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+
+.debug_aranges  0x00000000      0x308
+ .debug_aranges
+                0x00000000       0x30 ./src/ciaaIO.o
+ .debug_aranges
+                0x00000030       0x28 ./src/ciaaTest.o
+ .debug_aranges
+                0x00000058       0x80 ./src/cr_startup_lpc43xx.o
+ .debug_aranges
+                0x000000d8       0x18 ./src/crp.o
+ .debug_aranges
+                0x000000f0       0x20 ./src/sysinit.o
+ .debug_aranges
+                0x00000110       0x38 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_aranges
+                0x00000148      0x128 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_aranges
+                0x00000270       0x20 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_aranges
+                0x00000290       0x48 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_aranges
+                0x000002d8       0x30 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+
+.debug_ranges   0x00000000      0x260
+ .debug_ranges  0x00000000       0x20 ./src/ciaaIO.o
+ .debug_ranges  0x00000020       0x18 ./src/ciaaTest.o
+ .debug_ranges  0x00000038       0x70 ./src/cr_startup_lpc43xx.o
+ .debug_ranges  0x000000a8       0x10 ./src/sysinit.o
+ .debug_ranges  0x000000b8       0x28 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_ranges  0x000000e0      0x118 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_ranges  0x000001f8       0x10 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_ranges  0x00000208       0x38 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_ranges  0x00000240       0x20 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+
+.debug_macro    0x00000000     0x622e
+ .debug_macro   0x00000000      0x2d6 ./src/ciaaIO.o
+ .debug_macro   0x000002d6      0x87a ./src/ciaaIO.o
+ .debug_macro   0x00000b50       0x10 ./src/ciaaIO.o
+ .debug_macro   0x00000b60       0x10 ./src/ciaaIO.o
+ .debug_macro   0x00000b70      0x122 ./src/ciaaIO.o
+ .debug_macro   0x00000c92      0x5b9 ./src/ciaaIO.o
+ .debug_macro   0x0000124b       0x22 ./src/ciaaIO.o
+ .debug_macro   0x0000126d       0x7b ./src/ciaaIO.o
+ .debug_macro   0x000012e8       0x28 ./src/ciaaIO.o
+ .debug_macro   0x00001310       0x3b ./src/ciaaIO.o
+ .debug_macro   0x0000134b       0x2d ./src/ciaaIO.o
+ .debug_macro   0x00001378       0x42 ./src/ciaaIO.o
+ .debug_macro   0x000013ba      0xd39 ./src/ciaaIO.o
+ .debug_macro   0x000020f3      0x2b5 ./src/ciaaIO.o
+ .debug_macro   0x000023a8      0x112 ./src/ciaaIO.o
+ .debug_macro   0x000024ba       0x1e ./src/ciaaIO.o
+ .debug_macro   0x000024d8       0x16 ./src/ciaaIO.o
+ .debug_macro   0x000024ee      0x2e6 ./src/ciaaIO.o
+ .debug_macro   0x000027d4       0x82 ./src/ciaaIO.o
+ .debug_macro   0x00002856      0x13d ./src/ciaaIO.o
+ .debug_macro   0x00002993      0x198 ./src/ciaaIO.o
+ .debug_macro   0x00002b2b       0x34 ./src/ciaaIO.o
+ .debug_macro   0x00002b5f       0x58 ./src/ciaaIO.o
+ .debug_macro   0x00002bb7      0x236 ./src/ciaaIO.o
+ .debug_macro   0x00002ded      0x572 ./src/ciaaIO.o
+ .debug_macro   0x0000335f       0x16 ./src/ciaaIO.o
+ .debug_macro   0x00003375      0x18a ./src/ciaaIO.o
+ .debug_macro   0x000034ff       0x88 ./src/ciaaIO.o
+ .debug_macro   0x00003587      0x1b9 ./src/ciaaIO.o
+ .debug_macro   0x00003740      0x1da ./src/ciaaIO.o
+ .debug_macro   0x0000391a       0x40 ./src/ciaaIO.o
+ .debug_macro   0x0000395a       0x1c ./src/ciaaIO.o
+ .debug_macro   0x00003976       0x2e ./src/ciaaIO.o
+ .debug_macro   0x000039a4       0x2e ./src/ciaaIO.o
+ .debug_macro   0x000039d2       0x22 ./src/ciaaIO.o
+ .debug_macro   0x000039f4      0x201 ./src/ciaaIO.o
+ .debug_macro   0x00003bf5       0xd2 ./src/ciaaIO.o
+ .debug_macro   0x00003cc7      0x34c ./src/ciaaIO.o
+ .debug_macro   0x00004013       0xdc ./src/ciaaIO.o
+ .debug_macro   0x000040ef       0x94 ./src/ciaaIO.o
+ .debug_macro   0x00004183       0xb8 ./src/ciaaIO.o
+ .debug_macro   0x0000423b       0x4c ./src/ciaaIO.o
+ .debug_macro   0x00004287       0x16 ./src/ciaaIO.o
+ .debug_macro   0x0000429d      0x328 ./src/ciaaIO.o
+ .debug_macro   0x000045c5       0x3a ./src/ciaaIO.o
+ .debug_macro   0x000045ff       0xd0 ./src/ciaaIO.o
+ .debug_macro   0x000046cf       0x18 ./src/ciaaIO.o
+ .debug_macro   0x000046e7       0x22 ./src/ciaaIO.o
+ .debug_macro   0x00004709       0x40 ./src/ciaaIO.o
+ .debug_macro   0x00004749      0x2d8 ./src/ciaaTest.o
+ .debug_macro   0x00004a21       0x10 ./src/ciaaTest.o
+ .debug_macro   0x00004a31       0x82 ./src/ciaaTest.o
+ .debug_macro   0x00004ab3       0x1d ./src/cr_startup_lpc43xx.o
+ .debug_macro   0x00004ad0       0x1a ./src/crp.o
+ .debug_macro   0x00004aea       0x34 ./src/crp.o
+ .debug_macro   0x00004b1e      0x2ca ./src/sysinit.o
+ .debug_macro   0x00004de8      0x2c6 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x000050ae      0x868 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00005916      0x2cc /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00005be2       0xc0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00005ca2      0x2c6 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00005f68      0x2c6 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+
+.debug_line     0x00000000     0x3146
+ .debug_line    0x00000000      0x706 ./src/ciaaIO.o
+ .debug_line    0x00000706      0x646 ./src/ciaaTest.o
+ .debug_line    0x00000d4c       0xd3 ./src/cr_startup_lpc43xx.o
+ .debug_line    0x00000e1f       0x7c ./src/crp.o
+ .debug_line    0x00000e9b      0x5ae ./src/sysinit.o
+ .debug_line    0x00001449      0x5fc /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_line    0x00001a45      0x8fa /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_line    0x0000233f      0x1e0 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_line    0x0000251f      0x61f /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_line    0x00002b3e      0x608 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+
+.debug_str      0x00000000    0x16ccc
+ .debug_str     0x00000000    0x14cab ./src/ciaaIO.o
+                              0x14d9f (size before relaxing)
+ .debug_str     0x00014cab      0x87f ./src/ciaaTest.o
+                              0x154f6 (size before relaxing)
+ .debug_str     0x0001552a      0x1d5 ./src/cr_startup_lpc43xx.o
+                               0x2683 (size before relaxing)
+ .debug_str     0x000156ff       0xe9 ./src/crp.o
+                               0x2568 (size before relaxing)
+ .debug_str     0x000157e8      0xa5b ./src/sysinit.o
+                              0x155e1 (size before relaxing)
+ .debug_str     0x00016243      0x3b6 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+                              0x159bd (size before relaxing)
+ .debug_str     0x000165f9      0x4bd /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                              0x15dd5 (size before relaxing)
+ .debug_str     0x00016ab6       0xad /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+                               0x9833 (size before relaxing)
+ .debug_str     0x00016b63       0xee /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+                              0x14c8a (size before relaxing)
+ .debug_str     0x00016c51       0x7b /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                              0x1575f (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/ciaaIO.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/ciaaTest.o
+ .comment       0x00000000       0x71 ./src/cr_startup_lpc43xx.o
+ .comment       0x00000000       0x71 ./src/crp.o
+ .comment       0x00000000       0x71 ./src/sysinit.o
+ .comment       0x00000000       0x71 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .comment       0x00000000       0x71 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .comment       0x00000000       0x71 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .comment       0x00000000       0x71 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .comment       0x00000000       0x71 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .comment       0x00000000       0x71 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x37
+ .ARM.attributes
+                0x00000000       0x37 ./src/ciaaIO.o
+ .ARM.attributes
+                0x00000037       0x37 ./src/ciaaTest.o
+ .ARM.attributes
+                0x0000006e       0x37 ./src/cr_startup_lpc43xx.o
+ .ARM.attributes
+                0x000000a5       0x37 ./src/crp.o
+ .ARM.attributes
+                0x000000dc       0x37 ./src/sysinit.o
+ .ARM.attributes
+                0x00000113       0x37 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .ARM.attributes
+                0x0000014a       0x37 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .ARM.attributes
+                0x00000181       0x37 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .ARM.attributes
+                0x000001b8       0x37 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .ARM.attributes
+                0x000001ef       0x37 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .ARM.attributes
+                0x00000226       0x37 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000      0x5d8
+ .debug_frame   0x00000000       0x50 ./src/ciaaIO.o
+ .debug_frame   0x00000050       0x40 ./src/ciaaTest.o
+ .debug_frame   0x00000090       0xf4 ./src/cr_startup_lpc43xx.o
+ .debug_frame   0x00000184       0x28 ./src/sysinit.o
+ .debug_frame   0x000001ac       0x70 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_frame   0x0000021c      0x2b8 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_frame   0x000004d4       0x24 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_frame   0x000004f8       0x80 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_frame   0x00000578       0x60 /home/pablo/Desktop/LPCOpen_workspace/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)

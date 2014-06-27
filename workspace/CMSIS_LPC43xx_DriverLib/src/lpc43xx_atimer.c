@@ -23,7 +23,7 @@
 * warranty that such application will be suitable for the specified
 * use without further testing or modification.
 * Permission to use, copy, modify, and distribute this software and its
-* documentation is hereby granted, under NXP Semiconductorsï¿½
+* documentation is hereby granted, under NXP Semiconductors’
 * relevant copyright in the software, without fee, provided that it
 * is used in conjunction with NXP Semiconductors microcontrollers.  This
 * copyright, permission, and disclaimer notice must appear in all copies of
@@ -127,7 +127,7 @@ void ATIMER_IntEnable(LPC_ATIMER_Type *ATIMERx)
 {
 	CHECK_PARAM(PARAM_ATIMERx(ATIMERx));
 	ATIMERx->SET_EN = 1;
-	while((ATIMERx->ATMR_ENABLE & 1) == 0);
+	while((ATIMERx->ENABLE & 1) == 0);
 }
 
 /*********************************************************************//**
@@ -139,7 +139,7 @@ void ATIMER_IntDisable(LPC_ATIMER_Type *ATIMERx)
 {
 	CHECK_PARAM(PARAM_ATIMERx(ATIMERx));
 	ATIMERx->CLR_EN = 1;
-	while((ATIMERx->ATMR_ENABLE & 1) == 1);
+	while((ATIMERx->ENABLE & 1) == 1);
 }
 /*********************************************************************//**
  * @brief 		Update Preset value

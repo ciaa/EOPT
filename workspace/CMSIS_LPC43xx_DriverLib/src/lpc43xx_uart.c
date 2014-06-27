@@ -22,7 +22,7 @@
 * warranty that such application will be suitable for the specified
 * use without further testing or modification.
 * Permission to use, copy, modify, and distribute this software and its
-* documentation is hereby granted, under NXP Semiconductorsï¿½
+* documentation is hereby granted, under NXP Semiconductors’
 * relevant copyright in the software, without fee, provided that it
 * is used in conjunction with NXP Semiconductors microcontrollers.  This
 * copyright, permission, and disclaimer notice must appear in all copies of
@@ -37,7 +37,7 @@
 /* Includes ------------------------------------------------------------------- */
 #include "lpc43xx_uart.h"
 #include "lpc43xx_cgu.h"
-#include "debug_frmwrk.h"
+
 /* If this source file built with example, the lpc43xx FW library configuration
  * file in each example directory ("lpc43xx_libcfg.h") must be included,
  * otherwise the default FW library configuration file must be included instead
@@ -601,17 +601,12 @@ uint32_t UART_Send(LPC_USARTn_Type *UARTx, uint8_t *txbuf,
 	// None blocking mode
 	else {
 		bSent = 0;
-		while (bToSend)
-		{
-			if (!(UARTx->LSR & UART_LSR_THRE))
-			{
+		while (bToSend) {
+			if (!(UARTx->LSR & UART_LSR_THRE)){
 				break;
 			}
-
 			fifo_cnt = UART_TX_FIFO_SIZE;
-
-			while (fifo_cnt && bToSend)
-			{
+			while (fifo_cnt && bToSend) {
 				UART_SendByte(UARTx, (*pChar++));
 				bToSend--;
 				fifo_cnt--;

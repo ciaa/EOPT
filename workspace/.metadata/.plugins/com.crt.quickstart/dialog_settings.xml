@@ -9,12 +9,13 @@
 			<item value="/home/pablo/Dropbox/Privado/FIUBA/CIAA/CIAA-Demo"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/Examples/CMSIS_CORE/CMSIS_CORE_Latest.zip"/>
 			<item value="/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/Examples/NXP/LPC4000/LPC43xx/LPC4350A_Hitex.zip"/>
 			<item value=""/>
 			<item value="/usr/local/lpcxpresso_7.1.1_125/lpcxpresso/Examples/NXP/LPC4000/LPC43xx/NGX_LPC4337-Xplorer.zip"/>
 		</list>
 	</section>
 	<section name="com.crt.quickstart.views.wizards.examples.QSExampleSelectionPage">
-		<item value="/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/Examples/NXP/LPC4000/LPC43xx" key="dirname"/>
+		<item value="/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/Examples/CMSIS_CORE" key="dirname"/>
 	</section>
 </section>

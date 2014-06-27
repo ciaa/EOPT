@@ -4,7 +4,7 @@
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
 			<provider id="com.crt.advproject.GCCBuildCommandParser">
 				<language id="org.eclipse.cdt.core.gcc">
-					<resource project-relative-path="src/ciaaIO.c">
+					<resource project-relative-path="src/crp.c">
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
@@ -28,7 +28,7 @@
 						<entry kind="macro" name="__REDLIB__" value=""/>
 						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
 					</resource>
-					<resource project-relative-path="src/crp.c">
+					<resource project-relative-path="src/ciaaIO.c">
 						<entry kind="includePath" name="/CMSIS_LPC43xx_DriverLib/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>

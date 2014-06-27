@@ -1,0 +1,25 @@
+/*
+===============================================================================
+ Name        : ciaaTest.c
+ Author      : $(author)
+ Version     :
+ Copyright   : $(copyright)
+ Description : main definition
+===============================================================================
+*/
+
+#include "chip.h"
+
+#include <cr_section_macros.h>
+
+int main(void)
+{
+	SysTick_Config(SystemCoreClock/1000);
+
+	LPC_GPIO_T gpio;
+
+	Chip_GPIO_Init(LPC_GPIO_PORT);
+
+
+
+}

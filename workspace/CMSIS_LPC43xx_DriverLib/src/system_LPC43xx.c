@@ -113,7 +113,6 @@ void SystemInit (void)
 #ifdef __CODE_RED
     // Call clock initialisation code
     CGU_Init(6);
-//    CGU_Init(17);
 #endif
 
 // In case we are running from internal flash, we configure the flash

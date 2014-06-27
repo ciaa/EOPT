@@ -38,6 +38,7 @@ int main(void)
 	 * pero CGU_GetPCLKFrequency() no sé por qué genera
 	 * cuelgues erráticos o hace que SysTick no interrumpa :(
 	 */
+
 	SysTick_Config(SystemCoreClock/1000);
     ciaaIOInit();
 
