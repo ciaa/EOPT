@@ -65,10 +65,7 @@ int main(void)
 	if((rxbuf[0]==0x55)&&(rxbuf[1]==0xF0)&&(rxbuf[2]==0xAA)&&
 		(rxbuf48[0]==0x55)&&(rxbuf48[1]==0xF0)&&(rxbuf48[2]==0xAA)	)
 	{
-		sprintf(str, "OK. EUI-48: %02X-%02X-%02X-%02X-%02X-%02X\r\n",
-				uid48[0], uid48[1], uid48[2], uid48[3],
-				uid48[4], uid48[5]);
-		dbgPrint(str);
+		dbgPrint("OK\r\n");
 	}
 	else
 		dbgPrint("ERROR\r\n");
@@ -84,7 +81,7 @@ int main(void)
     	for(i=4; i<8; i++)
     	{
 			ciaaWriteOutput(i, 1);
-			pausems(200);
+			pausems(100);
 			ciaaWriteOutput(i, 0);
     	}
 	}

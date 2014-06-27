@@ -84,7 +84,7 @@ int main(void)
     	for(i=4; i<8; i++)
     	{
 			ciaaWriteOutput(i, 1);
-			pausems(200);
+			pausems(100);
 			ciaaWriteOutput(i, 0);
     	}
 	}

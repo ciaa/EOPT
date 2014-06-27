@@ -2315,7 +2315,7 @@ END GROUP
  *(.rodata.$Flash2*)
  *(.rodata.$MFlashB512*)
 
-.text           0x1a000000     0x4358
+.text           0x1a000000     0x43b0
  FILL mask 0xff
                 0x1a000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -2324,25 +2324,25 @@ END GROUP
                 0x1a000114                . = ALIGN (0x4)
                 0x1a000114                __section_table_start = .
                 0x1a000114                __data_section_table = .
-                0x1a000114        0x4 LONG 0x1a004358 LOADADDR (.data)
+                0x1a000114        0x4 LONG 0x1a0043b0 LOADADDR (.data)
                 0x1a000118        0x4 LONG 0x10000000 ADDR (.data)
                 0x1a00011c        0x4 LONG 0x40 SIZEOF (.data)
-                0x1a000120        0x4 LONG 0x1a004358 LOADADDR (.data_RAM2)
+                0x1a000120        0x4 LONG 0x1a0043b0 LOADADDR (.data_RAM2)
                 0x1a000124        0x4 LONG 0x10080000 ADDR (.data_RAM2)
                 0x1a000128        0x4 LONG 0x0 SIZEOF (.data_RAM2)
-                0x1a00012c        0x4 LONG 0x1a004358 LOADADDR (.data_RAM3)
+                0x1a00012c        0x4 LONG 0x1a0043b0 LOADADDR (.data_RAM3)
                 0x1a000130        0x4 LONG 0x20000000 ADDR (.data_RAM3)
                 0x1a000134        0x4 LONG 0x0 SIZEOF (.data_RAM3)
-                0x1a000138        0x4 LONG 0x1a004358 LOADADDR (.data_RAM4)
+                0x1a000138        0x4 LONG 0x1a0043b0 LOADADDR (.data_RAM4)
                 0x1a00013c        0x4 LONG 0x20008000 ADDR (.data_RAM4)
                 0x1a000140        0x4 LONG 0x0 SIZEOF (.data_RAM4)
-                0x1a000144        0x4 LONG 0x1a004358 LOADADDR (.data_RAM5)
+                0x1a000144        0x4 LONG 0x1a0043b0 LOADADDR (.data_RAM5)
                 0x1a000148        0x4 LONG 0x2000c000 ADDR (.data_RAM5)
                 0x1a00014c        0x4 LONG 0x0 SIZEOF (.data_RAM5)
                 0x1a000150                __data_section_table_end = .
                 0x1a000150                __bss_section_table = .
                 0x1a000150        0x4 LONG 0x10000040 ADDR (.bss)
-                0x1a000154        0x4 LONG 0x970 SIZEOF (.bss)
+                0x1a000154        0x4 LONG 0x96c SIZEOF (.bss)
                 0x1a000158        0x4 LONG 0x10080000 ADDR (.bss_RAM2)
                 0x1a00015c        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
                 0x1a000160        0x4 LONG 0x20000000 ADDR (.bss_RAM3)
@@ -2480,351 +2480,350 @@ END GROUP
  .text.Chip_GPIO_ReadValue
                 0x1a000b04       0x24 ./src/ciaaTest.o
  .text.SysTick_Handler
-                0x1a000b28       0x54 ./src/ciaaTest.o
+                0x1a000b28       0x24 ./src/ciaaTest.o
                 0x1a000b28                SysTick_Handler
- .text.pausems  0x1a000b7c       0x28 ./src/ciaaTest.o
-                0x1a000b7c                pausems
- .text.main     0x1a000ba4      0x1e4 ./src/ciaaTest.o
-                0x1a000ba4                main
+ .text.pausems  0x1a000b4c       0x28 ./src/ciaaTest.o
+                0x1a000b4c                pausems
+ .text.main     0x1a000b74      0x248 ./src/ciaaTest.o
+                0x1a000b74                main
  .text.NVIC_EnableIRQ
-                0x1a000d88       0x30 ./src/ciaaUART.o
+                0x1a000dbc       0x30 ./src/ciaaUART.o
  .text.Chip_SCU_PinMuxSet
-                0x1a000db8       0x30 ./src/ciaaUART.o
+                0x1a000dec       0x30 ./src/ciaaUART.o
  .text.Chip_SCU_PinMux
-                0x1a000de8       0x2c ./src/ciaaUART.o
+                0x1a000e1c       0x2c ./src/ciaaUART.o
  .text.Chip_UART_TXEnable
-                0x1a000e14       0x18 ./src/ciaaUART.o
+                0x1a000e48       0x18 ./src/ciaaUART.o
  .text.Chip_UART_SendByte
-                0x1a000e2c       0x1c ./src/ciaaUART.o
+                0x1a000e60       0x1c ./src/ciaaUART.o
  .text.Chip_UART_ReadByte
-                0x1a000e48       0x1c ./src/ciaaUART.o
+                0x1a000e7c       0x1c ./src/ciaaUART.o
  .text.Chip_UART_IntEnable
-                0x1a000e64       0x20 ./src/ciaaUART.o
+                0x1a000e98       0x20 ./src/ciaaUART.o
  .text.Chip_UART_IntDisable
-                0x1a000e84       0x24 ./src/ciaaUART.o
+                0x1a000eb8       0x24 ./src/ciaaUART.o
  .text.Chip_UART_ReadLineStatus
-                0x1a000ea8       0x18 ./src/ciaaUART.o
+                0x1a000edc       0x18 ./src/ciaaUART.o
  .text.ciaaUARTInit
-                0x1a000ec0       0x48 ./src/ciaaUART.o
-                0x1a000ec0                ciaaUARTInit
+                0x1a000ef4       0x48 ./src/ciaaUART.o
+                0x1a000ef4                ciaaUARTInit
  .text.UART2_IRQHandler
-                0x1a000f08       0xa0 ./src/ciaaUART.o
-                0x1a000f08                UART2_IRQHandler
+                0x1a000f3c       0xa0 ./src/ciaaUART.o
+                0x1a000f3c                UART2_IRQHandler
  .text.UART3_IRQHandler
-                0x1a000fa8        0xc ./src/ciaaUART.o
-                0x1a000fa8                UART3_IRQHandler
+                0x1a000fdc        0xc ./src/ciaaUART.o
+                0x1a000fdc                UART3_IRQHandler
  .text.uartSend
-                0x1a000fb4       0x8c ./src/ciaaUART.o
-                0x1a000fb4                uartSend
+                0x1a000fe8       0x8c ./src/ciaaUART.o
+                0x1a000fe8                uartSend
  .text.ResetISR
-                0x1a001040       0xc4 ./src/cr_startup_lpc43xx.o
-                0x1a001040                ResetISR
+                0x1a001074       0xc4 ./src/cr_startup_lpc43xx.o
+                0x1a001074                ResetISR
  .text.SystemInit
-                0x1a001104       0x28 ./src/sysinit.o
-                0x1a001104                SystemInit
+                0x1a001138       0x28 ./src/sysinit.o
+                0x1a001138                SystemInit
  .text.Chip_ADC_GetClockIndex
-                0x1a00112c       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
+                0x1a001160       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
  .text.getClkDiv
-                0x1a00113c       0x30 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
+                0x1a001170       0x30 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
  .text.setStartMode
-                0x1a00116c       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
-                0x1a00116c                setStartMode
+                0x1a0011a0       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
+                0x1a0011a0                setStartMode
  .text.readAdcVal
-                0x1a00117c       0x18 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
-                0x1a00117c                readAdcVal
+                0x1a0011b0       0x18 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
+                0x1a0011b0                readAdcVal
  .text.Chip_ADC_Init
-                0x1a001194       0x40 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
-                0x1a001194                Chip_ADC_Init
+                0x1a0011c8       0x40 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
+                0x1a0011c8                Chip_ADC_Init
  .text.Chip_ADC_ReadValue
-                0x1a0011d4        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
-                0x1a0011d4                Chip_ADC_ReadValue
+                0x1a001208        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
+                0x1a001208                Chip_ADC_ReadValue
  .text.Chip_ADC_ReadStatus
-                0x1a0011dc       0x34 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
-                0x1a0011dc                Chip_ADC_ReadStatus
+                0x1a001210       0x34 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
+                0x1a001210                Chip_ADC_ReadStatus
  .text.Chip_ADC_Int_SetChannelCmd
-                0x1a001210       0x20 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
-                0x1a001210                Chip_ADC_Int_SetChannelCmd
+                0x1a001244       0x20 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
+                0x1a001244                Chip_ADC_Int_SetChannelCmd
  .text.Chip_ADC_EnableChannel
-                0x1a001230       0x28 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
-                0x1a001230                Chip_ADC_EnableChannel
+                0x1a001264       0x28 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
+                0x1a001264                Chip_ADC_EnableChannel
  .text.Chip_ADC_SetBurstCmd
-                0x1a001258       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
-                0x1a001258                Chip_ADC_SetBurstCmd
+                0x1a00128c       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
+                0x1a00128c                Chip_ADC_SetBurstCmd
  .text.SystemCoreClockUpdate
-                0x1a00127c       0x14 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
-                0x1a00127c                SystemCoreClockUpdate
+                0x1a0012b0       0x14 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+                0x1a0012b0                SystemCoreClockUpdate
  .text.Chip_Clock_TestMainPLLMultiplier
-                0x1a001290       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a0012c4       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
  .text.Chip_Clock_FindBaseClock
-                0x1a0012b4       0x48 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a0012e8       0x48 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
  .text.Chip_Clock_DisableMainPLL
-                0x1a0012fc       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a0012fc                Chip_Clock_DisableMainPLL
+                0x1a001330       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a001330                Chip_Clock_DisableMainPLL
  .text.Chip_Clock_GetDividerSource
-                0x1a00130c       0x1c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a00130c                Chip_Clock_GetDividerSource
+                0x1a001340       0x1c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a001340                Chip_Clock_GetDividerSource
  .text.Chip_Clock_GetDividerDivisor
-                0x1a001328       0x14 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a001328                Chip_Clock_GetDividerDivisor
+                0x1a00135c       0x14 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a00135c                Chip_Clock_GetDividerDivisor
  .text.Chip_Clock_GetClockInputHz
-                0x1a00133c       0xb8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a00133c                Chip_Clock_GetClockInputHz
+                0x1a001370       0xb8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a001370                Chip_Clock_GetClockInputHz
  .text.Chip_Clock_SetupMainPLLMult
-                0x1a0013f4       0x80 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a0013f4                Chip_Clock_SetupMainPLLMult
+                0x1a001428       0x80 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a001428                Chip_Clock_SetupMainPLLMult
  .text.Chip_Clock_SetupMainPLLHz
-                0x1a001474       0xac /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a001474                Chip_Clock_SetupMainPLLHz
+                0x1a0014a8       0xac /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a0014a8                Chip_Clock_SetupMainPLLHz
  .text.Chip_Clock_GetMainPLLHz
-                0x1a001520       0x68 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a001520                Chip_Clock_GetMainPLLHz
+                0x1a001554       0x68 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a001554                Chip_Clock_GetMainPLLHz
  .text.Chip_Clock_GetDivRate
-                0x1a001588       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a0015bc       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
  .text.Chip_Clock_SetBaseClock
-                0x1a0015ac       0x44 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a0015ac                Chip_Clock_SetBaseClock
+                0x1a0015e0       0x44 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a0015e0                Chip_Clock_SetBaseClock
  .text.Chip_Clock_GetBaseClock
-                0x1a0015f0       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a0015f0                Chip_Clock_GetBaseClock
+                0x1a001624       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a001624                Chip_Clock_GetBaseClock
  .text.Chip_Clock_GetBaseClocktHz
-                0x1a001614        0xc /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a001614                Chip_Clock_GetBaseClocktHz
+                0x1a001648        0xc /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a001648                Chip_Clock_GetBaseClocktHz
  .text.Chip_Clock_EnableOpts
-                0x1a001620       0x34 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a001620                Chip_Clock_EnableOpts
+                0x1a001654       0x34 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a001654                Chip_Clock_EnableOpts
  .text.Chip_Clock_Enable
-                0x1a001654       0x28 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a001654                Chip_Clock_Enable
+                0x1a001688       0x28 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a001688                Chip_Clock_Enable
  .text.Chip_Clock_GetRate
-                0x1a00167c       0x44 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a00167c                Chip_Clock_GetRate
- .text.fpuInit  0x1a0016c0       0x58 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
-                0x1a0016c0                fpuInit
+                0x1a0016b0       0x44 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a0016b0                Chip_Clock_GetRate
+ .text.fpuInit  0x1a0016f4       0x58 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+                0x1a0016f4                fpuInit
  .text.Chip_GPIO_Init
-                0x1a001718        0x4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
-                0x1a001718                Chip_GPIO_Init
+                0x1a00174c        0x4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+                0x1a00174c                Chip_GPIO_Init
  .text.Chip_GPIO_SetDir
-                0x1a00171c       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
-                0x1a00171c                Chip_GPIO_SetDir
+                0x1a001750       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+                0x1a001750                Chip_GPIO_SetDir
  .text.Chip_I2C_EventHandler
-                0x1a001740       0x20 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2c_18xx_43xx.o)
-                0x1a001740                Chip_I2C_EventHandler
+                0x1a001774       0x20 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2c_18xx_43xx.o)
+                0x1a001774                Chip_I2C_EventHandler
  .text.Chip_I2C_Init
-                0x1a001760       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2c_18xx_43xx.o)
-                0x1a001760                Chip_I2C_Init
+                0x1a001794       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2c_18xx_43xx.o)
+                0x1a001794                Chip_I2C_Init
  .text.Chip_I2C_SetClockRate
-                0x1a001784       0x38 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2c_18xx_43xx.o)
-                0x1a001784                Chip_I2C_SetClockRate
+                0x1a0017b8       0x38 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2c_18xx_43xx.o)
+                0x1a0017b8                Chip_I2C_SetClockRate
  .text.Chip_I2CM_XferHandler
-                0x1a0017bc      0x11c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2cm_18xx_43xx.o)
-                0x1a0017bc                Chip_I2CM_XferHandler
+                0x1a0017f0      0x11c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2cm_18xx_43xx.o)
+                0x1a0017f0                Chip_I2CM_XferHandler
  .text.Chip_I2CM_Xfer
-                0x1a0018d8       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2cm_18xx_43xx.o)
-                0x1a0018d8                Chip_I2CM_Xfer
+                0x1a00190c       0x10 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2cm_18xx_43xx.o)
+                0x1a00190c                Chip_I2CM_Xfer
  .text.Chip_I2CM_XferBlocking
-                0x1a0018e8       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2cm_18xx_43xx.o)
-                0x1a0018e8                Chip_I2CM_XferBlocking
+                0x1a00191c       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2cm_18xx_43xx.o)
+                0x1a00191c                Chip_I2CM_XferBlocking
  .text.Chip_SetupIrcClocking
-                0x1a00190c       0x64 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
-                0x1a00190c                Chip_SetupIrcClocking
+                0x1a001940       0x64 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a001940                Chip_SetupIrcClocking
  .text.Chip_SystemInit
-                0x1a001970        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
-                0x1a001970                Chip_SystemInit
+                0x1a0019a4        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a0019a4                Chip_SystemInit
  .text.Chip_UART_GetClockIndex
-                0x1a001978       0x28 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(uart_18xx_43xx.o)
+                0x1a0019ac       0x28 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(uart_18xx_43xx.o)
  .text.Chip_UART_Init
-                0x1a0019a0       0x40 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(uart_18xx_43xx.o)
-                0x1a0019a0                Chip_UART_Init
+                0x1a0019d4       0x40 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(uart_18xx_43xx.o)
+                0x1a0019d4                Chip_UART_Init
  .text.Chip_UART_SetBaud
-                0x1a0019e0       0x34 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(uart_18xx_43xx.o)
-                0x1a0019e0                Chip_UART_SetBaud
- .text.__main   0x1a001a14       0x14 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(_cr__main.o)
-                0x1a001a14                __main
-                0x1a001a14                __CR_SEMIHOST
+                0x1a001a14       0x34 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(uart_18xx_43xx.o)
+                0x1a001a14                Chip_UART_SetBaud
+ .text.__main   0x1a001a48       0x14 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(_cr__main.o)
+                0x1a001a48                __main
+                0x1a001a48                __CR_SEMIHOST
  .text.fp_round
-                0x1a001a28       0x50 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fpprintf.o)
+                0x1a001a5c       0x50 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fpprintf.o)
  .text.pr_dec.constprop.1
-                0x1a001a78       0x26 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fpprintf.o)
- *fill*         0x1a001a9e        0x2 
- .text.sprintf  0x1a001aa0       0x6c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fpprintf.o)
-                0x1a001aa0                sprintf
- *fill*         0x1a001b0c        0x4 
+                0x1a001aac       0x26 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fpprintf.o)
+ *fill*         0x1a001ad2        0x2 
+ .text.sprintf  0x1a001ad4       0x6c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fpprintf.o)
+                0x1a001ad4                sprintf
  .text.fp_display
-                0x1a001b10      0x988 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fpprintf.o)
- .text._initio  0x1a002498       0xa4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(initio.o)
-                0x1a002498                _initio
+                0x1a001b40      0x988 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fpprintf.o)
+ .text._initio  0x1a0024c8       0xa4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(initio.o)
+                0x1a0024c8                _initio
  .text.__vfprintf
-                0x1a00253c      0xca0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(printf.o)
-                0x1a00253c                __vfprintf
- .text.setvbuf  0x1a0031dc       0x40 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(setvbuf.o)
-                0x1a0031dc                setvbuf
- .text.strlen   0x1a00321c       0x4a /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(strlen.o)
-                0x1a00321c                strlen
- .text.memset   0x1a003266        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(memset.o)
-                0x1a003266                memset
+                0x1a00256c      0xca0 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(printf.o)
+                0x1a00256c                __vfprintf
+ .text.setvbuf  0x1a00320c       0x40 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(setvbuf.o)
+                0x1a00320c                setvbuf
+ .text.strlen   0x1a00324c       0x4a /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(strlen.o)
+                0x1a00324c                strlen
+ .text.memset   0x1a003296        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(memset.o)
+                0x1a003296                memset
  .text._deferredlazyseek
-                0x1a00326a       0x44 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_deferredlazyseek.o)
-                0x1a00326a                _deferredlazyseek
+                0x1a00329a       0x44 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_deferredlazyseek.o)
+                0x1a00329a                _deferredlazyseek
  .text.__flsbuf
-                0x1a0032ae      0x142 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_deferredlazyseek.o)
-                0x1a0032ae                __flsbuf
- .text._fdopen  0x1a0033f0       0x6a /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_fdopen.o)
-                0x1a0033f0                _fdopen
- .text._fflush  0x1a00345a       0x58 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_fflush.o)
-                0x1a00345a                _fflush
- .text._frexpl  0x1a0034b2       0x5c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_frexpl.o)
-                0x1a0034b2                _frexpl
- *fill*         0x1a00350e        0x2 
- .text._ldexpl  0x1a003510       0x4c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_ldexpl.o)
-                0x1a003510                _ldexpl
+                0x1a0032de      0x142 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_deferredlazyseek.o)
+                0x1a0032de                __flsbuf
+ .text._fdopen  0x1a003420       0x6a /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_fdopen.o)
+                0x1a003420                _fdopen
+ .text._fflush  0x1a00348a       0x58 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_fflush.o)
+                0x1a00348a                _fflush
+ .text._frexpl  0x1a0034e2       0x5c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_frexpl.o)
+                0x1a0034e2                _frexpl
+ *fill*         0x1a00353e        0x2 
+ .text._ldexpl  0x1a003540       0x4c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_ldexpl.o)
+                0x1a003540                _ldexpl
  .text._Cwritebuf
-                0x1a00355c       0x70 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_writebuf.o)
-                0x1a00355c                _Cwritebuf
- .text.malloc   0x1a0035cc       0xc4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(alloc.o)
-                0x1a0035cc                malloc
- .text.free     0x1a003690        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(alloc.o)
-                0x1a003690                free
+                0x1a00358c       0x70 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_writebuf.o)
+                0x1a00358c                _Cwritebuf
+ .text.malloc   0x1a0035fc       0xc4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(alloc.o)
+                0x1a0035fc                malloc
+ .text.free     0x1a0036c0        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(alloc.o)
+                0x1a0036c0                free
  .text._Csys_alloc
-                0x1a00369c       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(alloc.o)
-                0x1a00369c                _Csys_alloc
- .text.fclose   0x1a0036bc       0x6c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fclose.o)
-                0x1a0036bc                fclose
- .text.fflush   0x1a003728       0x30 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fflush.o)
-                0x1a003728                fflush
- .text.fseek    0x1a003758      0x10c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fseek.o)
-                0x1a003758                fseek
- .text.ftell    0x1a003864       0x4c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(ftell.o)
-                0x1a003864                ftell
- .text.remove   0x1a0038b0       0x14 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(remove.o)
-                0x1a0038b0                remove
- .text._sbrk    0x1a0038c4       0x40 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_cr_sbrk.o)
-                0x1a0038c4                _sbrk
+                0x1a0036cc       0x20 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(alloc.o)
+                0x1a0036cc                _Csys_alloc
+ .text.fclose   0x1a0036ec       0x6c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fclose.o)
+                0x1a0036ec                fclose
+ .text.fflush   0x1a003758       0x30 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fflush.o)
+                0x1a003758                fflush
+ .text.fseek    0x1a003788      0x10c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fseek.o)
+                0x1a003788                fseek
+ .text.ftell    0x1a003894       0x4c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(ftell.o)
+                0x1a003894                ftell
+ .text.remove   0x1a0038e0       0x14 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(remove.o)
+                0x1a0038e0                remove
+ .text._sbrk    0x1a0038f4       0x40 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_cr_sbrk.o)
+                0x1a0038f4                _sbrk
  .text._do_fflush
-                0x1a003904       0x44 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_do_fflush.o)
-                0x1a003904                _do_fflush
+                0x1a003934       0x44 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_do_fflush.o)
+                0x1a003934                _do_fflush
  .text.__check_heap_overflow
-                0x1a003948       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_cr_check_heap.o)
-                0x1a003948                __check_heap_overflow
+                0x1a003978       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_cr_check_heap.o)
+                0x1a003978                __check_heap_overflow
  .text.__aeabi_dmul
-                0x1a003974      0x110 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
-                0x1a003974                __aeabi_dmul
+                0x1a0039a4      0x110 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
+                0x1a0039a4                __aeabi_dmul
  .text.__aeabi_ddiv
-                0x1a003a84      0x138 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
-                0x1a003a84                __aeabi_ddiv
+                0x1a003ab4      0x138 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
+                0x1a003ab4                __aeabi_ddiv
  .text.__aeabi_dsub
-                0x1a003bbc      0x1fc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
-                0x1a003bbc                __aeabi_dsub
+                0x1a003bec      0x1fc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
+                0x1a003bec                __aeabi_dsub
  .text.__aeabi_dadd
-                0x1a003db8      0x144 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
-                0x1a003db8                __aeabi_dadd
+                0x1a003de8      0x144 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
+                0x1a003de8                __aeabi_dadd
  .text.__aeabi_d2iz
-                0x1a003efc       0x42 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
-                0x1a003efc                __aeabi_d2iz
+                0x1a003f2c       0x42 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
+                0x1a003f2c                __aeabi_d2iz
  .text.__bhs_ui2d
-                0x1a003f3e       0x46 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
-                0x1a003f3e                __bhs_ui2d
+                0x1a003f6e       0x46 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
+                0x1a003f6e                __bhs_ui2d
  .text.__aeabi_i2d
-                0x1a003f84       0x10 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
-                0x1a003f84                __aeabi_i2d
+                0x1a003fb4       0x10 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
+                0x1a003fb4                __aeabi_i2d
  .text.__aeabi_dcmpeq
-                0x1a003f94       0x3a /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
-                0x1a003f94                __aeabi_dcmpeq
+                0x1a003fc4       0x3a /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
+                0x1a003fc4                __aeabi_dcmpeq
  .text.__aeabi_dcmplt
-                0x1a003fce       0x66 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
-                0x1a003fce                __aeabi_dcmplt
+                0x1a003ffe       0x66 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
+                0x1a003ffe                __aeabi_dcmplt
  .text.__aeabi_dcmple
-                0x1a004034       0x64 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
-                0x1a004034                __aeabi_dcmple
+                0x1a004064       0x64 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
+                0x1a004064                __aeabi_dcmple
  .text.__aeabi_dcmpge
-                0x1a004098       0x60 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
-                0x1a004098                __aeabi_dcmpge
+                0x1a0040c8       0x60 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(double.o)
+                0x1a0040c8                __aeabi_dcmpge
  .text.__aeabi_memset_lowlevel
-                0x1a0040f8       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(memcpy.o)
-                0x1a0040f8                __aeabi_lowlevel_memset
+                0x1a004128       0x2c /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/softfp/libcr_eabihelpers.a(memcpy.o)
+                0x1a004128                __aeabi_lowlevel_memset
  .text.__sys_appexit
-                0x1a004124        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_appexit.o)
-                0x1a004124                __exit
-                0x1a004124                __sys_appexit
+                0x1a004154        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_appexit.o)
+                0x1a004154                __exit
+                0x1a004154                __sys_appexit
  .text.__sys_close
-                0x1a004130        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_close.o)
-                0x1a004130                __sys_close
+                0x1a004160        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_close.o)
+                0x1a004160                __sys_close
  .text.__sys_flen
-                0x1a00413c        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_flen.o)
-                0x1a00413c                __sys_flen
+                0x1a00416c        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_flen.o)
+                0x1a00416c                __sys_flen
  .text.__sys_istty
-                0x1a004148        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_istty.o)
-                0x1a004148                __sys_istty
+                0x1a004178        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_istty.o)
+                0x1a004178                __sys_istty
  .text.__sys_remove
-                0x1a004154        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_remove.o)
-                0x1a004154                __sys_remove
+                0x1a004184        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_remove.o)
+                0x1a004184                __sys_remove
  .text.__sys_seek
-                0x1a004160        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_seek.o)
-                0x1a004160                __sys_seek
+                0x1a004190        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_seek.o)
+                0x1a004190                __sys_seek
  .text.__sys_tmpnam
-                0x1a00416c        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_tmpnam.o)
-                0x1a00416c                __sys_tmpnam
+                0x1a00419c        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_tmpnam.o)
+                0x1a00419c                __sys_tmpnam
  .text.__sys_write
-                0x1a004178        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_write.o)
-                0x1a004178                __write
-                0x1a004178                __sys_write
+                0x1a0041a8        0xc /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_write.o)
+                0x1a0041a8                __write
+                0x1a0041a8                __sys_write
  *(.rodata .rodata.* .constdata .constdata.*)
- .rodata        0x1a004184        0x8 ./src/ciaaAIN.o
- .rodata        0x1a00418c       0x80 ./src/ciaaTest.o
+ .rodata        0x1a0041b4        0x8 ./src/ciaaAIN.o
+ .rodata        0x1a0041bc       0xa4 ./src/ciaaTest.o
  .rodata.ExtRateIn
-                0x1a00420c        0x4 ./src/sysinit.o
-                0x1a00420c                ExtRateIn
+                0x1a004260        0x4 ./src/sysinit.o
+                0x1a004260                ExtRateIn
  .rodata.OscRateIn
-                0x1a004210        0x4 ./src/sysinit.o
-                0x1a004210                OscRateIn
- .rodata        0x1a004214        0x4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a004264        0x4 ./src/sysinit.o
+                0x1a004264                OscRateIn
+ .rodata        0x1a004268        0x4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
  .rodata.periph_to_base
-                0x1a004218       0x6c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a00426c       0x6c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
  .rodata.InitClkStates
-                0x1a004284       0x48 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a0042d8       0x48 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
  .rodata.str1.1
-                0x1a0042cc       0x34 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fpprintf.o)
+                0x1a004320       0x34 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(fpprintf.o)
                                  0x35 (size before relaxing)
  .rodata.str1.1
-                0x1a004300        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(initio.o)
+                0x1a004354        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(initio.o)
  .rodata.str1.1
-                0x1a004304       0x31 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(printf.o)
+                0x1a004358       0x31 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(printf.o)
                                  0x38 (size before relaxing)
  .rodata.str1.1
-                0x1a004335       0x18 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(alloc.o)
- *fill*         0x1a00434d        0x3 
+                0x1a004389       0x18 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(alloc.o)
+ *fill*         0x1a0043a1        0x7 
  .rodata.__huge_vall
-                0x1a004350        0x8 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_hugeval.o)
-                0x1a004350                __huge_vall
-                0x1a004358                . = ALIGN (0x4)
+                0x1a0043a8        0x8 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(_hugeval.o)
+                0x1a0043a8                __huge_vall
+                0x1a0043b0                . = ALIGN (0x4)
 
-.glue_7         0x1a004358        0x0
+.glue_7         0x1a0043b0        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x1a004358        0x0
+.glue_7t        0x1a0043b0        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x1a004358        0x0
+.vfp11_veneer   0x1a0043b0        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x1a004358        0x0
+.v4_bx          0x1a0043b0        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x1a004358        0x0
+.iplt           0x1a0043b0        0x0
  .iplt          0x00000000        0x0 ./src/ciaaAIN.o
 
-.rel.dyn        0x1a004358        0x0
+.rel.dyn        0x1a0043b0        0x0
  .rel.iplt      0x00000000        0x0 ./src/ciaaAIN.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x1a004358                __exidx_start = .
+                0x1a0043b0                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x1a004358                __exidx_end = .
-                0x1a004358                _etext = .
+                0x1a0043b0                __exidx_end = .
+                0x1a0043b0                _etext = .
 
-.data_RAM2      0x10080000        0x0 load address 0x1a004358
+.data_RAM2      0x10080000        0x0 load address 0x1a0043b0
  FILL mask 0xff
  *(.ramfunc.$RAM2)
  *(.ramfunc.$RamLoc40)
@@ -2832,7 +2831,7 @@ END GROUP
  *(.data.$RamLoc40*)
                 0x10080000                . = ALIGN (0x4)
 
-.data_RAM3      0x20000000        0x0 load address 0x1a004358
+.data_RAM3      0x20000000        0x0 load address 0x1a0043b0
  FILL mask 0xff
  *(.ramfunc.$RAM3)
  *(.ramfunc.$RamAHB32)
@@ -2840,7 +2839,7 @@ END GROUP
  *(.data.$RamAHB32*)
                 0x20000000                . = ALIGN (0x4)
 
-.data_RAM4      0x20008000        0x0 load address 0x1a004358
+.data_RAM4      0x20008000        0x0 load address 0x1a0043b0
  FILL mask 0xff
  *(.ramfunc.$RAM4)
  *(.ramfunc.$RamAHB16)
@@ -2848,7 +2847,7 @@ END GROUP
  *(.data.$RamAHB16*)
                 0x20008000                . = ALIGN (0x4)
 
-.data_RAM5      0x2000c000        0x0 load address 0x1a004358
+.data_RAM5      0x2000c000        0x0 load address 0x1a0043b0
  FILL mask 0xff
  *(.ramfunc.$RAM5)
  *(.ramfunc.$RamAHB_ETB16)
@@ -2862,7 +2861,7 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _end_uninit_RESERVED = .
 
-.data           0x10000000       0x40 load address 0x1a004358
+.data           0x10000000       0x40 load address 0x1a0043b0
  FILL mask 0xff
                 0x10000000                _data = .
  *(vtable)
@@ -2876,7 +2875,7 @@ END GROUP
                 0x10000040                . = ALIGN (0x4)
                 0x10000040                _edata = .
 
-.igot.plt       0x10000040        0x0 load address 0x1a004398
+.igot.plt       0x10000040        0x0 load address 0x1a0043f0
  .igot.plt      0x00000000        0x0 ./src/ciaaAIN.o
 
 .bss_RAM2       0x10080000        0x0
@@ -2899,38 +2898,36 @@ END GROUP
  *(.bss.$RamAHB_ETB16*)
                 0x2000c000                . = ALIGN (0x4)
 
-.bss            0x10000040      0x970
+.bss            0x10000040      0x96c
                 0x10000040                _bss = .
  *(.bss*)
- .bss.cont.8937
-                0x10000040        0x4 ./src/ciaaTest.o
  .bss.uartRxDataCount
-                0x10000044        0x4 ./src/ciaaUART.o
-                0x10000044                uartRxDataCount
+                0x10000040        0x4 ./src/ciaaUART.o
+                0x10000040                uartRxDataCount
  .bss.audio_usb_pll_freq
-                0x10000048        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .bss.errno     0x10000050        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(errno.o)
-                0x10000050                errno
+                0x10000044        0x8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .bss.errno     0x1000004c        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(errno.o)
+                0x1000004c                errno
  *(COMMON)
- COMMON         0x10000054        0x8 ./src/ciaaAIN.o
-                0x10000054                current_in
- COMMON         0x1000005c        0x4 ./src/ciaaTest.o
-                0x1000005c                pausemscont
- COMMON         0x10000060      0x800 ./src/ciaaUART.o
-                0x10000060                uartRxBuf
-                0x10000460                uartTxBuf
- COMMON         0x10000860        0x4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
-                0x10000860                SystemCoreClock
- COMMON         0x10000864        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(initio.o)
-                0x10000864                _extra
- COMMON         0x10000868      0x140 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(stdio.o)
-                0x10000868                __Ciob
- COMMON         0x100009a8        0x8 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(__init_alloc.o)
-                0x100009a8                __heaps
-                0x100009ac                __end_of_heap
-                0x100009b0                . = ALIGN (0x4)
-                0x100009b0                _ebss = .
-                0x100009b0                PROVIDE (end, .)
+ COMMON         0x10000050        0x8 ./src/ciaaAIN.o
+                0x10000050                current_in
+ COMMON         0x10000058        0x4 ./src/ciaaTest.o
+                0x10000058                pausemscont
+ COMMON         0x1000005c      0x800 ./src/ciaaUART.o
+                0x1000005c                uartRxBuf
+                0x1000045c                uartTxBuf
+ COMMON         0x1000085c        0x4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+                0x1000085c                SystemCoreClock
+ COMMON         0x10000860        0x4 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(initio.o)
+                0x10000860                _extra
+ COMMON         0x10000864      0x140 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(stdio.o)
+                0x10000864                __Ciob
+ COMMON         0x100009a4        0x8 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_c.a(__init_alloc.o)
+                0x100009a4                __heaps
+                0x100009a8                __end_of_heap
+                0x100009ac                . = ALIGN (0x4)
+                0x100009ac                _ebss = .
+                0x100009ac                PROVIDE (end, .)
 
 .noinit_RAM2    0x10080000        0x0
  *(.noinit.$RAM2*)
@@ -2952,54 +2949,54 @@ END GROUP
  *(.noinit.$RamAHB_ETB16*)
                 0x2000c000                . = ALIGN (0x4)
 
-.noinit         0x100009b0        0x0
-                0x100009b0                _noinit = .
+.noinit         0x100009ac        0x0
+                0x100009ac                _noinit = .
  *(.noinit*)
-                0x100009b0                . = ALIGN (0x4)
-                0x100009b0                _end_noinit = .
-                0x100009b0                PROVIDE (_pvHeapStart, .)
+                0x100009ac                . = ALIGN (0x4)
+                0x100009ac                _end_noinit = .
+                0x100009ac                PROVIDE (_pvHeapStart, .)
                 0x10008000                PROVIDE (_vStackTop, (__top_RamLoc32 - 0x0))
 OUTPUT(ciaaTest.axf elf32-littlearm)
 
-.debug_info     0x00000000     0xa7d4
+.debug_info     0x00000000     0xa7ca
  .debug_info    0x00000000      0xa0f ./src/ciaaAIN.o
  .debug_info    0x00000a0f      0x46f ./src/ciaaI2C.o
  .debug_info    0x00000e7e      0x4d6 ./src/ciaaIO.o
  .debug_info    0x00001354      0x268 ./src/ciaaNVM.o
- .debug_info    0x000015bc      0xcbc ./src/ciaaTest.o
- .debug_info    0x00002278      0xe10 ./src/ciaaUART.o
- .debug_info    0x00003088      0x292 ./src/cr_startup_lpc43xx.o
- .debug_info    0x0000331a       0x3f ./src/crp.o
- .debug_info    0x00003359      0x5c2 ./src/sysinit.o
- .debug_info    0x0000391b      0xabe /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
- .debug_info    0x000043d9      0xcb6 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
- .debug_info    0x0000508f     0x15b7 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_info    0x00006646      0x12f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
- .debug_info    0x00006775      0x49b /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
- .debug_info    0x00006c10     0x1320 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2c_18xx_43xx.o)
- .debug_info    0x00007f30      0xa0a /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2cm_18xx_43xx.o)
- .debug_info    0x0000893a      0x8cc /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
- .debug_info    0x00009206     0x15ce /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(uart_18xx_43xx.o)
+ .debug_info    0x000015bc      0xcb2 ./src/ciaaTest.o
+ .debug_info    0x0000226e      0xe10 ./src/ciaaUART.o
+ .debug_info    0x0000307e      0x292 ./src/cr_startup_lpc43xx.o
+ .debug_info    0x00003310       0x3f ./src/crp.o
+ .debug_info    0x0000334f      0x5c2 ./src/sysinit.o
+ .debug_info    0x00003911      0xabe /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
+ .debug_info    0x000043cf      0xcb6 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_info    0x00005085     0x15b7 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_info    0x0000663c      0x12f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_info    0x0000676b      0x49b /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_info    0x00006c06     0x1320 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2c_18xx_43xx.o)
+ .debug_info    0x00007f26      0xa0a /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2cm_18xx_43xx.o)
+ .debug_info    0x00008930      0x8cc /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_info    0x000091fc     0x15ce /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(uart_18xx_43xx.o)
 
-.debug_abbrev   0x00000000     0x1fc5
+.debug_abbrev   0x00000000     0x1fc3
  .debug_abbrev  0x00000000      0x1b8 ./src/ciaaAIN.o
  .debug_abbrev  0x000001b8      0x159 ./src/ciaaI2C.o
  .debug_abbrev  0x00000311      0x180 ./src/ciaaIO.o
  .debug_abbrev  0x00000491       0xe2 ./src/ciaaNVM.o
- .debug_abbrev  0x00000573      0x257 ./src/ciaaTest.o
- .debug_abbrev  0x000007ca      0x26f ./src/ciaaUART.o
- .debug_abbrev  0x00000a39       0xed ./src/cr_startup_lpc43xx.o
- .debug_abbrev  0x00000b26       0x36 ./src/crp.o
- .debug_abbrev  0x00000b5c       0xd9 ./src/sysinit.o
- .debug_abbrev  0x00000c35      0x206 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
- .debug_abbrev  0x00000e3b      0x1f6 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
- .debug_abbrev  0x00001031      0x2e5 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_abbrev  0x00001316       0xa2 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
- .debug_abbrev  0x000013b8      0x14b /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
- .debug_abbrev  0x00001503      0x346 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2c_18xx_43xx.o)
- .debug_abbrev  0x00001849      0x264 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2cm_18xx_43xx.o)
- .debug_abbrev  0x00001aad      0x173 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
- .debug_abbrev  0x00001c20      0x3a5 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(uart_18xx_43xx.o)
+ .debug_abbrev  0x00000573      0x255 ./src/ciaaTest.o
+ .debug_abbrev  0x000007c8      0x26f ./src/ciaaUART.o
+ .debug_abbrev  0x00000a37       0xed ./src/cr_startup_lpc43xx.o
+ .debug_abbrev  0x00000b24       0x36 ./src/crp.o
+ .debug_abbrev  0x00000b5a       0xd9 ./src/sysinit.o
+ .debug_abbrev  0x00000c33      0x206 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
+ .debug_abbrev  0x00000e39      0x1f6 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_abbrev  0x0000102f      0x2e5 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_abbrev  0x00001314       0xa2 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_abbrev  0x000013b6      0x14b /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_abbrev  0x00001501      0x346 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2c_18xx_43xx.o)
+ .debug_abbrev  0x00001847      0x264 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2cm_18xx_43xx.o)
+ .debug_abbrev  0x00001aab      0x173 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_abbrev  0x00001c1e      0x3a5 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(uart_18xx_43xx.o)
 
 .debug_aranges  0x00000000      0x6f0
  .debug_aranges
@@ -3132,25 +3129,25 @@ OUTPUT(ciaaTest.axf elf32-littlearm)
  .debug_macro   0x00007427      0x2c6 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
  .debug_macro   0x000076ed      0x2c6 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(uart_18xx_43xx.o)
 
-.debug_line     0x00000000     0x6be5
+.debug_line     0x00000000     0x6bd0
  .debug_line    0x00000000      0x625 ./src/ciaaAIN.o
  .debug_line    0x00000625      0x62d ./src/ciaaI2C.o
  .debug_line    0x00000c52      0x6f4 ./src/ciaaIO.o
  .debug_line    0x00001346      0x6c8 ./src/ciaaNVM.o
- .debug_line    0x00001a0e      0x773 ./src/ciaaTest.o
- .debug_line    0x00002181      0x6fa ./src/ciaaUART.o
- .debug_line    0x0000287b      0x102 ./src/cr_startup_lpc43xx.o
- .debug_line    0x0000297d       0x7c ./src/crp.o
- .debug_line    0x000029f9      0x5c9 ./src/sysinit.o
- .debug_line    0x00002fc2      0x6d2 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
- .debug_line    0x00003694      0x5fc /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
- .debug_line    0x00003c90      0x8fa /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_line    0x0000458a      0x1e0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
- .debug_line    0x0000476a      0x61f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
- .debug_line    0x00004d89      0x868 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2c_18xx_43xx.o)
- .debug_line    0x000055f1      0x78a /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2cm_18xx_43xx.o)
- .debug_line    0x00005d7b      0x608 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
- .debug_line    0x00006383      0x862 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(uart_18xx_43xx.o)
+ .debug_line    0x00001a0e      0x75e ./src/ciaaTest.o
+ .debug_line    0x0000216c      0x6fa ./src/ciaaUART.o
+ .debug_line    0x00002866      0x102 ./src/cr_startup_lpc43xx.o
+ .debug_line    0x00002968       0x7c ./src/crp.o
+ .debug_line    0x000029e4      0x5c9 ./src/sysinit.o
+ .debug_line    0x00002fad      0x6d2 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
+ .debug_line    0x0000367f      0x5fc /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_line    0x00003c7b      0x8fa /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_line    0x00004575      0x1e0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_line    0x00004755      0x61f /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_line    0x00004d74      0x868 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2c_18xx_43xx.o)
+ .debug_line    0x000055dc      0x78a /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2cm_18xx_43xx.o)
+ .debug_line    0x00005d66      0x608 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_line    0x0000636e      0x862 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(uart_18xx_43xx.o)
 
 .debug_str      0x00000000    0x1825e
  .debug_str     0x00000000    0x1596b ./src/ciaaAIN.o
@@ -3162,7 +3159,7 @@ OUTPUT(ciaaTest.axf elf32-littlearm)
  .debug_str     0x00015c75       0x5c ./src/ciaaNVM.o
                               0x14c04 (size before relaxing)
  .debug_str     0x00015cd1      0x7cf ./src/ciaaTest.o
-                              0x16219 (size before relaxing)
+                              0x16214 (size before relaxing)
  .debug_str     0x000164a0      0x166 ./src/ciaaUART.o
                               0x15bd0 (size before relaxing)
  .debug_str     0x00016606      0x1ce ./src/cr_startup_lpc43xx.o
@@ -3349,24 +3346,24 @@ OUTPUT(ciaaTest.axf elf32-littlearm)
  .ARM.attributes
                 0x00000ad3       0x25 /usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libcr_semihost.a(__sys_write.o)
 
-.debug_frame    0x00000000     0x1108
+.debug_frame    0x00000000     0x1104
  .debug_frame   0x00000000       0x84 ./src/ciaaAIN.o
  .debug_frame   0x00000084       0x88 ./src/ciaaI2C.o
  .debug_frame   0x0000010c       0xfc ./src/ciaaIO.o
  .debug_frame   0x00000208       0xac ./src/ciaaNVM.o
- .debug_frame   0x000002b4       0xc8 ./src/ciaaTest.o
- .debug_frame   0x0000037c      0x184 ./src/ciaaUART.o
- .debug_frame   0x00000500      0x158 ./src/cr_startup_lpc43xx.o
- .debug_frame   0x00000658       0x30 ./src/sysinit.o
- .debug_frame   0x00000688      0x15c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
- .debug_frame   0x000007e4       0x70 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
- .debug_frame   0x00000854      0x2b8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_frame   0x00000b0c       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
- .debug_frame   0x00000b30       0x80 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
- .debug_frame   0x00000bb0      0x254 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2c_18xx_43xx.o)
- .debug_frame   0x00000e04       0xe0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2cm_18xx_43xx.o)
- .debug_frame   0x00000ee4       0x60 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
- .debug_frame   0x00000f44      0x1c4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(uart_18xx_43xx.o)
+ .debug_frame   0x000002b4       0xc4 ./src/ciaaTest.o
+ .debug_frame   0x00000378      0x184 ./src/ciaaUART.o
+ .debug_frame   0x000004fc      0x158 ./src/cr_startup_lpc43xx.o
+ .debug_frame   0x00000654       0x30 ./src/sysinit.o
+ .debug_frame   0x00000684      0x15c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)
+ .debug_frame   0x000007e0       0x70 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_frame   0x00000850      0x2b8 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_frame   0x00000b08       0x24 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(fpu_init.o)
+ .debug_frame   0x00000b2c       0x80 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(gpio_18xx_43xx.o)
+ .debug_frame   0x00000bac      0x254 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2c_18xx_43xx.o)
+ .debug_frame   0x00000e00       0xe0 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(i2cm_18xx_43xx.o)
+ .debug_frame   0x00000ee0       0x60 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_frame   0x00000f40      0x1c4 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(uart_18xx_43xx.o)
 
 .debug_loc      0x00000000     0x3278
  .debug_loc     0x00000000      0x64c /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug/liblpc_chip_43xx.a(adc_18xx_43xx.o)

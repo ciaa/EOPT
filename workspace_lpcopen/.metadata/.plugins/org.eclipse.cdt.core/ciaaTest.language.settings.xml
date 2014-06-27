@@ -4,7 +4,7 @@
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
 			<provider id="com.crt.advproject.GCCBuildCommandParser">
 				<language id="org.eclipse.cdt.core.gcc">
-					<resource project-relative-path="src/ciaaNVM.c">
+					<resource project-relative-path="src/sysinit.c">
 						<entry kind="includePath" name="/lpc_chip_43xx/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
@@ -17,7 +17,7 @@
 						<entry kind="macro" name="__REDLIB__" value=""/>
 						<entry kind="macro" name="__USE_LPCOPEN" value=""/>
 					</resource>
-					<resource project-relative-path="src/sysinit.c">
+					<resource project-relative-path="src/ciaaNVM.c">
 						<entry kind="includePath" name="/lpc_chip_43xx/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
@@ -56,19 +56,6 @@
 						<entry kind="macro" name="__REDLIB__" value=""/>
 						<entry kind="macro" name="__USE_LPCOPEN" value=""/>
 					</resource>
-					<resource project-relative-path="src/ciaaI2C.c">
-						<entry kind="includePath" name="/lpc_chip_43xx/inc">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="DEBUG" value=""/>
-						<entry kind="macro" name="NO_BOARD_LIB" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_NONE" value=""/>
-						<entry kind="macro" name="__REDLIB__" value=""/>
-						<entry kind="macro" name="__USE_LPCOPEN" value=""/>
-					</resource>
 					<resource project-relative-path="src/ciaaAOUT.c">
 						<entry kind="includePath" name="/lpc_chip_43xx/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
@@ -82,7 +69,20 @@
 						<entry kind="macro" name="__REDLIB__" value=""/>
 						<entry kind="macro" name="__USE_LPCOPEN" value=""/>
 					</resource>
-					<resource project-relative-path="src/crp.c">
+					<resource project-relative-path="src/ciaaI2C.c">
+						<entry kind="includePath" name="/lpc_chip_43xx/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="NO_BOARD_LIB" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_NONE" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+					</resource>
+					<resource project-relative-path="src/ciaaIO.c">
 						<entry kind="includePath" name="/lpc_chip_43xx/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
@@ -108,7 +108,7 @@
 						<entry kind="macro" name="__REDLIB__" value=""/>
 						<entry kind="macro" name="__USE_LPCOPEN" value=""/>
 					</resource>
-					<resource project-relative-path="src/ciaaIO.c">
+					<resource project-relative-path="src/crp.c">
 						<entry kind="includePath" name="/lpc_chip_43xx/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
