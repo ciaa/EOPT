@@ -1,0 +1,54 @@
+/*
+ * ciaaI2C.c
+ *
+ *  Created on: Jun 16, 2014
+ *      Author: pablo
+ */
+
+
+#include "ciaaI2C.h"
+
+
+void ciaaI2CInit(void)
+{
+	//configuro i2c y lo activo
+	Chip_I2CM_Init(LPC_I2C0);
+	Chip_I2CM_SetBusSpeed(LPC_I2C0, 100000);
+
+}
+
+Status ciaaI2CWrite(uint8_t sl_addr, uint8_t * buffer, int len)
+{
+	Status s;
+
+	I2CM_XFER_T xfer;
+
+	xfer.slaveAddr = sl_addr;
+	xfer.txBuff = buffer;
+	xfer.txSz = len;
+	xfer.rxBuff = 0;
+	xfer.rxSz = 0;
+
+
+
+	Chip_I2CM_XferBlocking(LPC_I2C0, &xfer);
+
+	return s;
+}
+
+Status ciaaI2CRead(uint8_t sl_addr, uint8_t * buffer, int len)
+{
+	Status s;
+	I2C_M_SETUP_Type i2cSetup;
+
+	i2cSetup.sl_addr7bit = sl_addr; //control byte: ver hoja de datos!
+	i2cSetup.tx_data = 0;
+	i2cSetup.tx_length = 0;
+	i2cSetup.retransmissions_max = 1;
+	i2cSetup.rx_data = buffer;
+	i2cSetup.rx_length = len;
+	s = I2C_MasterTransferData(LPC_I2C0, &i2cSetup, I2C_TRANSFER_POLLING);
+
+	return s;
+
+}

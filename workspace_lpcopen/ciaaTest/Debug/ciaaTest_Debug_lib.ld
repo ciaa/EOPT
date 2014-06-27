@@ -4,11 +4,12 @@
  * (c) NXP Semiconductors 2013-2014
  * Generated linker script file for LPC4337
  * Created from LibIncTemplate.ld (LPCXpresso v7.2 (0 [Build 153] [2014-05-19] ))
- * By LPCXpresso v7.2.0 [Build 153] [2014-05-19]  on Fri Jun 27 09:39:28 ART 2014
+ * By LPCXpresso v7.2.0 [Build 153] [2014-05-19]  on Fri Jun 27 11:56:47 ART 2014
  */
 
 
  GROUP(
+ libcr_semihost.a
  libcr_c.a
  libcr_eabihelpers.a
  )

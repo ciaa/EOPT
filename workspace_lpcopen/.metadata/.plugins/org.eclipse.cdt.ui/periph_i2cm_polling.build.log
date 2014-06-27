@@ -1,0 +1,6 @@
+11:38:28 **** Incremental Build of configuration Debug for project periph_i2cm_polling ****
+make all 
+make: Nothing to be done for `all'.
+
+11:38:28 Build Finished (took 66ms)
+

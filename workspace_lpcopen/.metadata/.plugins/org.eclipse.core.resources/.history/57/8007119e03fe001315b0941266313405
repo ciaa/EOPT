@@ -1,0 +1,65 @@
+/*
+===============================================================================
+ Name        : ciaaTest.c
+ Author      : $(author)
+ Version     :
+ Copyright   : $(copyright)
+ Description : main definition
+===============================================================================
+*/
+
+#include "chip.h"
+#include "ciaaIO.h"
+#include "ciaaAIN.h"
+#include "ciaaUART.h"
+#include "ciaaNVM.h"
+
+#include <cr_section_macros.h>
+
+void SysTick_Handler(void)
+{
+	volatile static int cont=0;
+
+	cont++;
+
+	if(cont==250)
+	{
+		ciaaWriteOutput(5, 1);
+	}
+	if(cont==500)
+	{
+		ciaaWriteOutput(5, 0);
+		cont = 0;
+	}
+}
+
+int main(void)
+{
+	SystemCoreClockUpdate();
+	SysTick_Config(SystemCoreClock/1000);
+
+	ciaaIOInit();
+	ciaaAINInit();
+	ciaaUARTInit();
+	ciaaNVMInit();
+
+	dbgPrint("CIAA Test (with LPCOpen libraries).\n");
+
+	char txbuf[3] = {0x55,0xF0,0xAA};
+	char rxbuf[3] = {0,0,0};
+	char rxbuf48[3] = {0,0,0};
+
+	memWrite(0, txbuf, 3);
+
+	memRead(0, rxbuf, 3);
+
+	mem48Write(0, txbuf, 3);
+	mem48Read(0, rxbuf48, 3);
+
+	uint8_t uid48[6] = {0,0,0,0,0,0};
+
+	mem48Read(0xFA, uid48, 6);
+
+	while(1) __WFI();
+
+}
