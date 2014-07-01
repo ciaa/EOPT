@@ -1,0 +1,31 @@
+/*
+ * ciaaSPIFI.c
+ *
+ *  Created on: Jun 30, 2014
+ *      Author: pablo
+ */
+
+#include "ciaaSPIFI.h"
+
+/* SPIFI high speed pin mode setup */
+STATIC const PINMUX_GRP_T spifipinmuxing[] = {
+	{0x3, 3,  (SCU_PINIO_FAST | SCU_MODE_FUNC3)},	/* SPIFI CLK */
+	{0x3, 4,  (SCU_PINIO_FAST | SCU_MODE_FUNC3)},	/* SPIFI D3 */
+	{0x3, 5,  (SCU_PINIO_FAST | SCU_MODE_FUNC3)},	/* SPIFI D2 */
+	{0x3, 6,  (SCU_PINIO_FAST | SCU_MODE_FUNC3)},	/* SPIFI D1 */
+	{0x3, 7,  (SCU_PINIO_FAST | SCU_MODE_FUNC3)},	/* SPIFI D0 */
+	{0x3, 8,  (SCU_PINIO_FAST | SCU_MODE_FUNC3)}	/* SPIFI CS/SSEL */
+};
+
+SPIFI_ERR_T ciaaSPIFIInit(void)
+{
+	/* SPIFI pin setup is done prior to setting up system clocking */
+	Chip_SCU_SetPinMuxing(spifipinmuxing, sizeof(spifipinmuxing) / sizeof(PINMUX_GRP_T));
+	Chip_Clock_SetBaseClock(CLK_BASE_SPIFI, CLKIN_IDIVE, true, false);
+
+	SPIFI_ERR_T r = spifiInit(0x40003000, 1);
+
+	return r;
+
+
+}

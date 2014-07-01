@@ -1,6 +1,6 @@
-11:40:08 **** Incremental Build of configuration Debug for project lpc_board_ngx_xplorer_4330 ****
+10:10:07 **** Incremental Build of configuration Debug for project lpc_board_ngx_xplorer_4330 ****
 make all 
 make: Nothing to be done for `all'.
 
-11:40:08 Build Finished (took 61ms)
+10:10:07 Build Finished (took 70ms)
 

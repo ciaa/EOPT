@@ -1,0 +1,16 @@
+/*
+ * ciaaSPIFI.h
+ *
+ *  Created on: Jun 30, 2014
+ *      Author: pablo
+ */
+
+#ifndef CIAASPIFI_H_
+#define CIAASPIFI_H_
+
+#include "chip.h"
+#include "spifilib_api.h"
+
+SPIFI_ERR_T ciaaSPIFIInit(void);
+
+#endif /* CIAASPIFI_H_ */

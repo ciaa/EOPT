@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="853" key="dialogWidth"/>
-		<item value="480" key="dialogHeight"/>
+		<item value="829" key="dialogWidth"/>
+		<item value="456" key="dialogHeight"/>
 		<list key="orderedProviders">
+			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textArray">
+			<item value="ex"/>
+			<item value="exp"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.debug.ui.ExpressionView"/>
 		</list>
 		<list key="textEntries">
+			<item value="2"/>
 		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="4" key="DIALOG_Y_ORIGIN"/>
+		<item value="373" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 </section>

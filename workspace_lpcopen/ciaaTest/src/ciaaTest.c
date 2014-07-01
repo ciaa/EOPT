@@ -13,6 +13,7 @@
 #include "ciaaAIN.h"
 #include "ciaaUART.h"
 #include "ciaaNVM.h"
+#include "ciaaSPIFI.h"
 
 #include "stdio.h"
 
@@ -38,10 +39,13 @@ int main(void)
 	SystemCoreClockUpdate();
 	SysTick_Config(SystemCoreClock/1000);
 
+	ciaaSPIFIInit();
+
 	ciaaIOInit();
 	ciaaAINInit();
 	ciaaUARTInit();
 	ciaaNVMInit();
+
 
 	dbgPrint("CIAA Test (with LPCOpen libraries).\r\n");
 

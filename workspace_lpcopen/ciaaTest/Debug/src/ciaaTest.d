@@ -59,7 +59,7 @@ src/ciaaTest.d: ../src/ciaaTest.c \
  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/inc/i2cm_18xx_43xx.h \
  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/inc/fpu_init.h \
  ../src/ciaaIO.h ../src/ciaaAIN.h ../src/ciaaUART.h ../src/ciaaNVM.h \
- ../src/ciaaI2C.h
+ ../src/ciaaI2C.h ../src/ciaaSPIFI.h
 
 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/inc/chip.h:
 
@@ -188,3 +188,5 @@ src/ciaaTest.d: ../src/ciaaTest.c \
 ../src/ciaaNVM.h:
 
 ../src/ciaaI2C.h:
+
+../src/ciaaSPIFI.h:
