@@ -9,11 +9,7 @@
 */
 
 #include "chip.h"
-#include "ciaaIO.h"
-#include "ciaaAIN.h"
-#include "ciaaUART.h"
-#include "ciaaNVM.h"
-#include "ciaaSPIFI.h"
+#include "ciaa.h"
 
 #include "stdio.h"
 
@@ -36,16 +32,18 @@ int main(void)
 {
 	char str[100], i;
 
+	/* Ojo que #define MAX_CLOCK_FREQ (102000000)!!!
+	 * Termina dando 96MHz. Originalmente estaba en 204000000.
+	 * Ver lpc_chip_43xx/inc/clock_18xx_43xx.h
+	 */
+
 	SystemCoreClockUpdate();
 	SysTick_Config(SystemCoreClock/1000);
-
-	ciaaSPIFIInit();
 
 	ciaaIOInit();
 	ciaaAINInit();
 	ciaaUARTInit();
 	ciaaNVMInit();
-
 
 	dbgPrint("CIAA Test (with LPCOpen libraries).\r\n");
 

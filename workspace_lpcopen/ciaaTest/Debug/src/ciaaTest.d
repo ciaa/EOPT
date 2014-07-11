@@ -58,8 +58,15 @@ src/ciaaTest.d: ../src/ciaaTest.c \
  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/inc/error.h \
  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/inc/i2cm_18xx_43xx.h \
  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/inc/fpu_init.h \
- ../src/ciaaIO.h ../src/ciaaAIN.h ../src/ciaaUART.h ../src/ciaaNVM.h \
- ../src/ciaaI2C.h ../src/ciaaSPIFI.h
+ /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaa.h \
+ /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaAIN.h \
+ /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaAOUT.h \
+ /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaI2C.h \
+ /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaIO.h \
+ /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaNVM.h \
+ /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaSDRAM.h \
+ /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaSPIFI.h \
+ /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaUART.h
 
 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/inc/chip.h:
 
@@ -179,14 +186,20 @@ src/ciaaTest.d: ../src/ciaaTest.c \
 
 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/inc/fpu_init.h:
 
-../src/ciaaIO.h:
+/home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaa.h:
 
-../src/ciaaAIN.h:
+/home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaAIN.h:
 
-../src/ciaaUART.h:
+/home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaAOUT.h:
 
-../src/ciaaNVM.h:
+/home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaI2C.h:
 
-../src/ciaaI2C.h:
+/home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaIO.h:
 
-../src/ciaaSPIFI.h:
+/home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaNVM.h:
+
+/home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaSDRAM.h:
+
+/home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaSPIFI.h:
+
+/home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/inc/ciaaUART.h:

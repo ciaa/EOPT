@@ -112,7 +112,7 @@ void SysTick_Handler (void) 					// SysTick Interrupt Handler @ 1000Hz
 
 void setupHardware(void)
 {
-	Vcom_init();
+//	Vcom_init();
 
     SysTick_Config(CGU_GetPCLKFrequency(CGU_PERIPHERAL_M4CORE)/1000);
 
@@ -124,31 +124,31 @@ void setupHardware(void)
 
 	ciaaUARTInit();
 
-	int i = 100, flag = 0;
-	char str[100];
-	while(i != 1)
-	{
-		ciaaAOUTSet(i);
-		i -= 10;
-		if(i<0) i = 100;
-		pausems(2000);
-
-		if(flag == 0)
-		{
-			GPIO_ClearValue(1,(1<<8));
-			flag = 1;
-		}
-		else
-		{
-			GPIO_SetValue(1,(1<<8));
-			flag = 0;
-		}
-
-		sprintf(str, "%d %d %d %d\n",
-				ciaaAINRead(0), ciaaAINRead(1),
-				ciaaAINRead(2), ciaaAINRead(3));
-		dbgPrint(str);
-	}
+//	int i = 100, flag = 0;
+//	char str[100];
+//	while(i != 1)
+//	{
+//		ciaaAOUTSet(i);
+//		i -= 10;
+//		if(i<0) i = 100;
+//		pausems(2000);
+//
+//		if(flag == 0)
+//		{
+//			GPIO_ClearValue(1,(1<<8));
+//			flag = 1;
+//		}
+//		else
+//		{
+//			GPIO_SetValue(1,(1<<8));
+//			flag = 0;
+//		}
+//
+//		sprintf(str, "%d %d %d %d\n",
+//				ciaaAINRead(0), ciaaAINRead(1),
+//				ciaaAINRead(2), ciaaAINRead(3));
+//		dbgPrint(str);
+//	}
 
     scu_pinmux(4 , 8, MD_PUP, FUNC4); 	// P8.1 : USB0_IND1 LED
 	GPIO_SetDir(LED1_PORT,(1<<LED1_BIT), 1);

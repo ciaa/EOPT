@@ -4,7 +4,7 @@
  * (c) NXP Semiconductors 2013-2014
  * Generated linker script file for LPC4337-M0
  * Created from LibIncTemplate.ld (LPCXpresso v7.2 (0 [Build 153] [2014-05-19] ))
- * By LPCXpresso v7.2.0 [Build 153] [2014-05-19]  on Wed Jun 25 15:33:16 ART 2014
+ * By LPCXpresso v7.2.0 [Build 153] [2014-05-19]  on Tue Jul 08 14:47:10 ART 2014
  */
 
 

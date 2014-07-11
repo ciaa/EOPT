@@ -3509,3 +3509,418 @@ arm-none-eabi-size "ciaaBlink.axf"; # arm-none-eabi-objcopy -v -O binary "ciaaBl
    text	   data	    bss	    dec	    hex	filename
    3896	     72	     12	   3980	    f8c	ciaaBlink.axf
  
+15:22:54 **** Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+make all 
+make: Nothing to be done for `all'.
+15:22:56 **** Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+15:22:57 **** Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+Building target: CIAA-Demo-M0.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug" -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_DSPLIB_CM0/lib" -Xlinker -Map="CIAA-Demo-M0.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "CIAA-Demo-M0_Debug.ld" -o "CIAA-Demo-M0.axf"  ./src/cr_startup_lpc43xx-m0app.o ./src/main_m0.o   -lCMSIS_LPC43xx_DriverLib-M0 -lCMSIS_DSPLIB_CM0 && arm-none-eabi-objcopy --target elf32-littlearm --verbose --strip-all --redefine-sym __vectors_start__=__vectors_start___core_m0app --keep-symbol __vectors_start___core_m0app --rename-section .text=".core_m0app" --rename-section .data=".core_m0app.data" "CIAA-Demo-M0.axf" "CIAA-Demo-M0.axf.o"
+copy from `CIAA-Demo-M0.axf' [elf32-littlearm] to `CIAA-Demo-M0.axf.o' [elf32-littlearm]
+Finished building target: CIAA-Demo-M0.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "CIAA-Demo-M0.axf"; # arm-none-eabi-objcopy -v -O binary "CIAA-Demo-M0.axf" "CIAA-Demo-M0.bin" ; # checksum -p LPC4337_M0 -d "CIAA-Demo-M0.bin";
+   text	   data	    bss	    dec	    hex	filename
+    648	      0	      4	    652	    28c	CIAA-Demo-M0.axf
+ 
+15:22:58 **** Build of configuration Debug for project CIAA-Demo ****
+make all 
+Building target: CIAA-Demo.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug" -Xlinker -Map="CIAA-Demo.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "CIAA-Demo_Debug.ld" -o "CIAA-Demo.axf"  ./src/Emac/src/emac.o ./src/Emac/src/tcpip.o ./src/Emac/src/webserver.o  ./src/ciaaAIN.o ./src/ciaaAOUT.o ./src/ciaaI2C.o ./src/ciaaIO.o ./src/ciaaUART.o ./src/cr_start_m0.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/database.o ./src/main.o  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo-M0/Debug/CIAA-Demo-M0.axf.o -lCMSIS_LPC43xx_DriverLib -lLPC4330_Xplorer_UsbVcomLib
+/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/bin/ld: cannot find -lLPC4330_Xplorer_UsbVcomLib
+collect2: error: ld returned 1 exit status
+make: *** [CIAA-Demo.axf] Error 1
+15:23:18 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+make all 
+make: Nothing to be done for `all'.
+15:23:19 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+15:23:19 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+make: Nothing to be done for `all'.
+15:23:20 **** Incremental Build of configuration Debug for project CIAA-Demo ****
+make all 
+Building target: CIAA-Demo.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug" -L"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/Debug" -Xlinker -Map="CIAA-Demo.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "CIAA-Demo_Debug.ld" -o "CIAA-Demo.axf"  ./src/Emac/src/emac.o ./src/Emac/src/tcpip.o ./src/Emac/src/webserver.o  ./src/ciaaAIN.o ./src/ciaaAOUT.o ./src/ciaaI2C.o ./src/ciaaIO.o ./src/ciaaUART.o ./src/cr_start_m0.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/database.o ./src/main.o  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo-M0/Debug/CIAA-Demo-M0.axf.o -lCMSIS_LPC43xx_DriverLib -lLPC4330_Xplorer_UsbVcomLib
+Finished building target: CIAA-Demo.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "CIAA-Demo.axf"; arm-none-eabi-objcopy -v -O binary "CIAA-Demo.axf" "CIAA-Demo.bin" ; # checksum -p LPC4337 -d "CIAA-Demo.bin";
+   text	   data	    bss	    dec	    hex	filename
+  60268	   2260	   6984	  69512	  10f88	CIAA-Demo.axf
+copy from `CIAA-Demo.axf' [elf32-littlearm] to `CIAA-Demo.bin' [binary]
+ 
+15:23:57 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+15:23:58 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+make: Nothing to be done for `all'.
+15:24:25 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+make all 
+make: Nothing to be done for `all'.
+15:24:25 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+15:24:26 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+make: Nothing to be done for `all'.
+15:24:26 **** Incremental Build of configuration Debug for project CIAA-Demo ****
+make all 
+make: Nothing to be done for `all'.
+15:26:22 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+make all 
+make: Nothing to be done for `all'.
+15:26:23 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+15:26:23 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+make: Nothing to be done for `all'.
+15:26:24 **** Incremental Build of configuration Debug for project CIAA-Demo ****
+make all 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -D__LPC43XX__ -DLPC43_MULTICORE_M0APP -D__MULTICORE_MASTER -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src/Emac/inc" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc" -I"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__NEWLIB__ -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: CIAA-Demo.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug" -L"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/Debug" -Xlinker -Map="CIAA-Demo.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "CIAA-Demo_Debug.ld" -o "CIAA-Demo.axf"  ./src/Emac/src/emac.o ./src/Emac/src/tcpip.o ./src/Emac/src/webserver.o  ./src/ciaaAIN.o ./src/ciaaAOUT.o ./src/ciaaI2C.o ./src/ciaaIO.o ./src/ciaaUART.o ./src/cr_start_m0.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/database.o ./src/main.o  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo-M0/Debug/CIAA-Demo-M0.axf.o -lCMSIS_LPC43xx_DriverLib -lLPC4330_Xplorer_UsbVcomLib
+Finished building target: CIAA-Demo.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "CIAA-Demo.axf"; arm-none-eabi-objcopy -v -O binary "CIAA-Demo.axf" "CIAA-Demo.bin" ; # checksum -p LPC4337 -d "CIAA-Demo.bin";
+   text	   data	    bss	    dec	    hex	filename
+  52396	   2244	   4860	  59500	   e86c	CIAA-Demo.axf
+copy from `CIAA-Demo.axf' [elf32-littlearm] to `CIAA-Demo.bin' [binary]
+ 
+16:03:47 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+make all 
+make: Nothing to be done for `all'.
+16:03:49 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+16:03:49 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+Building target: CIAA-Demo-M0.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug" -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_DSPLIB_CM0/lib" -Xlinker -Map="CIAA-Demo-M0.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "CIAA-Demo-M0_Debug.ld" -o "CIAA-Demo-M0.axf"  ./src/cr_startup_lpc43xx-m0app.o ./src/main_m0.o   -lCMSIS_LPC43xx_DriverLib-M0 -lCMSIS_DSPLIB_CM0 && arm-none-eabi-objcopy --target elf32-littlearm --verbose --strip-all --redefine-sym __vectors_start__=__vectors_start___core_m0app --keep-symbol __vectors_start___core_m0app --rename-section .text=".core_m0app" --rename-section .data=".core_m0app.data" "CIAA-Demo-M0.axf" "CIAA-Demo-M0.axf.o"
+copy from `CIAA-Demo-M0.axf' [elf32-littlearm] to `CIAA-Demo-M0.axf.o' [elf32-littlearm]
+Finished building target: CIAA-Demo-M0.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "CIAA-Demo-M0.axf"; # arm-none-eabi-objcopy -v -O binary "CIAA-Demo-M0.axf" "CIAA-Demo-M0.bin" ; # checksum -p LPC4337_M0 -d "CIAA-Demo-M0.bin";
+   text	   data	    bss	    dec	    hex	filename
+    648	      0	      4	    652	    28c	CIAA-Demo-M0.axf
+ 
+16:03:51 **** Incremental Build of configuration Debug for project CIAA-Demo ****
+make all 
+Building target: CIAA-Demo.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug" -L"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/Debug" -Xlinker -Map="CIAA-Demo.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "CIAA-Demo_Debug.ld" -o "CIAA-Demo.axf"  ./src/Emac/src/emac.o ./src/Emac/src/tcpip.o ./src/Emac/src/webserver.o  ./src/ciaaAIN.o ./src/ciaaAOUT.o ./src/ciaaI2C.o ./src/ciaaIO.o ./src/ciaaUART.o ./src/cr_start_m0.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/database.o ./src/main.o  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo-M0/Debug/CIAA-Demo-M0.axf.o -lCMSIS_LPC43xx_DriverLib -lLPC4330_Xplorer_UsbVcomLib
+Finished building target: CIAA-Demo.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "CIAA-Demo.axf"; arm-none-eabi-objcopy -v -O binary "CIAA-Demo.axf" "CIAA-Demo.bin" ; # checksum -p LPC4337 -d "CIAA-Demo.bin";
+   text	   data	    bss	    dec	    hex	filename
+  52396	   2244	   4860	  59500	   e86c	CIAA-Demo.axf
+copy from `CIAA-Demo.axf' [elf32-littlearm] to `CIAA-Demo.bin' [binary]
+ 
+16:04:17 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+make all 
+make: Nothing to be done for `all'.
+16:04:18 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+16:04:18 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+make: Nothing to be done for `all'.
+16:04:19 **** Incremental Build of configuration Debug for project CIAA-Demo ****
+make all 
+make: Nothing to be done for `all'.
+16:04:33 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+make all 
+make: Nothing to be done for `all'.
+16:04:33 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+16:04:34 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+make: Nothing to be done for `all'.
+16:04:34 **** Incremental Build of configuration Debug for project CIAA-Demo ****
+make all 
+make: Nothing to be done for `all'.
+16:04:51 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+make all 
+make: Nothing to be done for `all'.
+16:04:51 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+16:04:51 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+make: Nothing to be done for `all'.
+16:04:52 **** Incremental Build of configuration Debug for project CIAA-Demo ****
+make all 
+make: Nothing to be done for `all'.
+16:05:06 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+make all 
+make: Nothing to be done for `all'.
+16:05:07 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+16:05:07 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+make: Nothing to be done for `all'.
+16:05:08 **** Incremental Build of configuration Debug for project CIAA-Demo ****
+make all 
+make: Nothing to be done for `all'.
+16:06:31 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+16:06:32 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+make: Nothing to be done for `all'.
+16:22:34 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+make all 
+make: Nothing to be done for `all'.
+16:22:36 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+16:22:36 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+Building target: CIAA-Demo-M0.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug" -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_DSPLIB_CM0/lib" -Xlinker -Map="CIAA-Demo-M0.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "CIAA-Demo-M0_Debug.ld" -o "CIAA-Demo-M0.axf"  ./src/cr_startup_lpc43xx-m0app.o ./src/main_m0.o   -lCMSIS_LPC43xx_DriverLib-M0 -lCMSIS_DSPLIB_CM0 && arm-none-eabi-objcopy --target elf32-littlearm --verbose --strip-all --redefine-sym __vectors_start__=__vectors_start___core_m0app --keep-symbol __vectors_start___core_m0app --rename-section .text=".core_m0app" --rename-section .data=".core_m0app.data" "CIAA-Demo-M0.axf" "CIAA-Demo-M0.axf.o"
+copy from `CIAA-Demo-M0.axf' [elf32-littlearm] to `CIAA-Demo-M0.axf.o' [elf32-littlearm]
+Finished building target: CIAA-Demo-M0.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "CIAA-Demo-M0.axf"; # arm-none-eabi-objcopy -v -O binary "CIAA-Demo-M0.axf" "CIAA-Demo-M0.bin" ; # checksum -p LPC4337_M0 -d "CIAA-Demo-M0.bin";
+   text	   data	    bss	    dec	    hex	filename
+    648	      0	      4	    652	    28c	CIAA-Demo-M0.axf
+ 
+16:22:37 **** Incremental Build of configuration Debug for project CIAA-Demo ****
+make all 
+Building file: ../src/Emac/src/emac.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -D__LPC43XX__ -DLPC43_MULTICORE_M0APP -D__MULTICORE_MASTER -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src/Emac/inc" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc" -I"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__NEWLIB__ -MMD -MP -MF"src/Emac/src/emac.d" -MT"src/Emac/src/emac.d" -o "src/Emac/src/emac.o" "../src/Emac/src/emac.c"
+Finished building: ../src/Emac/src/emac.c
+ 
+Building file: ../src/Emac/src/tcpip.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -D__LPC43XX__ -DLPC43_MULTICORE_M0APP -D__MULTICORE_MASTER -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src/Emac/inc" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc" -I"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__NEWLIB__ -MMD -MP -MF"src/Emac/src/tcpip.d" -MT"src/Emac/src/tcpip.d" -o "src/Emac/src/tcpip.o" "../src/Emac/src/tcpip.c"
+Finished building: ../src/Emac/src/tcpip.c
+ 
+Building file: ../src/Emac/src/webserver.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -D__LPC43XX__ -DLPC43_MULTICORE_M0APP -D__MULTICORE_MASTER -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src/Emac/inc" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc" -I"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__NEWLIB__ -MMD -MP -MF"src/Emac/src/webserver.d" -MT"src/Emac/src/webserver.d" -o "src/Emac/src/webserver.o" "../src/Emac/src/webserver.c"
+Finished building: ../src/Emac/src/webserver.c
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -D__LPC43XX__ -DLPC43_MULTICORE_M0APP -D__MULTICORE_MASTER -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src/Emac/inc" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc" -I"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__NEWLIB__ -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: CIAA-Demo.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug" -L"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/Debug" -Xlinker -Map="CIAA-Demo.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "CIAA-Demo_Debug.ld" -o "CIAA-Demo.axf"  ./src/Emac/src/emac.o ./src/Emac/src/tcpip.o ./src/Emac/src/webserver.o  ./src/ciaaAIN.o ./src/ciaaAOUT.o ./src/ciaaI2C.o ./src/ciaaIO.o ./src/ciaaUART.o ./src/cr_start_m0.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/database.o ./src/main.o  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo-M0/Debug/CIAA-Demo-M0.axf.o -lCMSIS_LPC43xx_DriverLib -lLPC4330_Xplorer_UsbVcomLib
+Finished building target: CIAA-Demo.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "CIAA-Demo.axf"; arm-none-eabi-objcopy -v -O binary "CIAA-Demo.axf" "CIAA-Demo.bin" ; # checksum -p LPC4337 -d "CIAA-Demo.bin";
+   text	   data	    bss	    dec	    hex	filename
+  52396	   2244	   4860	  59500	   e86c	CIAA-Demo.axf
+copy from `CIAA-Demo.axf' [elf32-littlearm] to `CIAA-Demo.bin' [binary]
+ 
+16:22:54 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+make all 
+make: Nothing to be done for `all'.
+16:22:54 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+16:22:55 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+make: Nothing to be done for `all'.
+16:22:55 **** Incremental Build of configuration Debug for project CIAA-Demo ****
+make all 
+make: Nothing to be done for `all'.
+17:10:18 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+make all 
+make: Nothing to be done for `all'.
+17:10:19 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+17:10:20 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+Building target: CIAA-Demo-M0.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug" -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_DSPLIB_CM0/lib" -Xlinker -Map="CIAA-Demo-M0.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "CIAA-Demo-M0_Debug.ld" -o "CIAA-Demo-M0.axf"  ./src/cr_startup_lpc43xx-m0app.o ./src/main_m0.o   -lCMSIS_LPC43xx_DriverLib-M0 -lCMSIS_DSPLIB_CM0 && arm-none-eabi-objcopy --target elf32-littlearm --verbose --strip-all --redefine-sym __vectors_start__=__vectors_start___core_m0app --keep-symbol __vectors_start___core_m0app --rename-section .text=".core_m0app" --rename-section .data=".core_m0app.data" "CIAA-Demo-M0.axf" "CIAA-Demo-M0.axf.o"
+copy from `CIAA-Demo-M0.axf' [elf32-littlearm] to `CIAA-Demo-M0.axf.o' [elf32-littlearm]
+Finished building target: CIAA-Demo-M0.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "CIAA-Demo-M0.axf"; # arm-none-eabi-objcopy -v -O binary "CIAA-Demo-M0.axf" "CIAA-Demo-M0.bin" ; # checksum -p LPC4337_M0 -d "CIAA-Demo-M0.bin";
+   text	   data	    bss	    dec	    hex	filename
+    648	      0	      4	    652	    28c	CIAA-Demo-M0.axf
+ 
+17:10:20 **** Incremental Build of configuration Debug for project CIAA-Demo ****
+make all 
+Building target: CIAA-Demo.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug" -L"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/Debug" -Xlinker -Map="CIAA-Demo.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "CIAA-Demo_Debug.ld" -o "CIAA-Demo.axf"  ./src/Emac/src/emac.o ./src/Emac/src/tcpip.o ./src/Emac/src/webserver.o  ./src/ciaaAIN.o ./src/ciaaAOUT.o ./src/ciaaI2C.o ./src/ciaaIO.o ./src/ciaaUART.o ./src/cr_start_m0.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/database.o ./src/main.o  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo-M0/Debug/CIAA-Demo-M0.axf.o -lCMSIS_LPC43xx_DriverLib -lLPC4330_Xplorer_UsbVcomLib
+Finished building target: CIAA-Demo.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "CIAA-Demo.axf"; arm-none-eabi-objcopy -v -O binary "CIAA-Demo.axf" "CIAA-Demo.bin" ; # checksum -p LPC4337 -d "CIAA-Demo.bin";
+   text	   data	    bss	    dec	    hex	filename
+  52396	   2244	   4860	  59500	   e86c	CIAA-Demo.axf
+copy from `CIAA-Demo.axf' [elf32-littlearm] to `CIAA-Demo.bin' [binary]
+ 
+17:12:26 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+17:12:27 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+make: Nothing to be done for `all'.
+14:43:20 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+make all 
+make: Nothing to be done for `all'.
+14:43:21 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+14:43:22 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+Building target: CIAA-Demo-M0.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib-M0/Debug" -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_DSPLIB_CM0/lib" -Xlinker -Map="CIAA-Demo-M0.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "CIAA-Demo-M0_Debug.ld" -o "CIAA-Demo-M0.axf"  ./src/cr_startup_lpc43xx-m0app.o ./src/main_m0.o   -lCMSIS_LPC43xx_DriverLib-M0 -lCMSIS_DSPLIB_CM0 && arm-none-eabi-objcopy --target elf32-littlearm --verbose --strip-all --redefine-sym __vectors_start__=__vectors_start___core_m0app --keep-symbol __vectors_start___core_m0app --rename-section .text=".core_m0app" --rename-section .data=".core_m0app.data" "CIAA-Demo-M0.axf" "CIAA-Demo-M0.axf.o"
+copy from `CIAA-Demo-M0.axf' [elf32-littlearm] to `CIAA-Demo-M0.axf.o' [elf32-littlearm]
+Finished building target: CIAA-Demo-M0.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "CIAA-Demo-M0.axf"; # arm-none-eabi-objcopy -v -O binary "CIAA-Demo-M0.axf" "CIAA-Demo-M0.bin" ; # checksum -p LPC4337_M0 -d "CIAA-Demo-M0.bin";
+   text	   data	    bss	    dec	    hex	filename
+    648	      0	      4	    652	    28c	CIAA-Demo-M0.axf
+ 
+14:43:23 **** Incremental Build of configuration Debug for project CIAA-Demo ****
+make all 
+Building target: CIAA-Demo.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug" -L"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/Debug" -Xlinker -Map="CIAA-Demo.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "CIAA-Demo_Debug.ld" -o "CIAA-Demo.axf"  ./src/Emac/src/emac.o ./src/Emac/src/tcpip.o ./src/Emac/src/webserver.o  ./src/ciaaAIN.o ./src/ciaaAOUT.o ./src/ciaaI2C.o ./src/ciaaIO.o ./src/ciaaUART.o ./src/cr_start_m0.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/database.o ./src/main.o  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo-M0/Debug/CIAA-Demo-M0.axf.o -lCMSIS_LPC43xx_DriverLib -lLPC4330_Xplorer_UsbVcomLib
+Finished building target: CIAA-Demo.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "CIAA-Demo.axf"; arm-none-eabi-objcopy -v -O binary "CIAA-Demo.axf" "CIAA-Demo.bin" ; # checksum -p LPC4337 -d "CIAA-Demo.bin";
+   text	   data	    bss	    dec	    hex	filename
+  52396	   2244	   4860	  59500	   e86c	CIAA-Demo.axf
+copy from `CIAA-Demo.axf' [elf32-littlearm] to `CIAA-Demo.bin' [binary]
+ 
+14:43:23 **** Build of configuration Debug for project LPC4330_Xplorer_UsbVcomLib ****
+make all 
+Building file: ../src/usbhw.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/inc" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/usbhw.d" -MT"src/usbhw.d" -o "src/usbhw.o" "../src/usbhw.c"
+Finished building: ../src/usbhw.c
+ 
+Building target: libLPC4330_Xplorer_UsbVcomLib.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "libLPC4330_Xplorer_UsbVcomLib.a"  ./src/cdcuser.o ./src/serial.o ./src/usbcore.o ./src/usbdesc.o ./src/usbhw.o ./src/usbuser.o ./src/vcomdemo.o   
+Finished building target: libLPC4330_Xplorer_UsbVcomLib.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "libLPC4330_Xplorer_UsbVcomLib.a" ; # arm-none-eabi-objdump -h -S "libLPC4330_Xplorer_UsbVcomLib.a" >"libLPC4330_Xplorer_UsbVcomLib.lss"
+   text	   data	    bss	    dec	    hex	filename
+    668	     10	      2	    680	    2a8	cdcuser.o (ex libLPC4330_Xplorer_UsbVcomLib.a)
+    896	      0	      0	    896	    380	serial.o (ex libLPC4330_Xplorer_UsbVcomLib.a)
+   4092	      0	      0	   4092	    ffc	usbcore.o (ex libLPC4330_Xplorer_UsbVcomLib.a)
+    416	      0	      0	    416	    1a0	usbdesc.o (ex libLPC4330_Xplorer_UsbVcomLib.a)
+   1920	      0	     20	   1940	    794	usbhw.o (ex libLPC4330_Xplorer_UsbVcomLib.a)
+    116	      0	      2	    118	     76	usbuser.o (ex libLPC4330_Xplorer_UsbVcomLib.a)
+    240	      0	    102	    342	    156	vcomdemo.o (ex libLPC4330_Xplorer_UsbVcomLib.a)
+ 
+14:44:37 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+make all 
+make: Nothing to be done for `all'.
+14:44:38 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+14:44:38 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+make: Nothing to be done for `all'.
+14:44:39 **** Incremental Build of configuration Debug for project CIAA-Demo ****
+make all 
+Building target: CIAA-Demo.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug" -L"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/Debug" -Xlinker -Map="CIAA-Demo.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "CIAA-Demo_Debug.ld" -o "CIAA-Demo.axf"  ./src/Emac/src/emac.o ./src/Emac/src/tcpip.o ./src/Emac/src/webserver.o  ./src/ciaaAIN.o ./src/ciaaAOUT.o ./src/ciaaI2C.o ./src/ciaaIO.o ./src/ciaaUART.o ./src/cr_start_m0.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/database.o ./src/main.o  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo-M0/Debug/CIAA-Demo-M0.axf.o -lCMSIS_LPC43xx_DriverLib -lLPC4330_Xplorer_UsbVcomLib
+Finished building target: CIAA-Demo.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "CIAA-Demo.axf"; arm-none-eabi-objcopy -v -O binary "CIAA-Demo.axf" "CIAA-Demo.bin" ; # checksum -p LPC4337 -d "CIAA-Demo.bin";
+   text	   data	    bss	    dec	    hex	filename
+  52396	   2244	   4860	  59500	   e86c	CIAA-Demo.axf
+copy from `CIAA-Demo.axf' [elf32-littlearm] to `CIAA-Demo.bin' [binary]
+ 
+14:47:09 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib ****
+make all 
+make: Nothing to be done for `all'.
+14:47:09 **** Incremental Build of configuration Debug for project CMSIS_LPC43xx_DriverLib-M0 ****
+make all 
+make: Nothing to be done for `all'.
+14:47:10 **** Incremental Build of configuration Debug for project CIAA-Demo-M0 ****
+make all 
+make: Nothing to be done for `all'.
+14:47:10 **** Incremental Build of configuration Debug for project CIAA-Demo ****
+make all 
+Building file: ../src/Emac/src/emac.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -D__LPC43XX__ -DLPC43_MULTICORE_M0APP -D__MULTICORE_MASTER -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src/Emac/inc" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc" -I"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__NEWLIB__ -MMD -MP -MF"src/Emac/src/emac.d" -MT"src/Emac/src/emac.d" -o "src/Emac/src/emac.o" "../src/Emac/src/emac.c"
+Finished building: ../src/Emac/src/emac.c
+ 
+Building file: ../src/Emac/src/tcpip.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -D__LPC43XX__ -DLPC43_MULTICORE_M0APP -D__MULTICORE_MASTER -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src/Emac/inc" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc" -I"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__NEWLIB__ -MMD -MP -MF"src/Emac/src/tcpip.d" -MT"src/Emac/src/tcpip.d" -o "src/Emac/src/tcpip.o" "../src/Emac/src/tcpip.c"
+Finished building: ../src/Emac/src/tcpip.c
+ 
+Building file: ../src/Emac/src/webserver.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -D__LPC43XX__ -DLPC43_MULTICORE_M0APP -D__MULTICORE_MASTER -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src/Emac/inc" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc" -I"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__NEWLIB__ -MMD -MP -MF"src/Emac/src/webserver.d" -MT"src/Emac/src/webserver.d" -o "src/Emac/src/webserver.o" "../src/Emac/src/webserver.c"
+Finished building: ../src/Emac/src/webserver.c
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -D__LPC43XX__ -DLPC43_MULTICORE_M0APP -D__MULTICORE_MASTER -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo/src/Emac/inc" -I"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc" -I"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__NEWLIB__ -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: CIAA-Demo.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug" -L"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/Debug" -Xlinker -Map="CIAA-Demo.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "CIAA-Demo_Debug.ld" -o "CIAA-Demo.axf"  ./src/Emac/src/emac.o ./src/Emac/src/tcpip.o ./src/Emac/src/webserver.o  ./src/ciaaAIN.o ./src/ciaaAOUT.o ./src/ciaaI2C.o ./src/ciaaIO.o ./src/ciaaUART.o ./src/cr_start_m0.o ./src/cr_startup_lpc43xx.o ./src/crp.o ./src/database.o ./src/main.o  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CIAA-Demo-M0/Debug/CIAA-Demo-M0.axf.o -lCMSIS_LPC43xx_DriverLib -lLPC4330_Xplorer_UsbVcomLib
+Finished building target: CIAA-Demo.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "CIAA-Demo.axf"; arm-none-eabi-objcopy -v -O binary "CIAA-Demo.axf" "CIAA-Demo.bin" ; # checksum -p LPC4337 -d "CIAA-Demo.bin";
+   text	   data	    bss	    dec	    hex	filename
+  52396	   2244	   4860	  59500	   e86c	CIAA-Demo.axf
+copy from `CIAA-Demo.axf' [elf32-littlearm] to `CIAA-Demo.bin' [binary]
+ 

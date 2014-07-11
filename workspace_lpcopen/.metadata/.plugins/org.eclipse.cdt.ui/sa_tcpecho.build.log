@@ -1,0 +1,6 @@
+09:57:04 **** Incremental Build of configuration Debug for project sa_tcpecho ****
+make all 
+make: Nothing to be done for `all'.
+
+09:57:04 Build Finished (took 71ms)
+

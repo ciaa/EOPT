@@ -29,7 +29,7 @@ all: ciaaTest.axf
 ciaaTest.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug" -Xlinker -Map="ciaaTest.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "ciaaTest_Debug.ld" -o "ciaaTest.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/libCIAA/Debug" -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/Debug" -Xlinker -Map="ciaaTest.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "ciaaTest_Debug.ld" -o "ciaaTest.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

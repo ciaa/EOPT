@@ -1,6 +1,6 @@
-10:34:11 **** Incremental Build of configuration Debug for project ciaaTest ****
+18:40:46 **** Incremental Build of configuration Debug for project ciaaTest ****
 make all 
 make: Nothing to be done for `all'.
 
-10:34:11 Build Finished (took 65ms)
+18:40:46 Build Finished (took 67ms)
 
