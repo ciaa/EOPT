@@ -116,13 +116,18 @@ void setupHardware(void)
 
     SysTick_Config(CGU_GetPCLKFrequency(CGU_PERIPHERAL_M4CORE)/1000);
 
-	ciaaAOUTInit();
-
-	ciaaAINInit();
-
-	ciaaIOInit();
+//
+//	ciaaAOUTInit();
+//
+//	ciaaAINInit();
+//
+//	ciaaIOInit();
 
 	ciaaUARTInit();
+
+	uartSend("test\n", 5);
+
+	while(1);
 
 //	int i = 100, flag = 0;
 //	char str[100];
@@ -251,8 +256,9 @@ void memWrite(uint16_t addr, void * buffer, int len)
 
 int main(void)
 {
+    cr_start_m0(SLAVE_M0APP,&__core_m0app_START__);
 
-	setupHardware();
+ 	setupHardware();
 
 	dbgPrint("[main]CIAA Demo 1.0\n");
 
@@ -271,7 +277,6 @@ int main(void)
 
 	mem48Read(0xFA, uid48, 6);
 
-    cr_start_m0(SLAVE_M0APP,&__core_m0app_START__);
 
 #if 0
     msec = 0;

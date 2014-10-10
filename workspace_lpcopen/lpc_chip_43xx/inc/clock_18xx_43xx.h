@@ -62,7 +62,7 @@ extern "C" {
 #define CGU_IRC_FREQ (12000000)
 
 #if defined(CHIP_LPC43XX)
-#define MAX_CLOCK_FREQ (102000000)
+#define MAX_CLOCK_FREQ (204000000)
 #else
 #define MAX_CLOCK_FREQ (180000000)
 #endif

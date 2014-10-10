@@ -17,51 +17,18 @@ void ciaaUARTInit(void)
 {
 	UART_CFG_Type cfg;
 
-	/* UART0 (RS485/Profibus) */
-	cfg.Baud_rate = 115200;
-	cfg.Clock_Speed = 0;
-	cfg.Databits = UART_DATABIT_8;
-	cfg.Parity = UART_PARITY_NONE;
-	cfg.Stopbits = UART_STOPBIT_1;
 
-	UART_Init(LPC_USART0, &cfg);
-	UART_TxCmd(LPC_USART0, ENABLE);
-
-	scu_pinmux(9, 5, MD_PDN, FUNC7); 					// P9_5: UART0_TXD
-	scu_pinmux(9, 6, MD_PLN|MD_EZI|MD_ZI, FUNC7); 		// P9_6: UART0_RXD
-
-	//DIR pin, software driven
-	scu_pinmux(6, 2, MD_PDN, FUNC0); 					// P6_2: GPIO3[1]
-	GPIO_SetDir(3, 1<<1, 1);
-	GPIO_ClearValue(3, 1<<1);
-
-	/* UART2 (USB-UART) */
-	cfg.Baud_rate = 115200;
-	cfg.Clock_Speed = 0;
-	cfg.Databits = UART_DATABIT_8;
-	cfg.Parity = UART_PARITY_NONE;
-	cfg.Stopbits = UART_STOPBIT_1;
-
-	UART_Init(LPC_USART2, &cfg);
-	UART_TxCmd(LPC_USART2, ENABLE);
-
-	scu_pinmux(7, 1, MD_PDN, FUNC6); 					// P7_1: UART2_TXD
-	scu_pinmux(7, 2, MD_PLN|MD_EZI|MD_ZI, FUNC6); 		// P7_2: UART2_RXD
-
-	UART_IntConfig(LPC_USART2, UART_INTCFG_RBR, ENABLE);
-
-	NVIC_EnableIRQ(USART2_IRQn);
 
 	/* UART3 (RS232) */
-//	cfg.Baud_rate = 57600;
-//	UART_Init(LPC_USART3, &cfg);
-//	UART_TxCmd(LPC_USART3, ENABLE);
-//
-//	scu_pinmux(2, 3, MD_PDN, FUNC2); 					// P2_3: UART3_TXD
-//	scu_pinmux(2, 4, MD_PLN|MD_EZI|MD_ZI, FUNC2); 		// P2_4: UART3_RXD
-//
-//	UART_IntConfig((LPC_USARTn_Type *)LPC_USART3, UART_INTCFG_RBR, ENABLE);
-//	NVIC_EnableIRQ(USART3_IRQn);
+	cfg.Baud_rate = 57600;
+	UART_Init(LPC_USART3, &cfg);
+	UART_TxCmd(LPC_USART3, ENABLE);
+
+	scu_pinmux(2, 3, MD_PDN, FUNC2); 					// P2_3: UART3_TXD
+	scu_pinmux(2, 4, MD_PLN|MD_EZI|MD_ZI, FUNC2); 		// P2_4: UART3_RXD
+
+	UART_IntConfig((LPC_USARTn_Type *)LPC_USART3, UART_INTCFG_RBR, ENABLE);
+	NVIC_EnableIRQ(USART3_IRQn);
 
 }
 
@@ -90,7 +57,25 @@ void UART2_IRQHandler(void)
 
 void UART3_IRQHandler(void)
 {
+	uint8_t status = UART_GetLineStatus(LPC_USART3);
 
+	if(status&UART_LINESTAT_RDR)
+	{
+		uartRxBuf[uartRxDataCount] = UART_ReceiveByte(LPC_USART3);
+		uartRxDataCount++;
+	}
+	if(status&UART_LINESTAT_THRE)
+	{
+		pTxOut++;
+		if(pTxOut == (uartTxBuf + UART_BUF_SIZE))
+			pTxOut = uartTxBuf;
+		if(pTxIn == pTxOut)
+		{
+			UART_IntConfig(LPC_USART3, UART_INTCFG_THRE, DISABLE);
+			return;
+		}
+		UART_SendByte(LPC_USART3, *pTxOut);
+	}
 }
 
 void uartSend(void * data, int datalen)
@@ -105,8 +90,8 @@ void uartSend(void * data, int datalen)
 
 		if(pTxIn == pTxOut)
 		{
-			UART_SendByte(LPC_USART2, *pTxOut);
-			UART_IntConfig(LPC_USART2, UART_INTCFG_THRE, ENABLE);
+			UART_SendByte(LPC_USART3, *pTxOut);
+			UART_IntConfig(LPC_USART3, UART_INTCFG_THRE, ENABLE);
 		}
 
 		pTxIn++;

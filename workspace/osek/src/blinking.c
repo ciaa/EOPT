@@ -69,6 +69,8 @@
 
 /*==================[macros and definitions]=================================*/
 
+#define printf(x)
+
 /*==================[internal data declaration]==============================*/
 
 /*==================[internal functions declaration]=========================*/
@@ -87,6 +89,12 @@ int msec;
 int main(void)
 {
 	ciaaUARTInit();
+
+	uartSend("test\n", 5);
+
+	while(1);
+
+
 	ciaaIOInit();
 
 /* RS485/Profibus simple test */
@@ -99,8 +107,6 @@ int main(void)
 //	}
 
 	/* USB Aux. test */
-	uint16_t;
-	Vcom_init();
 
 	printf("[main]StartOS\n");
 	StartOS(AppMode1);

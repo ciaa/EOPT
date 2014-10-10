@@ -3,8 +3,8 @@
  * (c) Code Red Technologies Ltd, 2008-13
  * (c) NXP Semiconductors 2013-2014
  * Generated linker script file for LPC4337
- * Created from generic_c.ld (LPCXpresso v7.2 (0 [Build 153] [2014-05-19] ))
- * By LPCXpresso v7.2.0 [Build 153] [2014-05-19]  on Fri Jul 11 18:40:46 ART 2014
+ * Created from generic_c.ld (LPCXpresso v7.3 (0 [Build 186] [2014-07-09] ))
+ * By LPCXpresso v7.3.0 [Build 186] [2014-07-09]  on Thu Oct 09 13:59:11 ART 2014
  */
 
 

@@ -1,4 +1,4 @@
-src/ciaaTest.d: ../src/ciaaTest.c \
+src/ciaaTest.o src/ciaaTest.d: ../src/ciaaTest.c \
  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/inc/chip.h \
  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/inc/sys_config.h \
  /home/pablo/Documents/CIAA-Repositories/EOPT/workspace_lpcopen/lpc_chip_43xx/inc/cmsis.h \

@@ -114,7 +114,7 @@
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
 					</resource>
-					<resource project-relative-path="src/ciaaAOUT.c">
+					<resource project-relative-path="src/database.c">
 						<entry kind="includePath" name="/${ProjName}/src">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -158,7 +158,7 @@
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
 					</resource>
-					<resource project-relative-path="src/database.c">
+					<resource project-relative-path="src/ciaaAOUT.c">
 						<entry kind="includePath" name="/${ProjName}/src">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -202,7 +202,7 @@
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
 					</resource>
-					<resource project-relative-path="src/ciaaIO.c">
+					<resource project-relative-path="src/crp.c">
 						<entry kind="includePath" name="/${ProjName}/src">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -246,7 +246,7 @@
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 						<entry kind="macro" name="__USE_CMSIS" value="CMSIS_LPC43xx_DriverLib"/>
 					</resource>
-					<resource project-relative-path="src/crp.c">
+					<resource project-relative-path="src/ciaaIO.c">
 						<entry kind="includePath" name="/${ProjName}/src">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>

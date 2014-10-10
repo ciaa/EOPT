@@ -11,7 +11,11 @@
 #include "chip.h"
 #include "ciaa.h"
 
+//#define SEMIHOST
+
 #include "stdio.h"
+
+#include "stdlib.h"
 
 #include <cr_section_macros.h>
 
@@ -36,14 +40,28 @@ int main(void)
 	 * Termina dando 96MHz. Originalmente estaba en 204000000.
 	 * Ver lpc_chip_43xx/inc/clock_18xx_43xx.h
 	 */
-
 	SystemCoreClockUpdate();
 	SysTick_Config(SystemCoreClock/1000);
 
 	ciaaIOInit();
 	ciaaAINInit();
+	ciaaAOUTInit();
 	ciaaUARTInit();
 	ciaaNVMInit();
+
+
+	/* DAC test */
+	ciaaAOUTSet(0);
+
+	ciaaAOUTSet(25);
+
+	ciaaAOUTSet(50);
+
+	ciaaAOUTSet(75);
+
+	ciaaAOUTSet(100);
+
+
 
 	dbgPrint("CIAA Test (with LPCOpen libraries).\r\n");
 

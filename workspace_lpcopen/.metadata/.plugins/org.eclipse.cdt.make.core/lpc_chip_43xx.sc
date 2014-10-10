@@ -2,15 +2,15 @@
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="com.crt.advproject.config.lib.debug.1425870155;com.crt.advproject.config.lib.debug.1425870155.;com.crt.advproject.gcc.lib.debug.1004623828;com.crt.advproject.compiler.input.490144911">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.3/include"/>
-<includePath path="/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.3/include-fixed"/>
-<includePath path="/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/arm-none-eabi/include"/>
+<includePath path="/usr/local/lpcxpresso_7.3.0_186/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.4/include"/>
+<includePath path="/usr/local/lpcxpresso_7.3.0_186/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.4/include-fixed"/>
+<includePath path="/usr/local/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>
 <definedSymbol symbol="__GNUC_MINOR__=8"/>
-<definedSymbol symbol="__GNUC_PATCHLEVEL__=3"/>
-<definedSymbol symbol="__VERSION__=&quot;4.8.3 20140228 (release) [ARM/embedded-4_8-branch revision 208322]&quot;"/>
+<definedSymbol symbol="__GNUC_PATCHLEVEL__=4"/>
+<definedSymbol symbol="__VERSION__=&quot;4.8.4 20140526 (release) [ARM/embedded-4_8-branch revision 211358]&quot;"/>
 <definedSymbol symbol="__ATOMIC_RELAXED=0"/>
 <definedSymbol symbol="__ATOMIC_SEQ_CST=5"/>
 <definedSymbol symbol="__ATOMIC_ACQUIRE=2"/>
@@ -346,15 +346,15 @@
 </instance>
 <instance id="com.crt.advproject.config.lib.debug.1425870155;com.crt.advproject.config.lib.debug.1425870155.;com.crt.advproject.gas.lib.debug.1636117798;com.crt.advproject.assembler.input.130647266">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.3/include"/>
-<includePath path="/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.3/include-fixed"/>
-<includePath path="/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/arm-none-eabi/include"/>
+<includePath path="/usr/local/lpcxpresso_7.3.0_186/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.4/include"/>
+<includePath path="/usr/local/lpcxpresso_7.3.0_186/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.4/include-fixed"/>
+<includePath path="/usr/local/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>
 <definedSymbol symbol="__GNUC_MINOR__=8"/>
-<definedSymbol symbol="__GNUC_PATCHLEVEL__=3"/>
-<definedSymbol symbol="__VERSION__=&quot;4.8.3 20140228 (release) [ARM/embedded-4_8-branch revision 208322]&quot;"/>
+<definedSymbol symbol="__GNUC_PATCHLEVEL__=4"/>
+<definedSymbol symbol="__VERSION__=&quot;4.8.4 20140526 (release) [ARM/embedded-4_8-branch revision 211358]&quot;"/>
 <definedSymbol symbol="__ATOMIC_RELAXED=0"/>
 <definedSymbol symbol="__ATOMIC_SEQ_CST=5"/>
 <definedSymbol symbol="__ATOMIC_ACQUIRE=2"/>

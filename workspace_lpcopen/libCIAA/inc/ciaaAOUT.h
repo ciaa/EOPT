@@ -11,6 +11,6 @@
 #include "chip.h"
 
 void ciaaAOUTInit(void);
-void ciaaAOUTSet(uint8_t level);
+void ciaaAOUTSet(float level);
 
 #endif /* CIAAAOUT_H_ */

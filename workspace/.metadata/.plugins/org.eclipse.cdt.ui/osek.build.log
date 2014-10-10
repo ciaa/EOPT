@@ -1,4 +1,4 @@
-13:07:23 **** Incremental Build of configuration Debug for project osek ****
+14:50:57 **** Incremental Build of configuration Debug for project osek ****
 make all 
 Building file: ../src/blinking.c
 Invoking: MCU C Compiler
@@ -29,7 +29,12 @@ In file included from ../src/Types.h:67:0,
 In file included from ../src/Types.h:127:0,
                  from ../src/os.h:76,
                  from ../src/blinking.c:61:
-../src/Types_Arch.h:71:0: warning: "NULL" redefined [enabled by default]
+../src/Types_Arch.h:72:2: error: #error NULL defined before
+ #error NULL defined before
+  ^
+In file included from ../src/os.h:76:0,
+                 from ../src/blinking.c:61:
+../src/Types.h:133:0: warning: "NULL" redefined [enabled by default]
  #define NULL ((void *)0)
  ^
 In file included from ../src/Types.h:67:0,
@@ -38,21 +43,21 @@ In file included from ../src/Types.h:67:0,
 /home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc/lpc_types.h:137:0: note: this is the location of the previous definition
  #define NULL ((void*) 0)
  ^
-../src/blinking.c: In function 'main':
-../src/blinking.c:102:2: warning: useless type name in empty declaration [enabled by default]
-  uint16_t;
-  ^
-../src/blinking.c:105:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
-  printf("[main]StartOS\n");
-  ^
-Finished building: ../src/blinking.c
- 
-Building target: osek.axf
-Invoking: MCU Linker
-arm-none-eabi-gcc -nostdlib -L"/home/pablo/Dropbox/Privado/Electrónica/NXP/LPC43xx/workspace/LPC4330_Xplorer_UsbVcomLib/Debug" -L"/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/Debug" -Xlinker -Map="osek.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "osek_Debug.ld" -o "osek.axf"  ./src/ActivateTask.o ./src/CancelAlarm.o ./src/ChainTask.o ./src/ClearEvent.o ./src/GetActiveApplicationMode.o ./src/GetAlarm.o ./src/GetAlarmBase.o ./src/GetEvent.o ./src/GetResource.o ./src/GetTaskID.o ./src/GetTaskState.o ./src/Os.o ./src/Os_Arch.o ./src/Os_Cfg.o ./src/Os_Internal.o ./src/Os_Internal_Arch.o ./src/Os_Internal_Cfg.o ./src/PendSV.o ./src/ReleaseResource.o ./src/Schedule.o ./src/SetAbsAlarm.o ./src/SetEvent.o ./src/SetRelAlarm.o ./src/ShutdownOS.o ./src/StartOS.o ./src/StartOs_Arch.o ./src/TerminateTask.o ./src/WaitEvent.o ./src/blinking.o ./src/ciaaIO.o ./src/ciaaUART.o ./src/cr_startup_lpc43xx.o ./src/crp.o   -lLPC4330_Xplorer_UsbVcomLib -lCMSIS_LPC43xx_DriverLib
-/usr/local/lpcxpresso_7.2.0_153/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/bin/ld: cannot find -lLPC4330_Xplorer_UsbVcomLib
-collect2: error: ld returned 1 exit status
-make: *** [osek.axf] Error 1
+In file included from ../src/os.h:76:0,
+                 from ../src/blinking.c:61:
+../src/Types.h:72:16: error: expected identifier or '(' before numeric constant
+ #define ENABLE 1
+                ^
+/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc/LPC43xx.h:850:18: note: in expansion of macro 'ENABLE'
+   __I  uint32_t  ENABLE;                    /*!< (@ 0x40040FE4) Enable register        */
+                  ^
+../src/Types.h:72:16: error: expected identifier or '(' before numeric constant
+ #define ENABLE 1
+                ^
+/home/pablo/Documents/CIAA-Repositories/EOPT/workspace/CMSIS_LPC43xx_DriverLib/inc/LPC43xx.h:931:18: note: in expansion of macro 'ENABLE'
+   __I  uint32_t  ENABLE;                    /*!< (@ 0x40044FE4) Event Enable register  */
+                  ^
+make: *** [src/blinking.o] Error 1
 
-13:07:23 Build Finished (took 262ms)
+14:50:57 Build Finished (took 215ms)
 
